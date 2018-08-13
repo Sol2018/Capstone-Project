@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+
+    <name>
+        <!-- Specifies name of gallery for the photos-->
+        people
+    </name>
+
+    <image>
+        <name>
+            group.jpg
+        </name>
+
+        <src>
+            <!-- Specifies location of image with respect to the root directory -->
+            TestDATA/photos/people/group.jpg
+        </src>
+
+        <title>
+            <!-- Specifies title of image-->
+            group photo
+        </title>
+
+        <type>
+            jpg
+        </type>
+
+        <alt>
+            <!-- Specifies an alternate text for an image -->
+            an image showing a group of different people standing together
+        </alt>
+
+        <width>
+            <!-- Specifies width of an image -->
+            500
+        </width>
+
+        <height>
+            <!-- Specifies height of an image -->
+            356
+        </height>
+
+        <size>
+            86.50K
+        </size>
+
+    </image>
+
+    <image>
+        <name>
+            socialNetwork.jpg
+        </name>
+
+        <src>
+            <!-- Specifies location of image with respect to the root directory -->
+            TestDATA/photos/people/socialNetwork.jpg
+        </src>
+
+        <title>
+            <!-- Specifies title of image-->
+            socializing
+        </title>
+
+        <type>
+            jpg
+        </type>
+
+        <alt>
+            <!-- Specifies an alternate text for an image -->
+            an image showing cartoons of people socializing
+        </alt>
+
+        <width>
+            <!-- Specifies width of an image -->
+            500
+        </width>
+
+        <height>
+            <!-- Specifies height of an image -->
+            255
+        </height>
+
+        <size>
+            48.00K
+        </size>
+
+    </image>
+</gallery>
