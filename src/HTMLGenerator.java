@@ -10,6 +10,8 @@ class HTMLGenerator
 
         //Searching for all xml files
         findXMLs(args[0]);
+        XMLReader xmlReader = new XMLReader(metaDataFiles.get(0));
+        System.out.println(xmlReader.getRoot().getTagName());
     }
 
     private static ArrayList<File> metaDataFiles = new ArrayList<>(0);
