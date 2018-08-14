@@ -1,4 +1,5 @@
 import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -9,13 +10,10 @@ import java.io.IOException;
 
 class XMLReader
 {
-    private File file;
     private Document document;
 
     XMLReader(File file)
     {
-        this.file = file;
-
         try
         {
             //Creating a Document builder
@@ -38,19 +36,13 @@ class XMLReader
         return document.getDocumentElement();
     }
 
-    //TODO extract specific tags and agree on metadata tags
-/*
-    //returns specific attribute
-    getAttribute("attributeName");
-
-    //returns a Map (table) of names/values
-    getAttributes();
-
-    Examine sub-elements
-
-//returns a list of subelements of specified name
-getElementsByTagName("subelementName");
-
-    //returns a list of all child nodes
-    getChildNodes();*/
+    /**
+     * Returns metadata by value
+     * @param  name is the node's name
+     * */
+    String getValue(String name)
+    {
+        NodeList nodeList = document.getElementsByTagName(name);
+        return nodeList.item(0).getTextContent();
+    }
 }

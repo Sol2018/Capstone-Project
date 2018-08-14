@@ -12,52 +12,147 @@ class HTMLGenerator
 
         //Searching for all xml files
         findXMLs(args[0]);
-        XMLReader xmlReader = new XMLReader(metaDataFiles.get(0));
-        System.out.println(xmlReader.getRoot().getTagName());
 
-        Test();
+        XMLReader xmlReader;
+
+        String images = "<ol>\n\t";
+
+        for (File file : metaDataFiles) {
+            xmlReader = new XMLReader(file);
+
+            if (xmlReader.getRoot().getTagName().compareTo("image") == 0) {
+                //TODO load image
+                images += HTMLTags.li("", "", "" + xmlReader.getValue("name"),
+                        "" + HTMLTags.img("", "", "", "", "", ""
+                                        + xmlReader.getValue("height"), "", "", "" + xmlReader.getValue("src"),
+                                "" + xmlReader.getValue("width"), "", "" + xmlReader.getValue("alt")));
+                images += "\n";
+
+            } else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0) {
+                //TODO load a list of images
+                //current directory
+                File Objectfile = new File(xmlReader.getValue("src"));
+
+                //search for all xml files
+                File[] files = Objectfile.listFiles();
+
+                for (File file1 : files) {
+                    if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0) {
+                        images += HTMLTags.li("", "", "" + file1.getName(),
+                                "" + HTMLTags.img("", "", "", "", "", "", "", "", "" + file1.getPath(), "", "", "" + file1.getName()));
+                        images += "\n";
+                    }
+                }
+
+            }
+        }
+
+        images += "\n</ol>\n";
+        HomePage();
+
+        Images(images);
+
     }
 
-    /*
-    * Method tests if html page can be really generated
-    * */
-    private static void Test() {
-        System.out.println("Creating Page with Audio");
+    private static void Images(String images) {
+        System.out.println("Creating Images index");
 
         String text;
         text = HTMLTags.openHTML();
 
-        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("AUDIO test"));
+        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("CAPSTONE PROJECT"));
 
-        text += HTMLTags.body(HTMLTags.nav("", "menu",
-                //body content
+        text += HTMLTags.body
+                (
+                        //body content
+                        // TODO scripts go in here
 
-                //heading
-                HTMLTags.sectionHeader("", "", 1, "SAMPLE PAGE SHOWING AUDIO") +
 
-                        //unordered list
-                        HTMLTags.ul("", "",
+                        "" + getHeader() +
 
-                                //list item 1
-                                HTMLTags.li("", "", "", HTMLTags.a("", "", "", "home.html", "", "", "", "", "HOMEPAGE")) +
-                                        //list item 2
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "image.html", "", "", "", "", "IMAGE")) +
-                                        //list item 3
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "video.html", "", "", "", "", "VIDEO"))
-                        ) +
+                                HTMLTags.main("", "", "" + HTMLTags.sectionHeader("", "", 1,
+                                        "This page needs some serious styling")
+                                ) +
+                                HTMLTags.section("", "",
+                                        "" + HTMLTags.a("", "", "", "videos.html", "", "", "", "", "go to videos"))
+                                +
+                                HTMLTags.section("", "",
+                                        "" + HTMLTags.a("", "", "", "documents.html", "", "", "", "", "go to documents"))
+                                +
+                                HTMLTags.sectionHeader("", "", 1, "IMAGES")
+                                +
+                                images
 
-                        HTMLTags.audio("t-rex-roar", "", "", "\"controls\"", "", "", "", "\'auto\'", "\"TestDATA/audio/04. Binaural Test.mp3\"",
-                                "Your browser does not support the <code>audio</code> element.")
-                )
-        );
-
+                );
 
         text += HTMLTags.closeHTML();
 
+        writeHTML(text, "images.html");
+    }
 
+    /**
+     * Returns header consistent among different pages
+     */
+    private static String getHeader() {
+        return HTMLTags.header("", "",
+                "" + HTMLTags.a("", "", "", "homepage.html", "", "", "", "",
+                        "" + HTMLTags.img("", "", "", "", "", "250", "", "", "SiteObjects/logo.png", "400", "",
+                                "")
+                ) + HTMLTags.input("", "", "placeholder=Search", "") +
+                        HTMLTags.details("", "", "",
+                                "" + HTMLTags.summary("", "", "Filters") +
+                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter1") +
+                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter2") +
+                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter3") +
+                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter4")
+                        )
+
+        );
+    }
+
+    /**
+     * Generates homepage
+     */
+    private static void HomePage() {
+        System.out.println("Creating Homepage");
+
+        String text;
+        text = HTMLTags.openHTML();
+
+        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("CAPSTONE PROJECT"));
+
+        text += HTMLTags.body
+                (
+                        //body content
+                        // TODO scripts go in here
+
+
+                        "" + getHeader() +
+
+                                HTMLTags.main("", "", "" + HTMLTags.sectionHeader("", "", 1,
+                                        "This page needs some serious styling")
+                                ) +
+                                HTMLTags.section("", "",
+                                        "" + HTMLTags.a("", "", "", "images.html", "", "", "", "", "go to images"))
+                                +
+                                HTMLTags.section("", "",
+                                        "" + HTMLTags.a("", "", "", "videos.html", "", "", "", "", "go to videos"))
+                                +
+                                HTMLTags.section("", "",
+                                        "" + HTMLTags.a("", "", "", "documents.html", "", "", "", "", "go to documents"))
+
+                );
+
+        text += HTMLTags.closeHTML();
+
+        writeHTML(text, "homepage.html");
+    }
+
+
+    private static void writeHTML(String text, String name) {
         BufferedWriter output = null;
         try {
-            File file = new File("audio.html");
+            File file = new File(name);
             output = new BufferedWriter(new FileWriter(file));
             output.write(text);
         } catch (IOException e) {
@@ -71,162 +166,6 @@ class HTMLGenerator
                 }
             }
         }
-
-        /**
-         * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-         * */
-        System.out.println("Creating Page with Image");
-        text = HTMLTags.openHTML();
-
-        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("Image test"));
-
-        text += HTMLTags.body(HTMLTags.nav("", "menu",
-                //body content
-
-                //heading
-                HTMLTags.sectionHeader("", "", 1, "SAMPLE PAGE SHOWING IMAGE") +
-
-                        //unordered list
-                        HTMLTags.ul("", "",
-
-                                //list item 1
-                                HTMLTags.li("", "", "", HTMLTags.a("", "", "", "home.html", "", "", "", "", "HOMEPAGE")) +
-                                        //list item 2
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "audio.html", "", "", "", "", "AUDIO")) +
-                                        //list item 3
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "video.html", "", "", "", "", "VIDEO"))
-                        ) +
-
-                        HTMLTags.img("", "", "", "", "", "356", "", "", "\"TestDATA/photos/people/group.jpg\"", "500", "", "")
-                )
-        );
-
-
-        text += HTMLTags.closeHTML();
-
-
-        output = null;
-        try {
-            File file = new File("image.html");
-            output = new BufferedWriter(new FileWriter(file));
-            output.write(text);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (output != null) {
-                try {
-                    output.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-
-        System.out.println("Creating Page with Video");
-        /**
-         * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-         * */
-        System.out.println("Creating Page with Image");
-        text = HTMLTags.openHTML();
-
-        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("Image test"));
-
-        text += HTMLTags.body(HTMLTags.nav("", "menu",
-                //body content
-
-                //heading
-                HTMLTags.sectionHeader("", "", 1, "SAMPLE PAGE SHOWING VIDEO") +
-
-                        //unordered list
-                        HTMLTags.ul("", "",
-
-                                //list item 1
-                                HTMLTags.li("", "", "", HTMLTags.a("", "", "", "home.html", "", "", "", "", "HOMEPAGE")) +
-                                        //list item 2
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "audio.html", "", "", "", "", "AUDIO")) +
-                                        //list item 3
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "image.html", "", "", "", "", "IMAGE"))
-                        ) +
-
-                        HTMLTags.video("", "", "true", "controls", "", "", "", "muted", "autoplay", "", "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4", "650", "https://upload.wikimedia.org/wikipedia/commons/e/e8/Elephants_Dream_s5_both.jpg", "", "Sorry, your browser doesn't support embedded videos.")
-                )
-        );
-
-
-        text += HTMLTags.closeHTML();
-
-
-        output = null;
-        try {
-            File file = new File("video.html");
-            output = new BufferedWriter(new FileWriter(file));
-            output.write(text);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (output != null) {
-                try {
-                    output.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-
-        System.out.println("Linking Everything...");
-        /**
-         * ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-         * */
-        text = HTMLTags.openHTML();
-
-        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("Home test"));
-
-        text += HTMLTags.body(HTMLTags.nav("", "menu",
-                //body content
-
-                //heading
-                HTMLTags.sectionHeader("", "", 1, "CAPSTONE PROTOTYPE IN PROGRESS") +
-
-                        //unordered list
-                        HTMLTags.ul("", "",
-
-                                //list item 1
-                                HTMLTags.li("", "", "", HTMLTags.a("", "", "", "video.html", "", "", "", "", "VIDEO")) +
-                                        //list item 2
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "audio.html", "", "", "", "", "AUDIO")) +
-                                        //list item 3
-                                        HTMLTags.li("", "", "", HTMLTags.a("", "", "", "image.html", "", "", "", "", "IMAGE"))
-                        ) +
-
-                        HTMLTags.main("", "", HTMLTags.p("", "", "Auto generator in progress"))
-                )
-        );
-
-
-        text += HTMLTags.closeHTML();
-
-
-        output = null;
-        try {
-            File file = new File("home.html");
-            output = new BufferedWriter(new FileWriter(file));
-            output.write(text);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (output != null) {
-                try {
-                    output.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-        System.out.print("Page address: " + (char) 27 + "[31m");
-        System.out.println("home.html");
-
     }
 
     private static ArrayList<File> metaDataFiles = new ArrayList<>(0);

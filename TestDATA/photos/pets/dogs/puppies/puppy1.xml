@@ -2,13 +2,13 @@
 <image>
     <name>group.jpg</name>
 
-    <src>TestDATA/photos/people/group.jpg</src>
+    <src>TestDATA/photos/pets/dogs/puppies/1puppy.jpg</src>
 
-    <title>group photo</title>
+    <title>puppy photo</title>
 
     <type>jpg</type>
 
-    <alt>an image showing a group of different people standing together</alt>
+    <alt>an image showing 1 puppy</alt>
 
     <width>500</width>
 
