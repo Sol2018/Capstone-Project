@@ -310,7 +310,7 @@ public class HTMLTags
     /*anchor element*/
     static String a(String id, String clasS, String download, String href, String hreflang, String rel, String target,
                     String type, String content) {
-        String string = "<a";
+        String string = "<a ";
         string += id(id);
         string += clasS(clasS);
 
@@ -457,24 +457,30 @@ public class HTMLTags
         string += id(id);
         string += clasS(clasS);
 
-        if (src.length() > 0)
-            string += "src= " + src + " ";
-
-
-        if (preload.length() > 0)
-            string += "preload= " + preload + " ";
-
-        if (muted.length() > 0)
-            string += "muted= " + muted + " ";
-
-        if (loop.length() > 0)
-            string += "loop= " + loop + " ";
-
-        if (crossorigin.length() > 0)
-            string += "alt= " + crossorigin + " ";
-
         if (controls.length() > 0)
             string += "controls= " + controls + " ";
+
+        if (src.length() > 0) {
+            string += "src= " + src + " ";
+        }
+
+
+        if (preload.length() > 0) {
+            string += "preload= " + preload + " ";
+        }
+
+        if (muted.length() > 0) {
+            string += "muted= " + muted + " ";
+        }
+
+        if (loop.length() > 0) {
+            string += "loop= " + loop + " ";
+        }
+
+        if (crossorigin.length() > 0) {
+            string += "alt= " + crossorigin + " ";
+        }
+
 
         if (autoplay.length() > 0)
             string += "alt= " + autoplay + " ";
@@ -488,7 +494,7 @@ public class HTMLTags
     /*image*/
     static String img(String id, String clasS, String alt, String crossorigin, String decoding, String height,
                       String ismap, String sizes, String src, String width, String usemap, String content) {
-        String string = "<img";
+        String string = "<img ";
         string += id(id);
         string += clasS(clasS);
 
@@ -528,7 +534,7 @@ public class HTMLTags
     static String video(String id, String clasS, String autoplay, String controls, String crossorigin,
                         String height, String loop, String muted, String preload, String buffered, String src,
                         String width, String poster, String playsinline, String content) {
-        String string = "<video";
+        String string = "<video ";
         string += id(id);
         string += clasS(clasS);
 
