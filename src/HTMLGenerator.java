@@ -7,6 +7,19 @@ import java.util.ArrayList;
 class HTMLGenerator
 {
 
+    /**
+     * This head tag is consistent across current html pages -hence it is hardcoded
+     */
+    private static final String head = "<head>\n" +
+            "    <meta charset=\"UTF-8\">\n" +
+            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
+            "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n" +
+            "    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\"\n" +
+            "        crossorigin=\"anonymous\">\n" +
+            "    <link rel=\"stylesheet\" href=\"style.css\">\n" +
+            "    <title>WEBDOS | Capstone Project</title>\n" +
+            "</head>\n\n";
+
     public static void main(String[] args) {
         System.out.println("Root directory entered by the user: "+args[0]);
 
@@ -17,7 +30,7 @@ class HTMLGenerator
 
         String images = "<ol>\n\t";
 
-        for (File file : metaDataFiles) {
+        /*for (File file : metaDataFiles) {
             xmlReader = new XMLReader(file);
 
             if (xmlReader.getRoot().getTagName().compareTo("image") == 0) {
@@ -47,125 +60,11 @@ class HTMLGenerator
             }
         }
 
-        images += "\n</ol>\n";
-        HomePage();
+        images += "\n</ol>\n";*/
 
-        Images(images);
+        //generate the articles html
+        Articles();
 
-    }
-
-    private static void Images(String images) {
-        System.out.println("Creating Images index");
-
-        String text;
-        text = HTMLTags.openHTML();
-
-        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("CAPSTONE PROJECT"));
-
-        text += HTMLTags.body
-                (
-                        //body content
-                        // TODO scripts go in here
-
-
-                        "" + getHeader() +
-
-                                HTMLTags.main("", "", "" + HTMLTags.sectionHeader("", "", 1,
-                                        "This page needs some serious styling")
-                                ) +
-                                HTMLTags.section("", "",
-                                        "" + HTMLTags.a("", "", "", "videos.html", "", "", "", "", "go to videos"))
-                                +
-                                HTMLTags.section("", "",
-                                        "" + HTMLTags.a("", "", "", "documents.html", "", "", "", "", "go to documents"))
-                                +
-                                HTMLTags.sectionHeader("", "", 1, "IMAGES")
-                                +
-                                images
-
-                );
-
-        text += HTMLTags.closeHTML();
-
-        writeHTML(text, "images.html");
-    }
-
-    /**
-     * Returns header consistent among different pages
-     */
-    private static String getHeader() {
-        return HTMLTags.header("", "",
-                "" + HTMLTags.a("", "", "", "homepage.html", "", "", "", "",
-                        "" + HTMLTags.img("", "", "", "", "", "250", "", "", "SiteObjects/logo.png", "400", "",
-                                "")
-                ) + HTMLTags.input("", "", "placeholder=Search", "") +
-                        HTMLTags.details("", "", "",
-                                "" + HTMLTags.summary("", "", "Filters") +
-                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter1") +
-                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter2") +
-                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter3") +
-                                        HTMLTags.a("", "", "", "#", "", "", "", "", "Filter4")
-                        )
-
-        );
-    }
-
-    /**
-     * Generates homepage
-     */
-    private static void HomePage() {
-        System.out.println("Creating Homepage");
-
-        String text;
-        text = HTMLTags.openHTML();
-
-        text += HTMLTags.head(HTMLTags.meta() + HTMLTags.Pagetitle("CAPSTONE PROJECT"));
-
-        text += HTMLTags.body
-                (
-                        //body content
-                        // TODO scripts go in here
-
-
-                        "" + getHeader() +
-
-                                HTMLTags.main("", "", "" + HTMLTags.sectionHeader("", "", 1,
-                                        "This page needs some serious styling")
-                                ) +
-                                HTMLTags.section("", "",
-                                        "" + HTMLTags.a("", "", "", "images.html", "", "", "", "", "go to images"))
-                                +
-                                HTMLTags.section("", "",
-                                        "" + HTMLTags.a("", "", "", "videos.html", "", "", "", "", "go to videos"))
-                                +
-                                HTMLTags.section("", "",
-                                        "" + HTMLTags.a("", "", "", "documents.html", "", "", "", "", "go to documents"))
-
-                );
-
-        text += HTMLTags.closeHTML();
-
-        writeHTML(text, "homepage.html");
-    }
-
-
-    private static void writeHTML(String text, String name) {
-        BufferedWriter output = null;
-        try {
-            File file = new File(name);
-            output = new BufferedWriter(new FileWriter(file));
-            output.write(text);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (output != null) {
-                try {
-                    output.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
     }
 
     private static ArrayList<File> metaDataFiles = new ArrayList<>(0);
@@ -193,6 +92,98 @@ class HTMLGenerator
                 findXMLs(f.getAbsolutePath());
             }
         }
+    }
+
+    /**
+     * Writes text to a new html file
+     *
+     * @param name is the name of the html file
+     * @param text is the content of the file
+     */
+    private static void writeHTML(String text, String name) {
+        BufferedWriter output = null;
+        try {
+            File file = new File(name);
+            output = new BufferedWriter(new FileWriter(file));
+            output.write(text);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (output != null) {
+                try {
+                    output.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    /**
+     * Writing the arcles html
+     */
+    private static void Articles() {
+        String content = HTMLTags.openHTML("en");
+
+        content += head +
+
+                HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
+
+                HTMLTags.comment("Navigation Bar") +
+
+                HTMLTags.openDiv("", "\"nav col-md-12\"") +
+                HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                HTMLTags.openA("", "active", "\"#\"") + "Documents" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "projects.html") + "projects.html" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+
+                HTMLTags.horizontalRule() +
+
+                HTMLTags.comment("Search Bar") +
+
+                HTMLTags.openDiv("", "\"col-md-12 search\"") +
+                HTMLTags.span("Search the Titles and Keywords :") +
+                HTMLTags.input("\"text\"", "\"Search..\"") +
+                HTMLTags.button("Go") +
+                HTMLTags.closeDiv() +
+
+                HTMLTags.horizontalRule() +
+
+                HTMLTags.comment("Title") +
+
+                HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
+                HTMLTags.h("Web-based Digital Object Showcase: Documents", 3) +
+                HTMLTags.closeDiv() +
+
+                HTMLTags.breakRule() +
+
+                HTMLTags.openDiv("", "\"row grid-container\"") +
+
+                HTMLTags.comment("Category section") +
+
+                HTMLTags.openDiv("", "\"category col-md-2\"") +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.h("Categories:", 5) +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "\"active\"", "\"#\"") + "Documents" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "\"projects.html\"") + "Projects" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+
+                HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeBody() +
+                HTMLTags.closeHTML();
+
+        writeHTML(content, "articles.html");
+
     }
 
 }
