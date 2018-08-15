@@ -1,5 +1,5 @@
 //follows MDN web docs
-public class HTMLTags
+class HTMLTags
 {
     /**
      * Main Root
@@ -113,4 +113,7 @@ public class HTMLTags
     }
 
 
+    static String img(String s) {
+        return "<img src=" + s + ">\n";
+    }
 }

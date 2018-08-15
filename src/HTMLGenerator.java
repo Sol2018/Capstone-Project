@@ -28,18 +28,19 @@ class HTMLGenerator
 
         XMLReader xmlReader;
 
-        String images = "<ol>\n\t";
+        StringBuilder images = new StringBuilder();
 
-        /*for (File file : metaDataFiles) {
+        for (File file : metaDataFiles) {
             xmlReader = new XMLReader(file);
 
             if (xmlReader.getRoot().getTagName().compareTo("image") == 0) {
                 //TODO load image
-                images += HTMLTags.li("", "", "" + xmlReader.getValue("name"),
-                        "" + HTMLTags.img("", "", "", "", "", ""
-                                        + xmlReader.getValue("height"), "", "", "" + xmlReader.getValue("src"),
-                                "" + xmlReader.getValue("width"), "", "" + xmlReader.getValue("alt")));
-                images += "\n";
+                images.append(HTMLTags.openDiv("", "\"item\""));
+                images.append(HTMLTags.openA("\"_blank\"", "", "\"" + xmlReader.getValue("src") + "\""));
+                images.append(HTMLTags.img(xmlReader.getValue("src")));
+                images.append(HTMLTags.openDiv("", "\"desc\"")).append(xmlReader.getValue("description")).append(HTMLTags.closeDiv());
+                images.append(HTMLTags.closeA());
+                images.append(HTMLTags.closeDiv());
 
             } else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0) {
                 //TODO load a list of images
@@ -49,18 +50,21 @@ class HTMLGenerator
                 //search for all xml files
                 File[] files = Objectfile.listFiles();
 
+                assert files != null;
                 for (File file1 : files) {
+                    //TODO load image
                     if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0) {
-                        images += HTMLTags.li("", "", "" + file1.getName(),
-                                "" + HTMLTags.img("", "", "", "", "", "", "", "", "" + file1.getPath(), "", "", "" + file1.getName()));
-                        images += "\n";
+                        images.append(HTMLTags.openDiv("", "\"item\""));
+                        images.append(HTMLTags.openA("\"_blank\"", "", "\"" + file1.getPath() + "\""));
+                        images.append(HTMLTags.img(file1.getPath()));
+                        images.append(HTMLTags.openDiv("", "\"desc\"")).append(xmlReader.getValue("description")).append(HTMLTags.closeDiv());
+                        images.append(HTMLTags.closeA());
+                        images.append(HTMLTags.closeDiv());
                     }
                 }
 
             }
         }
-
-        images += "\n</ol>\n";*/
 
         //generate the articles html
         Articles();
@@ -69,7 +73,7 @@ class HTMLGenerator
         Projects();
 
         //generate the gallery html
-        Gallery(images);
+        Gallery(images.toString());
 
     }
 
@@ -248,7 +252,7 @@ class HTMLGenerator
                 HTMLTags.horizontalRule() +
                 HTMLTags.comment("Title") +
                 HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
-                HTMLTags.h("Web-based Digital Object Showcase: Projects", 3) +
+                HTMLTags.h("Web-based Digital Object Showcase: Images", 3) +
                 HTMLTags.closeDiv() +
                 HTMLTags.breakRule() +
                 HTMLTags.openDiv("", "\"row grid-container\"") +
@@ -267,7 +271,11 @@ class HTMLGenerator
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
+                HTMLTags.comment("item Section") +
+                HTMLTags.openDiv("", "\"gallery col-md-10\"") +
+                //TODO images inserted here
+                images +
+                HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeBody() +
                 HTMLTags.closeHTML();
