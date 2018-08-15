@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+
+    <name>files</name>
+
+    <src>TestDATA/photos/trees/</src>
+
+    <author>Some Author</author>
+
+    <description>Photo from tree Album</description>
+
+    <location>Internet</location>
+
+    <date>TOday</date>
+
+    <copyright>We don't have any</copyright>
+
+</gallery>

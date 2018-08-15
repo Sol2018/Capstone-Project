@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<image>
+    <name>group.jpg</name>
+
+    <src>TestDATA/photos/people/group.jpg</src>
+
+    <title>group photo</title>
+
+    <type>jpg</type>
+
+    <alt>An image showing a group of different people standing together</alt>
+
+    <width>500</width>
+
+    <height>356</height>
+
+    <size>86.50K</size>
+
+    <author>Adobe PhotoStock</author>
+
+    <description>An image showing a group of different people standing togethere</description>
+
+    <location>Some location</location>
+
+    <date>02 January 1699</date>
+
+    <copyright>Some license</copyright>
+
+</image>
