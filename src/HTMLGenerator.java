@@ -65,6 +65,12 @@ class HTMLGenerator
         //generate the articles html
         Articles();
 
+        //generate the projects html
+        Projects();
+
+        //generate the gallery html
+        Gallery(images);
+
     }
 
     private static ArrayList<File> metaDataFiles = new ArrayList<>(0);
@@ -120,48 +126,33 @@ class HTMLGenerator
     }
 
     /**
-     * Writing the arcles html
+     * Writing the articles html
      */
     private static void Articles() {
-        String content = HTMLTags.openHTML("en");
-
-        content += head +
-
+        String content = HTMLTags.openHTML("en") + head +
                 HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
-
                 HTMLTags.comment("Navigation Bar") +
-
                 HTMLTags.openDiv("", "\"nav col-md-12\"") +
                 HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
                 HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
                 HTMLTags.openA("", "active", "\"#\"") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "projects.html") + "projects.html" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA() +
                 HTMLTags.closeDiv() +
-
                 HTMLTags.horizontalRule() +
-
                 HTMLTags.comment("Search Bar") +
-
                 HTMLTags.openDiv("", "\"col-md-12 search\"") +
                 HTMLTags.span("Search the Titles and Keywords :") +
                 HTMLTags.input("\"text\"", "\"Search..\"") +
                 HTMLTags.button("Go") +
                 HTMLTags.closeDiv() +
-
                 HTMLTags.horizontalRule() +
-
                 HTMLTags.comment("Title") +
-
                 HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
                 HTMLTags.h("Web-based Digital Object Showcase: Documents", 3) +
                 HTMLTags.closeDiv() +
-
                 HTMLTags.breakRule() +
-
                 HTMLTags.openDiv("", "\"row grid-container\"") +
-
                 HTMLTags.comment("Category section") +
-
                 HTMLTags.openDiv("", "\"category col-md-2\"") +
                 HTMLTags.openDiv("", "") +
                 HTMLTags.h("Categories:", 5) +
@@ -176,13 +167,111 @@ class HTMLGenerator
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
-
                 HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeBody() +
                 HTMLTags.closeHTML();
-
         writeHTML(content, "articles.html");
+
+    }
+
+    /**
+     * Writing the projects html
+     */
+    private static void Projects() {
+        String content = HTMLTags.openHTML("en") + head +
+                HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
+                HTMLTags.comment("Navigation Bar") +
+                HTMLTags.openDiv("", "\"nav col-md-12\"") +
+                HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                HTMLTags.openA("", "active", "\"#\"") + "projects" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.horizontalRule() +
+                HTMLTags.comment("Search Bar") +
+                HTMLTags.openDiv("", "\"col-md-12 search\"") +
+                HTMLTags.span("Search the Titles and Keywords :") +
+                HTMLTags.input("\"text\"", "\"Search..\"") +
+                HTMLTags.button("Go") +
+                HTMLTags.closeDiv() +
+                HTMLTags.horizontalRule() +
+                HTMLTags.comment("Title") +
+                HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
+                HTMLTags.h("Web-based Digital Object Showcase: Projects", 3) +
+                HTMLTags.closeDiv() +
+                HTMLTags.breakRule() +
+                HTMLTags.openDiv("", "\"row grid-container\"") +
+                HTMLTags.comment("Category section") +
+                HTMLTags.openDiv("", "\"category col-md-2\"") +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.h("Categories:", 5) +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "\"#\"") + "Projects" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeBody() +
+                HTMLTags.closeHTML();
+        writeHTML(content, "projects.html");
+
+    }
+
+    /**
+     * Writing the gallery html
+     */
+    private static void Gallery(String images) {
+        String content = HTMLTags.openHTML("en") + head +
+                HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
+                HTMLTags.comment("Navigation Bar") +
+                HTMLTags.openDiv("", "\"nav col-md-12\"") +
+                HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
+                HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.horizontalRule() +
+                HTMLTags.comment("Search Bar") +
+                HTMLTags.openDiv("", "\"col-md-12 search\"") +
+                HTMLTags.span("Search the Titles and Keywords :") +
+                HTMLTags.input("\"text\"", "\"Search..\"") +
+                HTMLTags.button("Go") +
+                HTMLTags.closeDiv() +
+                HTMLTags.horizontalRule() +
+                HTMLTags.comment("Title") +
+                HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
+                HTMLTags.h("Web-based Digital Object Showcase: Projects", 3) +
+                HTMLTags.closeDiv() +
+                HTMLTags.breakRule() +
+                HTMLTags.openDiv("", "\"row grid-container\"") +
+                HTMLTags.comment("Category section") +
+                HTMLTags.openDiv("", "\"category col-md-2\"") +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.h("Categories:", 5) +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "") +
+                HTMLTags.openA("", "", "projects.html") + "Projects" + HTMLTags.closeA() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
+                HTMLTags.closeDiv() +
+                HTMLTags.closeBody() +
+                HTMLTags.closeHTML();
+        writeHTML(content, "gallery.html");
 
     }
 
