@@ -85,3 +85,8 @@ button:hover{
     grid-gap: 20px;
     padding: 10px;
 }
+
+.gallery li{
+    margin-bottom: 10px;
+}
+
