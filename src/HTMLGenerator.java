@@ -7,18 +7,7 @@ import java.util.ArrayList;
 class HTMLGenerator
 {
 
-    /**
-     * This head tag is consistent across current html pages -hence it is hardcoded
-     */
-    private static final String head = "<head>\n" +
-            "    <meta charset=\"UTF-8\">\n" +
-            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
-            "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n" +
-            "    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\"\n" +
-            "        crossorigin=\"anonymous\">\n" +
-            "    <link rel=\"stylesheet\" href=\"style.css\">\n" +
-            "    <title>WEBDOS | Capstone Project</title>\n" +
-            "</head>\n\n";
+
 
     public static void main(String[] args) {
         System.out.println("Root directory entered by the user: "+args[0]);
@@ -67,13 +56,13 @@ class HTMLGenerator
         }
 
         //generate the articles html
-        Articles();
+        writeHTML("articles", images.toString());
 
         //generate the projects html
-        Projects();
+        writeHTML("projects", images.toString());
 
         //generate the gallery html
-        Gallery(images.toString());
+        writeHTML("gallery", images.toString());
 
     }
 
@@ -110,7 +99,7 @@ class HTMLGenerator
      * @param name is the name of the html file
      * @param text is the content of the file
      */
-    private static void writeHTML(String text, String name) {
+    private static void writeHTMLtoFile(String text, String name) {
         BufferedWriter output = null;
         try {
             File file = new File(name);
@@ -129,18 +118,34 @@ class HTMLGenerator
         }
     }
 
-    /**
-     * Writing the articles html
-     */
-    private static void Articles() {
-        String content = HTMLTags.openHTML("en") + head +
+
+    private static void writeHTML(String page, String data) {
+        String content =
+                HTMLTags.openHTML("en") + HTMLTags.commonHead() +
                 HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
                 HTMLTags.comment("Navigation Bar") +
                 HTMLTags.openDiv("", "\"nav col-md-12\"") +
-                HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
-                HTMLTags.openA("", "active", "\"#\"") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA();
+
+        switch (page) {
+            case "projects":
+                content += HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "active", "\"#\"") + "projects" + HTMLTags.closeA();
+                break;
+            case "articles":
+                content += HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "active", "\"#\"") + "Documents" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA();
+                break;
+            case "gallery":
+                content += HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA();
+                break;
+        }
+
+        content +=
                 HTMLTags.closeDiv() +
                 HTMLTags.horizontalRule() +
                 HTMLTags.comment("Search Bar") +
@@ -152,7 +157,7 @@ class HTMLGenerator
                 HTMLTags.horizontalRule() +
                 HTMLTags.comment("Title") +
                 HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
-                HTMLTags.h("Web-based Digital Object Showcase: Documents", 3) +
+                        HTMLTags.h("Web-based Digital Object Showcase: " + page, 3) +
                 HTMLTags.closeDiv() +
                 HTMLTags.breakRule() +
                 HTMLTags.openDiv("", "\"row grid-container\"") +
@@ -160,127 +165,53 @@ class HTMLGenerator
                 HTMLTags.openDiv("", "\"category col-md-2\"") +
                 HTMLTags.openDiv("", "") +
                 HTMLTags.h("Categories:", 5) +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "\"active\"", "\"#\"") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "\"projects.html\"") + "Projects" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.closeDiv() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
-                HTMLTags.closeDiv() +
-                HTMLTags.closeBody() +
-                HTMLTags.closeHTML();
-        writeHTML(content, "articles.html");
+                        HTMLTags.openDiv("", "");
 
-    }
-
-    /**
-     * Writing the projects html
-     */
-    private static void Projects() {
-        String content = HTMLTags.openHTML("en") + head +
-                HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
-                HTMLTags.comment("Navigation Bar") +
-                HTMLTags.openDiv("", "\"nav col-md-12\"") +
-                HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.openA("", "active", "\"#\"") + "projects" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.horizontalRule() +
-                HTMLTags.comment("Search Bar") +
-                HTMLTags.openDiv("", "\"col-md-12 search\"") +
-                HTMLTags.span("Search the Titles and Keywords :") +
-                HTMLTags.input("\"text\"", "\"Search..\"") +
-                HTMLTags.button("Go") +
-                HTMLTags.closeDiv() +
-                HTMLTags.horizontalRule() +
-                HTMLTags.comment("Title") +
-                HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
-                HTMLTags.h("Web-based Digital Object Showcase: Projects", 3) +
-                HTMLTags.closeDiv() +
-                HTMLTags.breakRule() +
-                HTMLTags.openDiv("", "\"row grid-container\"") +
-                HTMLTags.comment("Category section") +
-                HTMLTags.openDiv("", "\"category col-md-2\"") +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.h("Categories:", 5) +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "\"#\"") + "Projects" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.closeDiv() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "\"gallery col-md-10\"") + HTMLTags.closeDiv() +
-                HTMLTags.closeDiv() +
-                HTMLTags.closeBody() +
-                HTMLTags.closeHTML();
-        writeHTML(content, "projects.html");
-
-    }
-
-    /**
-     * Writing the gallery html
-     */
-    private static void Gallery(String images) {
-        String content = HTMLTags.openHTML("en") + head +
-                HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
-                HTMLTags.comment("Navigation Bar") +
-                HTMLTags.openDiv("", "\"nav col-md-12\"") +
-                HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA() +
-                HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.horizontalRule() +
-                HTMLTags.comment("Search Bar") +
-                HTMLTags.openDiv("", "\"col-md-12 search\"") +
-                HTMLTags.span("Search the Titles and Keywords :") +
-                HTMLTags.input("\"text\"", "\"Search..\"") +
-                HTMLTags.button("Go") +
-                HTMLTags.closeDiv() +
-                HTMLTags.horizontalRule() +
-                HTMLTags.comment("Title") +
-                HTMLTags.openDiv("\"title\"", "\"col-md-12\"") +
-                HTMLTags.h("Web-based Digital Object Showcase: Images", 3) +
-                HTMLTags.closeDiv() +
-                HTMLTags.breakRule() +
-                HTMLTags.openDiv("", "\"row grid-container\"") +
-                HTMLTags.comment("Category section") +
-                HTMLTags.openDiv("", "\"category col-md-2\"") +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.h("Categories:", 5) +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
-                HTMLTags.closeDiv() +
-                HTMLTags.openDiv("", "") +
-                HTMLTags.openA("", "", "projects.html") + "Projects" + HTMLTags.closeA() +
+        switch (page) {
+            case "projects":
+                content +=
+                        HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "\"active\"", "\"projects.html\"") + "Documents" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "\"#\"") + "Projects" + HTMLTags.closeA();
+                break;
+            case "articles":
+                content +=
+                        HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "\"#\"") + "Documents" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "projects.html") + "Projects" + HTMLTags.closeA();
+                break;
+            case "gallery":
+                content +=
+                        HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "projects.html") + "Projects" + HTMLTags.closeA();
+                break;
+        }
+        content +=
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.comment("item Section") +
                 HTMLTags.openDiv("", "\"gallery col-md-10\"") +
-                //TODO images inserted here
-                images +
+                        //TODO data
+                        data +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeDiv() +
                 HTMLTags.closeBody() +
                 HTMLTags.closeHTML();
-        writeHTML(content, "gallery.html");
-
+        writeHTMLtoFile(content, page + ".html");
     }
 
 }

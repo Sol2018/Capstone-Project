@@ -116,4 +116,20 @@ class HTMLTags
     static String img(String s) {
         return "<img src=" + s + ">\n";
     }
+
+
+    /**
+     * This head tag is consistent across current html pages -hence it is hardcoded
+     */
+    static String commonHead() {
+        return "<head>\n" +
+                "    <meta charset=\"UTF-8\">\n" +
+                "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
+                "    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n" +
+                "    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\"\n" +
+                "        crossorigin=\"anonymous\">\n" +
+                "    <link rel=\"stylesheet\" href=\"style.css\">\n" +
+                "    <title>WEBDOS | Capstone Project</title>\n" +
+                "</head>\n\n";
+    }
 }
