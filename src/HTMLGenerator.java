@@ -9,7 +9,8 @@ class HTMLGenerator
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("Root directory entered by the user: "+args[0]);
 
         //Searching for all xml files
@@ -18,6 +19,7 @@ class HTMLGenerator
         XMLReader xmlReader;
 
         StringBuilder images = new StringBuilder();
+        StringBuilder documents = new StringBuilder();
 
         for (File file : metaDataFiles) {
             xmlReader = new XMLReader(file);
@@ -53,10 +55,43 @@ class HTMLGenerator
                 }
 
             }
+            else if (xmlReader.getRoot().getTagName().compareTo("document") == 0)
+            {
+
+            }
+            else if (xmlReader.getRoot().getTagName().compareTo("docLib") == 0) {
+                documents.append(HTMLTags.openUl());
+                //TODO load a list of documents
+                //current directory
+                File Objectfile = new File(xmlReader.getValue("src"));
+
+                //search for all xml files
+                File[] files = Objectfile.listFiles();
+
+                assert files != null;
+                for (File file1 : files) {
+                    //TODO load image
+                    if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0) {
+                        documents.append(HTMLTags.openLi());
+                        documents.append(HTMLTags.Strong("Topic:"));
+                        documents.append(HTMLTags.openA("\"_blank\"","",""+file1.getPath()));
+                        documents.append(file1.getName());
+                        documents.append(HTMLTags.closeA());
+                        documents.append(HTMLTags.breakRule());
+                        documents.append(HTMLTags.Strong("Contributors"));
+                        documents.append(xmlReader.getValue("author"));
+                        documents.append(HTMLTags.breakRule());
+                        documents.append(HTMLTags.Strong("Year: "));
+                        documents.append(HTMLTags.Strong(xmlReader.getValue("date")));
+                        documents.append(HTMLTags.closeLi());
+                    }
+                }
+                documents.append(HTMLTags.closeUl());
+            }
         }
 
         //generate the articles html
-        writeHTML("articles", images.toString());
+        writeHTML("articles", documents.toString());
 
         //generate the projects html
         writeHTML("projects", images.toString());
@@ -72,7 +107,8 @@ class HTMLGenerator
      * Recursively finds all XML files in the provided directory and adds them to the metaDataFiles ArrayList
      * @param arg is the current directory
      * */
-    private static void findXMLs(String arg) {
+    private static void findXMLs(String arg)
+    {
         //current directory
         File file = new File(arg);
 

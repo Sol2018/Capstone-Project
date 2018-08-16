@@ -132,4 +132,27 @@ class HTMLTags
                 "    <title>WEBDOS | Capstone Project</title>\n" +
                 "</head>\n\n";
     }
+
+    static String openUl()
+    {
+        return "<ul>\n";
+    }
+
+    static String closeUl()
+    {
+        return "</ul>\n";
+    }
+
+    static String openLi() {
+        return "<li>\n";
+    }
+
+    static String closeLi() {
+        return "</li>\n";
+    }
+
+    static String Strong(String content)
+    {
+        return "<strong>"+content+"</strong>\n";
+    }
 }

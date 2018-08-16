@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docLib>
+
+    <name>CSC3003 Slides</name>
+
+    <src>TestDATA/files/CSC3002S/</src>
+
+    <title>Slide testing</title>
+
+    <author>CS Lectures and the rest</author>
+
+    <description>Some description will go in here, like blah blah blah blah - it will be something legit</description>
+
+    <date>2018 January 16</date>
+
+    <copyright>Stuff here</copyright>
+
+</docLib>
