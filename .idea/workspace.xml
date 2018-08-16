@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list id="9d316a34-bf10-49be-90ae-3b494ae3b392" name="[safepoint]: basic xml reader" comment="" />
     <list default="true" id="0a987975-bced-40e2-95c7-e81fb469bcec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/ASD-00-Intro.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/ASD-01-Background.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/ASD-02-ProjMan.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/ASD-03-Methods.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/ASD-04-Agile.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/Lecture1-ExtraMaterial(DataFlowDiagrams).ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/Lecture1-ExtraMaterial(Use Case Description).ppt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/Lecture1-ExtraMaterial(domain models).doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/ManagingOOProjects.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/Lect1/Lec1.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/Lect2/Lec2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/Lect3/Lec3.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S/LectureSlides.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/Lect1/LectureSlides.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/Lect2/LectureSlides.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/Lect3/LectureSlides.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDATA/pdf/fundamentals-of-optics_0072561912.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTMLGenerator.java" afterPath="$PROJECT_DIR$/src/HTMLGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTMLTags.java" afterPath="$PROJECT_DIR$/src/HTMLTags.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +46,8 @@
           <file leaf-file-name="HTMLGenerator.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
-                  <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+                <state relative-caret-position="525">
+                  <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
                   <folding>
                     <element signature="method#findXMLs#0;class#HTMLGenerator#0" expanded="true" />
                   </folding>
@@ -511,7 +493,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64816755" sideWeight="0.49250937" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21256545" sideWeight="0.48250335" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21256545" sideWeight="0.48250335" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20757738" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -781,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="525">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           <folding>
             <element signature="method#findXMLs#0;class#HTMLGenerator#0" expanded="true" />
           </folding>
