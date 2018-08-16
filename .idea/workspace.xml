@@ -467,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534423847089</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[safepoint] **marking progress">
+      <created>1534431583042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534431583042</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -566,7 +573,8 @@
     <MESSAGE value="[revision] full site prototype" />
     <MESSAGE value="[revision] ready to be merged" />
     <MESSAGE value="[revision] refactored code" />
-    <option name="LAST_COMMIT_MESSAGE" value="[revision] refactored code" />
+    <MESSAGE value="[safepoint] **marking progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="[safepoint] **marking progress" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
