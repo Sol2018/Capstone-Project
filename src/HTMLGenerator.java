@@ -20,6 +20,7 @@ class HTMLGenerator
 
         StringBuilder images = new StringBuilder();
         StringBuilder documents = new StringBuilder();
+        documents.append(HTMLTags.openUl());
 
         for (File file : metaDataFiles) {
             xmlReader = new XMLReader(file);
@@ -57,10 +58,24 @@ class HTMLGenerator
             }
             else if (xmlReader.getRoot().getTagName().compareTo("document") == 0)
             {
-
+                //TODO document
+                // documents.append(HTMLTags.openUl());
+                documents.append(HTMLTags.openLi());
+                documents.append(HTMLTags.Strong("Topic:"));
+                documents.append(HTMLTags.openA("\"_blank\"", "", "" + xmlReader.getValue("src")));
+                documents.append(xmlReader.getValue("name"));
+                documents.append(HTMLTags.closeA());
+                documents.append(HTMLTags.breakRule());
+                documents.append(HTMLTags.Strong("Contributors"));
+                documents.append(xmlReader.getValue("author"));
+                documents.append(HTMLTags.breakRule());
+                documents.append(HTMLTags.Strong("Year: "));
+                documents.append(HTMLTags.Strong(xmlReader.getValue("date")));
+                documents.append(HTMLTags.closeLi());
+                //documents.append(HTMLTags.closeUl());
             }
             else if (xmlReader.getRoot().getTagName().compareTo("docLib") == 0) {
-                documents.append(HTMLTags.openUl());
+                //documents.append(HTMLTags.openUl());
                 //TODO load a list of documents
                 //current directory
                 File Objectfile = new File(xmlReader.getValue("src"));
@@ -86,10 +101,10 @@ class HTMLGenerator
                         documents.append(HTMLTags.closeLi());
                     }
                 }
-                documents.append(HTMLTags.closeUl());
+                //documents.append(HTMLTags.closeUl());
             }
         }
-
+        documents.append(HTMLTags.closeUl());
         //generate the articles html
         writeHTML("articles", documents.toString());
 
@@ -98,6 +113,9 @@ class HTMLGenerator
 
         //generate the gallery html
         writeHTML("gallery", images.toString());
+
+        //generate the index html
+        writeHTML("index", "");
 
     }
 
@@ -160,24 +178,35 @@ class HTMLGenerator
                 HTMLTags.openHTML("en") + HTMLTags.commonHead() +
                 HTMLTags.openBody("\"getItems()\"", "\"container-fluid jumbotron\"") +
                 HTMLTags.comment("Navigation Bar") +
-                HTMLTags.openDiv("", "\"nav col-md-12\"") +
-                        HTMLTags.openA("", "", "\"#\"") + "Home" + HTMLTags.closeA();
+                        HTMLTags.openDiv("", "\"nav col-md-12\"");
+
 
         switch (page) {
             case "projects":
-                content += HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                content += HTMLTags.openA("", "", "index.html") + "Home" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
                         HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
                         HTMLTags.openA("", "active", "\"#\"") + "projects" + HTMLTags.closeA();
                 break;
             case "articles":
-                content += HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                content += HTMLTags.openA("", "", "index.html") + "Home" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
                         HTMLTags.openA("", "active", "\"#\"") + "Documents" + HTMLTags.closeA() +
                         HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA();
                 break;
             case "gallery":
-                content += HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
+                content += HTMLTags.openA("", "", "index.html") + "Home" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
                         HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
                         HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA();
+                break;
+
+            case "index":
+                content += HTMLTags.openA("", "active", "\"#\"") + "Home" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                        HTMLTags.openA("", "", "projects.html") + "projects" + HTMLTags.closeA();
+
                 break;
         }
 
@@ -209,17 +238,17 @@ class HTMLGenerator
                         HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
                                 HTMLTags.closeDiv() +
                                 HTMLTags.openDiv("", "") +
-                                HTMLTags.openA("", "\"active\"", "\"projects.html\"") + "Documents" + HTMLTags.closeA() +
+                                HTMLTags.openA("", "", "\"articles.html\"") + "Documents" + HTMLTags.closeA() +
                                 HTMLTags.closeDiv() +
                                 HTMLTags.openDiv("", "") +
-                                HTMLTags.openA("", "", "\"#\"") + "Projects" + HTMLTags.closeA();
+                                HTMLTags.openA("", "\"active\"", "\"#\"") + "Projects" + HTMLTags.closeA();
                 break;
             case "articles":
                 content +=
                         HTMLTags.openA("", "", "\"gallery.html\"") + "Pictures" + HTMLTags.closeA() +
                                 HTMLTags.closeDiv() +
                                 HTMLTags.openDiv("", "") +
-                                HTMLTags.openA("", "", "\"#\"") + "Documents" + HTMLTags.closeA() +
+                                HTMLTags.openA("", "\"active\"", "\"#\"") + "Documents" + HTMLTags.closeA() +
                                 HTMLTags.closeDiv() +
                                 HTMLTags.openDiv("", "") +
                                 HTMLTags.openA("", "", "projects.html") + "Projects" + HTMLTags.closeA();
@@ -227,6 +256,17 @@ class HTMLGenerator
             case "gallery":
                 content +=
                         HTMLTags.openA("", "active", "\"#\"") + "Pictures" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
+                                HTMLTags.closeDiv() +
+                                HTMLTags.openDiv("", "") +
+                                HTMLTags.openA("", "", "projects.html") + "Projects" + HTMLTags.closeA();
+                break;
+
+            case "index":
+                content +=
+                        HTMLTags.openA("", "", "gallery.html") + "Pictures" + HTMLTags.closeA() +
                                 HTMLTags.closeDiv() +
                                 HTMLTags.openDiv("", "") +
                                 HTMLTags.openA("", "", "articles.html") + "Documents" + HTMLTags.closeA() +
