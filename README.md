@@ -121,3 +121,91 @@ General rules: \
 ## AUDIO
 ## VIDEO
 ## DOCUMENT
+
+#### Single Document
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+
+    <name>
+        <!-- name of document-->
+    </name>
+
+    <src>
+        <!-- Specifies location of document with respect to the root directory (in some cases this may refer to an online docuemnt) -->
+    </src>
+
+    <title>
+        <!-- Specifies title of document-->
+    </title>
+
+    <type>
+        <!-- Specifies the type of image format-->
+    </type>
+
+    <alt>
+        <!-- Specifies an alternate text for an document -->
+    </alt>
+
+    <size>
+        <!-- Specifies the size of the image in K-->
+    </size>
+
+    <author>
+        <!-- Specifies who wrote the document -->
+    </author>
+
+    <description>
+        <!-- Describes the content of the image-->
+    </description>
+
+    <date>
+        <!-- Specifies the date at which the document was created-->
+    </date>
+
+    <copyright>
+        <!-- Specifies legal information about the use of the image-->
+    </copyright>
+    
+    <extension>
+        <!-- extension of the file-->
+    </extension>
+
+</documents>
+```
+
+#### LIBRARY OF DOCUMENTS
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+
+    <name>
+        <!-- name of document-->
+    </name>
+
+    <src>
+        <!-- Specifies location of document with respect to the root directory (in some cases this may refer to an online docuemnt) -->
+    </src>
+
+    <title>
+        <!-- Specifies title of document-->
+    </title>
+
+    <author>
+        <!-- Specifies who wrote the document -->
+    </author>
+
+    <description>
+        <!-- Describes the content of the image-->
+    </description>
+
+    <date>
+        <!-- Specifies the date at which the document was created-->
+    </date>
+
+    <copyright>
+        <!-- Specifies legal information about the use of the image-->
+    </copyright>
+    
+</documents>
+```
