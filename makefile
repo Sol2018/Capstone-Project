@@ -14,4 +14,3 @@ run:
 
 clean:
 	$(RM) -f out/production/Capstone-Project/*.class
-	$(RM) -f *.html
