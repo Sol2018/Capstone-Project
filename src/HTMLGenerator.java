@@ -9,8 +9,14 @@ class HTMLGenerator
       contentGenerator.generateImageContent();
       String images = contentGenerator.getImages();
       TemplateReader template = new TemplateReader();
-      ArrayList<String> cover = template.generateConcreteHTML("images");
+      ArrayList<String> coverA = template.generateConcreteHTML("images");
+      ArrayList<String> coverB = template.generateConcreteHTML("videos");
+      ArrayList<String> coverC = template.generateConcreteHTML("audio");
+      ArrayList<String> coverD = template.generateConcreteHTML("documents");
 
-      contentGenerator.writeHTMLtoFile(cover.get(0)+images+cover.get(1),"images.html");
+      contentGenerator.writeHTMLtoFile(coverA.get(0)+images+coverA.get(1),"images.html");
+      contentGenerator.writeHTMLtoFile(coverB.get(0)+coverB.get(1),"videos.html");
+      contentGenerator.writeHTMLtoFile(coverC.get(0)+coverC.get(1),"audio.html");
+      contentGenerator.writeHTMLtoFile(coverD.get(0)+coverD.get(1),"documents.html");
     }
 }

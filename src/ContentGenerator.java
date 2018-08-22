@@ -7,6 +7,7 @@ import java.util.ArrayList;
 class ContentGenerator
 {
   private StringBuilder imageContent = new StringBuilder();
+  private StringBuilder documentContent = new StringBuilder();
   private XMLReader xmlReader;
   private ArrayList<File> metaDataFiles = new ArrayList<>(0);
 
@@ -82,6 +83,11 @@ class ContentGenerator
             }
           }
         }
+    }
+
+    public void generateDocumentContent()
+    {
+      
     }
 
 
