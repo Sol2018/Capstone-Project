@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-class HTML
+class ContentGenerator
 {
   private StringBuilder imageContent = new StringBuilder();
   private XMLReader xmlReader;
@@ -13,7 +13,7 @@ class HTML
   /**
   * @param args is the directory provided by the user
   */
-  public HTML(String[] args)
+  public ContentGenerator(String[] args)
   {
       findXMLs(args[0]);
   }

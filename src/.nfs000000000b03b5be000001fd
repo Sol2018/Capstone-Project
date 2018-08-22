@@ -1,0 +1,23 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+class TemplateReader
+{
+    private File templateFile = new File("Template.contentGenerator");
+    public TemplateReader()
+    {
+        try
+        {
+            Scanner scanner = new Scanner(templateFile);
+            while(scanner.hasNext())
+            {
+              System.out.println(scanner.next());
+            }
+        } catch (FileNotFoundException e)
+        {
+            System.out.println("Invalid template file");
+        }
+    }
+
+}

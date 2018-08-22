@@ -1,16 +1,16 @@
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 class HTMLGenerator
 {
     public static void main(String[] args)
     {
-      HTML html = new HTML(args);
-      html.generateImageContent();
-      String images = html.getImages();
-      html.writeHTMLtoFile(images,"test.html");
+      ContentGenerator contentGenerator = new ContentGenerator(args);
+      contentGenerator.generateImageContent();
+      String images = contentGenerator.getImages();
+      TemplateReader template = new TemplateReader();
+      ArrayList<String> cover = template.generateConcreteHTML("images");
+
+      contentGenerator.writeHTMLtoFile(cover.get(0)+images+cover.get(0),"images.html");
     }
 }
