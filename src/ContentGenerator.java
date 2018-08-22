@@ -8,6 +8,7 @@ class ContentGenerator
 {
   private StringBuilder imageContent = new StringBuilder();
   private StringBuilder documentContent = new StringBuilder();
+  private StringBuilder videoContent = new StringBuilder();
   private XMLReader xmlReader;
   private ArrayList<File> metaDataFiles = new ArrayList<>(0);
 
@@ -124,6 +125,40 @@ class ContentGenerator
         documentContent.append("</ul>\n");
     }
 
+    /**
+    * Read video content from xml fiels and write it to String Builder
+    */
+    public void generateVideoContent()
+    {for (File file : metaDataFiles)
+    {
+        xmlReader = new XMLReader(file);
+
+        if (xmlReader.getRoot().getTagName().compareTo("vid") == 0)
+        {
+          //TODO load image, parse this into a template
+          videoContent.append("<div id=\"vid\"><a target=\"_blank\" href=" + xmlReader.getValue("src") + ">");
+          videoContent.append("<video width=425 height=344 src=" + xmlReader.getValue("src") +"> </video>");
+          videoContent.append("<div class=\"desc\"  >" + xmlReader.getValue("description") + "</div></div>\n");
+        } else if (xmlReader.getRoot().getTagName().compareTo("vidLib") == 0)
+        {
+          //TODO load a list of images
+          //load all files in directory
+          File[] files = new File(xmlReader.getValue("src")).listFiles();
+          assert files != null;
+          for (File file1 : files)
+          {
+            //TODO load image
+            if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
+            {
+              //TODO load image, parse this into a template
+              videoContent.append("<div id=\"vid\"><a target=\"_blank\" href=" + file1.getPath() + ">");
+              videoContent.append("<video width=300 height=350 src=" + file1.getPath() +"> </video>");
+              videoContent.append("<div class=\"desc\" >" + xmlReader.getValue("description") + "</div></div>\n");
+            }
+          }
+        }
+      }
+      }
 
 
 
@@ -168,6 +203,15 @@ class ContentGenerator
     public String getDocuments()
     {
       return documentContent.toString();
+    }
+
+
+    /**
+    * Get video content in string format
+    */
+    public String getVideos()
+    {
+      return videoContent.toString();
     }
 
 }

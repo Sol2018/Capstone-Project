@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vid>
+
+    <name>Stream of water video</name>
+
+    <src>TestDATA/video/stream_of_water.webm</src>
+
+    <author>Some Author</author>
+
+    <description>Video of something about streaming water</description>
+
+    <location>local system</location>
+
+    <date>Today</date>
+
+    <copyright>We don't have any</copyright>
+
+</vid>
