@@ -87,7 +87,41 @@ class ContentGenerator
 
     public void generateDocumentContent()
     {
-      
+      documentContent.append("<ul>\n");
+      for (File file : metaDataFiles)
+      {
+          xmlReader = new XMLReader(file);
+
+          if (xmlReader.getRoot().getTagName().compareTo("document") == 0)
+          {
+            //TODO load documents, parse this into a template
+            documentContent.append("<li>\n <strong>Title:</strong>");
+            documentContent.append("<a target=\"_blank\" src = "+xmlReader.getValue("src")+" href="+xmlReader.getValue("src")+">");
+            documentContent.append(xmlReader.getValue("name") + "</a> <br> <strong>Contributors: </strong>");
+            documentContent.append(xmlReader.getValue("author") + "<br> <strong>Year: </strong> ");
+            documentContent.append("<strong>"+xmlReader.getValue("date")+ "</strong> </li>");
+          } else if (xmlReader.getRoot().getTagName().compareTo("docLib") == 0)
+          {
+            //TODO load a list of docuemts
+            File[] files = new File(xmlReader.getValue("src")).listFiles();
+
+            assert files != null;
+            for (File file1 : files)
+            {
+              //TODO load docs
+              if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
+              {
+                //TODO load doc, parse this into a template
+                documentContent.append("<li>\n <strong>Title:</strong>");
+                documentContent.append("<a target=\"_blank\" src="+file1.getPath()+" href="+file1.getPath()+">");
+                documentContent.append(xmlReader.getValue("name") + "</a> <br> <strong>Contributors: </strong>");
+                documentContent.append(xmlReader.getValue("author") + "<br> <strong>Year: </strong> ");
+                documentContent.append("<strong>"+xmlReader.getValue("date")+ "</strong> </li>");
+              }
+            }
+          }
+        }
+        documentContent.append("</ul>\n");
     }
 
 
@@ -126,6 +160,14 @@ class ContentGenerator
     public String getImages()
     {
       return imageContent.toString();
+    }
+
+    /**
+    * Get image content in string format
+    */
+    public String getDocuments()
+    {
+      return documentContent.toString();
     }
 
 }

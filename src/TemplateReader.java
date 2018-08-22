@@ -51,7 +51,7 @@ class TemplateReader
           //activate category elements
         } else if (templateElements.get(i).contains("cat."+pageType))
         {
-          htmlData += "href=\"#\"class=\"active\">"+pageType.substring(0,1).toUpperCase()+pageType.substring(1)+"</a>"+"\n";
+          htmlData += "class=\"active\">"+pageType.substring(0,1).toUpperCase()+pageType.substring(1)+"</a>"+"\n";
           i+=2;
           continue;
 
