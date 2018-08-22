@@ -15,7 +15,9 @@ class TemplateReader
             Scanner scanner = new Scanner(templateFile);
             while(scanner.hasNext())
             {
-              templateElements.add(scanner.next());
+              String n = scanner.next();
+              System.out.println(n);
+              templateElements.add(n);
             }
         } catch (FileNotFoundException e)
         {
@@ -30,27 +32,29 @@ class TemplateReader
       String closer = "";
       for(int i =0; i<templateElements.size(); ++i)
       {
-        htmlData += templateElements.get(i);
+        htmlData += templateElements.get(i)+"\n";
         if(templateElements.get(i).contains("navBar."+pageType))
         {
-          htmlData += "href=\"active\">"+pageType.toUpperCase()+"</a>";
+          htmlData += "href=\"active\">"+pageType.substring(0,1).toUpperCase()+pageType.substring(1)+"</a>"+"\n";
           ++i;
           continue;
         } else if(templateElements.get(i).contains("Showcase:"))
         {
-          htmlData += pageType.toUpperCase()+"</h3>";
+          htmlData += pageType.toUpperCase()+"</h3>"+"\n";
           ++i;
           continue;
         } else if (templateElements.get(i).contains("cat."+pageType))
         {
-          htmlData += "href=\"#\"class=\"active\">Videos</a>";
-          ++i;
+          htmlData += "href=\"#\"class=\"active\">"+pageType.substring(0,1).toUpperCase()+pageType.substring(1)+"</a>"+"\n";
+          i+=2;
           continue;
         } else if (templateElements.get(i).contains("col-md-10"))
         {
+          i++;
           while (i<templateElements.size())
           {
-            closer+=templateElements.get(i);
+            closer+=templateElements.get(i)+"\n";
+            i++;
           }
         }
       }

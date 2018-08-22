@@ -59,9 +59,9 @@ class ContentGenerator
           if (xmlReader.getRoot().getTagName().compareTo("image") == 0)
           {
             //TODO load image, parse this into a template
-            imageContent.append("<a target=\"_blank\" href=" + xmlReader.getValue("src") + ">\"");
+            imageContent.append("<div class=\"item\"><a target=\"_blank\" href=" + xmlReader.getValue("src") + ">");
             imageContent.append("<img src=" + xmlReader.getValue("src") +"> </a>");
-            imageContent.append("<div class=\"desc\" " + xmlReader.getValue("description") + "</div>\n");
+            imageContent.append("<div class=\"desc\"  >" + xmlReader.getValue("description") + "</div></div>\n");
           } else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0)
           {
             //TODO load a list of images
@@ -75,9 +75,9 @@ class ContentGenerator
               if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
               {
                 //TODO load image, parse this into a template
-                imageContent.append("<a target=\"_blank\" href=" + file1.getPath() + ">\"");
+                imageContent.append("<div class=\"item\"><a target=\"_blank\" href=" + file1.getPath() + ">");
                 imageContent.append("<img src=" + file1.getPath() +"> </a>");
-                imageContent.append("<div class=\"desc\" " + xmlReader.getValue("description") + "</div>\n");
+                imageContent.append("<div class=\"desc\" >" + xmlReader.getValue("description") + "</div></div>\n");
               }
             }
           }

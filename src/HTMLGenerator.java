@@ -11,6 +11,6 @@ class HTMLGenerator
       TemplateReader template = new TemplateReader();
       ArrayList<String> cover = template.generateConcreteHTML("images");
 
-      contentGenerator.writeHTMLtoFile(cover.get(0)+images+cover.get(0),"images.html");
+      contentGenerator.writeHTMLtoFile(cover.get(0)+images+cover.get(1),"images.html");
     }
 }
