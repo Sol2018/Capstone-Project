@@ -15,9 +15,7 @@ class TemplateReader
             Scanner scanner = new Scanner(templateFile);
             while(scanner.hasNext())
             {
-              String n = scanner.next();
-              System.out.println(n);
-              templateElements.add(n);
+              templateElements.add(scanner.next());
             }
         } catch (FileNotFoundException e)
         {
