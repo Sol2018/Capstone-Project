@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class htmlPage
 {
-    private static final int limit = 10; //objects per page
-    private static final int paginationlimit = 3; //objects per page
+    private static final int limit = 6; //objects per page
+    private static final int paginationlimit = 4;
     private ArrayList<String> templatePage;
     private ArrayList<htmlElement> elements;
 
@@ -40,11 +40,11 @@ public class htmlPage
         {
             StringBuilder s = new StringBuilder(templatePage.get(0));//top part of template
 
+            //adding objects to page
             for (int j = 0; j<limit && objectIndex<elements.size(); j++)
             {
                 s.append("\n");
                 s.append(elements.get(objectIndex).toString());
-
 
                 ++objectIndex;
             }
@@ -53,31 +53,40 @@ public class htmlPage
             //implementing pagination
             if (pages<=paginationlimit)
             {
-                for (int k = 0; k<pages; k++)
-                {
-                    if (k==i)//mark current page as active
-                    {
-                        s.append("<a href=\"#\" class=\"active\">");
-                    }
-                    else
-                    {
-                        s.append("<a href=\""+"images"+k+".html"+"\">");
-                    }
-                    s.append(k).append("</a>\n");
-                }
+                paginationLoop(i, 0, pages, s);
+            } else if (i < paginationlimit - 2) {
+                paginationLoop(i, 0, paginationlimit, s);
+                edgePagination(pages - 1, "lastPage", s);
+            } else if (i + paginationlimit - 1 > pages) {
+                edgePagination(0, "firstPage", s);
+                paginationLoop(i, pages - paginationlimit, pages, s);
+            } else {
+                edgePagination(0, "firstPage", s);
+                paginationLoop(i, i - 2, i - 2, s);
+                edgePagination(pages - 1, "lastPage", s);
             }
 
-            s.append(templatePage.get(1));
-            writeHTMLtoFile(s.toString(), "images"+i+".html");
-        }
 
-        /*
-        <a href="#">❮</a>
-        <a href="#">1</a>
-        <a href="#">3</a>
-        <a href="#">❯</a>
-        </div>
-        * */
+            s.append(templatePage.get(1));
+            writeHTMLtoFile(s.toString(), "images" + i + ".html");
+        }
+    }
+
+    private void paginationLoop(int i, int a, int b, StringBuilder s) {
+        for (int k = a; k < b; k++) {
+            if (k == i)//mark current page as active
+            {
+                s.append("<a href=\"#\" class=\"active\">");
+            } else {
+                s.append("<a href=\"" + "images" + k + ".html" + "\">");
+            }
+            s.append(k).append("</a>\n");
+        }
+    }
+
+    private void edgePagination(int i, String name, StringBuilder s) {
+        s.append("<a href=\"" + "images" + (i) + ".html" + "\">");
+        s.append(name).append("</a>\n");
     }
 
 
