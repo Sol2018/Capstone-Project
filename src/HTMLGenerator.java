@@ -13,7 +13,7 @@ class HTMLGenerator
       String docs = contentGenerator.getDocuments();
       String vids = contentGenerator.getVideos();
       String audio = contentGenerator.getAudio();
-      Template template = new Template("Template.html");
+      TemplateReader template = new TemplateReader("Template.html");
       ArrayList<String> coverA = template.setUpPageTemplate("images");
       ArrayList<String> coverB = template.setUpPageTemplate("videos");
       ArrayList<String> coverC = template.setUpPageTemplate("audio");

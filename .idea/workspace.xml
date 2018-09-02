@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc7d2fcf-6f69-4332-9a29-762a1289f6fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TemplateReader.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/BinauralTest.mp3" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/audio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/documents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Capstone-Project/ContentGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Capstone-Project/HTMLGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Capstone-Project/Template.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Capstone-Project/XMLReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/videos.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Template.java" afterPath="$PROJECT_DIR$/src/TemplateReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template.html" afterPath="$PROJECT_DIR$/Template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ContentGenerator.java" afterPath="$PROJECT_DIR$/src/ContentGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTMLGenerator.java" afterPath="$PROJECT_DIR$/src/HTMLGenerator.java" />
     </list>
@@ -22,8 +30,8 @@
       <file leaf-file-name="HTMLGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="method#main#0;class#HTMLGenerator#0" expanded="true" />
               </folding>
@@ -31,59 +39,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="audio.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/audio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="96" column="2" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TemplateReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#TemplateReader#0;class#TemplateReader#0" expanded="true" />
+                <element signature="method#setUpPageTemplate#0;class#TemplateReader#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ContentGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="208" column="13" lean-forward="false" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="181" column="82" lean-forward="false" selection-start-line="181" selection-start-column="82" selection-end-line="181" selection-end-column="82" />
               <folding>
                 <element signature="e#597#598#0" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
                 <element signature="method#generateImageContent#0;class#ContentGenerator#0" expanded="true" />
                 <element signature="method#generateDocumentContent#0;class#ContentGenerator#0" expanded="true" />
                 <element signature="method#generateVideoContent#0;class#ContentGenerator#0" expanded="true" />
-                <element signature="method#generateAudioContent#0;class#ContentGenerator#0" expanded="true" />
+                <element signature="method#generateTag#0;class#ContentGenerator#0" expanded="true" />
                 <element signature="method#writeHTMLtoFile#0;class#ContentGenerator#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="images.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images.html">
+      <file leaf-file-name="LectureSlides.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestDATA/files/CSC3002S/LectureSlides.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-817">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="audio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="108" column="2" lean-forward="true" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="documents.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documents.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="137" column="97" lean-forward="false" selection-start-line="137" selection-start-column="97" selection-end-line="137" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videos.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/videos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="125" column="218" lean-forward="false" selection-start-line="125" selection-start-column="218" selection-end-line="125" selection-end-column="218" />
+            <state relative-caret-position="165">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -115,18 +117,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Template.html" />
-        <option value="$PROJECT_DIR$/src/TemplateReader.java" />
         <option value="$PROJECT_DIR$/src/Template.java" />
-        <option value="$PROJECT_DIR$/src/HTMLGenerator.java" />
-        <option value="$PROJECT_DIR$/audio.html" />
+        <option value="$PROJECT_DIR$/videos.html" />
         <option value="$PROJECT_DIR$/documents.html" />
         <option value="$PROJECT_DIR$/images.html" />
         <option value="$PROJECT_DIR$/src/ContentGenerator.java" />
+        <option value="$PROJECT_DIR$/audio.html" />
+        <option value="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio.xml" />
+        <option value="$PROJECT_DIR$/src/TemplateReader.java" />
+        <option value="$PROJECT_DIR$/src/HTMLGenerator.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="width" value="959" />
     <option name="height" value="1079" />
   </component>
@@ -165,13 +168,38 @@
               <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ContentGenerator" type="1a9f42e2:ClassTreeNode" />
+              <item name="TemplateReader" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="1a9f42e2:ClassTreeNode" />
+              <item name="TestDATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDATA" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDATA" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="someOtherAUdio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDATA" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDATA" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="CSC3002S" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,6 +210,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestDATA/audio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -425,8 +461,17 @@
     <option name="localTasksCounter" value="20" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="959" height="1079" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -437,12 +482,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12513144" sideWeight="0.5225352" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64773923" sideWeight="0.49250937" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20209424" sideWeight="0.4774648" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6471204" sideWeight="0.49250937" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20230608" sideWeight="0.4774648" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09978655" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3504929" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972618" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -526,8 +571,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestDATA/photos/pets/dogs/OldDog.jpg" />
-    <entry file="file://$PROJECT_DIR$/TestDATA/photos/pets/dogs/puppies/1puppy.jpg" />
     <entry file="file://$PROJECT_DIR$/TestDATA/photos/pets/dogs/puppies/2Puppies.jpg" />
     <entry file="file://$PROJECT_DIR$/TestDATA/photos/people99.xml" />
     <entry file="file://$PROJECT_DIR$/TestDATA/people2.xml" />
@@ -600,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestDATA/files/CSC3002S/LectureSlides.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestDATA/files/Lect2/LectureSlides.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -658,33 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Template#0;class#Template#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="125" column="218" lean-forward="false" selection-start-line="125" selection-start-column="218" selection-end-line="125" selection-end-column="218" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="108" column="2" lean-forward="true" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documents.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
@@ -693,37 +702,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
+    <entry file="file://$PROJECT_DIR$/videos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="method#main#0;class#HTMLGenerator#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-7">
+          <caret line="89" column="10" lean-forward="true" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="398">
+          <caret line="142" column="116" lean-forward="true" selection-start-line="142" selection-start-column="116" selection-end-line="142" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/BinauralTest.mp3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/files/CSC3002S/LectureSlides.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/audio/someOtherAUdio.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ContentGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="208" column="13" lean-forward="false" selection-start-line="208" selection-start-column="13" selection-end-line="208" selection-end-column="13" />
+        <state relative-caret-position="395">
+          <caret line="181" column="82" lean-forward="false" selection-start-line="181" selection-start-column="82" selection-end-line="181" selection-end-column="82" />
           <folding>
             <element signature="e#597#598#0" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
             <element signature="method#generateImageContent#0;class#ContentGenerator#0" expanded="true" />
             <element signature="method#generateDocumentContent#0;class#ContentGenerator#0" expanded="true" />
             <element signature="method#generateVideoContent#0;class#ContentGenerator#0" expanded="true" />
-            <element signature="method#generateAudioContent#0;class#ContentGenerator#0" expanded="true" />
+            <element signature="method#generateTag#0;class#ContentGenerator#0" expanded="true" />
             <element signature="method#writeHTMLtoFile#0;class#ContentGenerator#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TemplateReader#0;class#TemplateReader#0" expanded="true" />
+            <element signature="method#setUpPageTemplate#0;class#TemplateReader#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="method#main#0;class#HTMLGenerator#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="96" column="2" lean-forward="true" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

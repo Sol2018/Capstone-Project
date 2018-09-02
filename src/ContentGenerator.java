@@ -61,7 +61,7 @@ class ContentGenerator
 
           if (xmlReader.getRoot().getTagName().compareTo("image") == 0)
           {
-              generateTag(imageContent, "img", xmlReader.getValue("src"));
+              generateTag(imageContent, "img", xmlReader.getValue("src"),"");
 
           } else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0)
           {
@@ -76,7 +76,7 @@ class ContentGenerator
               if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
               {
                 //TODO load image, parse this into a template
-                  generateTag(imageContent,"img", file1.getPath());
+                  generateTag(imageContent,"img", file1.getPath(),"");
               }
             }
           }
@@ -92,6 +92,7 @@ class ContentGenerator
 
           if (xmlReader.getRoot().getTagName().compareTo("document") == 0)
           {
+
             //TODO load documents, parse this into a template
             documentContent.append("<li>\n <strong>Title:</strong>");
             documentContent.append("<a target=\"_blank\""+" href="+xmlReader.getValue("src")+">");
@@ -133,9 +134,7 @@ class ContentGenerator
         if (xmlReader.getRoot().getTagName().compareTo("vid") == 0)
         {
           //TODO load image, parse this into a template
-          videoContent.append("<div id=\"vid\"><a target=\"_blank\" href=" + xmlReader.getValue("src") + ">");
-          videoContent.append("<video width=425 height=344 src=" + xmlReader.getValue("src") +"> </video></a>");
-          videoContent.append("<div class=\"desc\"  >" + xmlReader.getValue("description") + "</div></div>\n");
+          generateTag(videoContent, "video", xmlReader.getValue("src"),"");
         } else if (xmlReader.getRoot().getTagName().compareTo("vidLib") == 0)
         {
           //TODO load a list of images
@@ -148,9 +147,7 @@ class ContentGenerator
             if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
             {
               //TODO load image, parse this into a template
-              videoContent.append("<div id=\"vid\"><a target=\"_blank\" href=" + file1.getPath() + ">");
-              videoContent.append("<video width=300 height=350 src=" + file1.getPath() +"> </video></a>");
-              videoContent.append("<div class=\"desc\" >" + xmlReader.getValue("description") + "</div></div>\n");
+                generateTag(videoContent, "video", file1.getPath(),"");
             }
           }
         }
@@ -169,9 +166,7 @@ class ContentGenerator
           if (xmlReader.getRoot().getTagName().compareTo("audio") == 0)
           {
             //TODO load image, parse this into a template
-            audioContent.append("<div id=\"item\"><a target=\"_blank\" href=" + xmlReader.getValue("src") + ">");
-            audioContent.append("<audio controls src=" + xmlReader.getValue("src") +"> </audio></a>");
-            audioContent.append("<div class=\"desc\"  >" + xmlReader.getValue("description") + "</div></div>\n");
+              generateTag(audioContent, "audio", xmlReader.getValue("src"),"controls ");
           } else if (xmlReader.getRoot().getTagName().compareTo("audioLib") == 0)
           {
             //TODO load a list of images
@@ -184,9 +179,7 @@ class ContentGenerator
               if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
               {
                 //TODO load image, parse this into a template
-                audioContent.append("<div id=\"item\"><a target=\"_blank\" href=" + file1.getPath() + ">");
-                audioContent.append("<audio controls src=" + file1.getPath() +"> </audio></a>");
-                audioContent.append("<div class=\"desc\" >" + xmlReader.getValue("description") + "</div></div>\n");
+                  generateTag(audioContent, "audio", file1.getPath(),"controls ");
               }
             }
           }
@@ -194,16 +187,22 @@ class ContentGenerator
       }
 
 
-  private void generateTag(StringBuilder content, String contentTypeAttributes, String src)
+  private void generateTag(StringBuilder content, String contentType, String src, String attributes)
   {
       content.append("<div class=\"item\"><a target=\"_blank\" href=\"");
       content.append(src);
       content.append("\">");
       content.append("<");
-      content.append(contentTypeAttributes);
+      content.append(contentType);
+      content.append(" ");
+      content.append(attributes);
       content.append(" src=\"");
       content.append(src);
-      content.append("\"> </a>");
+      content.append("\"> ");
+      content.append("</");
+      content.append(contentType);
+      content.append(">");
+      content.append("</a>");
       content.append("<div class=\"desc\"  >");
       content.append(xmlReader.getValue("description"));
       content.append("</div></div>\n");

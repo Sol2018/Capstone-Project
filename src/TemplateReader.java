@@ -3,14 +3,14 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Template
+class TemplateReader
 {
     private ArrayList<String> templateElements = new ArrayList<>(0);
 
     /**
      * Constructor
      * @param file is the name of template file to be loaded*/
-    Template(String file)
+    TemplateReader(String file)
     {
         try
         {
