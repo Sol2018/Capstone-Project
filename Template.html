@@ -11,7 +11,7 @@
     <title>WEBDOS | Capstone Project</title>
 </head>
 
-<body onload="getItems()" class="container-fluid jumbotron">
+<body class="container-fluid jumbotron">
 <!-- Navigation Bar -->
 <div class="nav col-md-12">
     <a id="navBar.home" href="index.html">Home</a>
@@ -24,8 +24,13 @@
 <!-- Search Bar-->
 <div class="col-md-12 search">
     <span>Search the Titles and Keywords :</span>
-    <input type="text" placeholder="  Search..">
-    <button>Go</button>
+    <input type="text" placeholder="  Search.." id="search-input">
+    <!-- Radio buttons-->
+    <input type="radio" name="file" value="Images" id="radio-btn"> Images 
+    <input type="radio" name="file" value="Documents" id="radio-btn"> Documents 
+    <input type="radio" name="file" value="Sound" id="radio-btn"> Videos/Audio
+    <!--              -------------------         -->
+    <button class="btn-primary" id="search-btn">Search</button>
 </div>
 <hr>
 
@@ -74,6 +79,7 @@
     </div>
 
 </div>
+<script src="script.js"></script>
 </body>
 
 </html>

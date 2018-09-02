@@ -42,7 +42,7 @@ img:hover {
 /* ------------------------------ */
 /*  Search Bar*/
 .search{
-    text-align: center;
+    text-align: left;
 }
 .search span{
     font-weight: bold;
@@ -51,6 +51,11 @@ img:hover {
 input{
     border-radius: 4px;
 }
+
+#radio-btn, #search-btn{
+    margin-left: 5px;
+}
+
 
 button{
     font-weight: bold;
