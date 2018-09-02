@@ -7,15 +7,15 @@ import java.io.File;
 import java.io.IOException;
 
 class thumbnail {
-    String src;
+    private String src;
 
 
-    public void generateImageThumb(int x, int y, String src, String type) throws IOException {
+    void generateImageThumb(int x, int y, String src, String type) throws IOException {
         this.src = src;
         createDirectory();
         BufferedImage img = new BufferedImage(x, y, BufferedImage.TYPE_INT_RGB);
         img.createGraphics().drawImage(ImageIO.read(new File(src)).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
-        ImageIO.write(img, "jpg", new File("thumbs/" + src));
+        ImageIO.write(img, type, new File("thumbs/" + src));
     }
 
     public String getSrc() {
@@ -37,44 +37,5 @@ class thumbnail {
         if (!file.isDirectory()) {
             file.mkdirs();
         }
-    }
-
-
-    private void saveScaledImage(String filePath, String outputFile) {
-        try {
-
-            BufferedImage sourceImage = ImageIO.read(new File(filePath));
-            int width = sourceImage.getWidth();
-            int height = sourceImage.getHeight();
-
-            if (width > height) {
-                float extraSize = height - 100;
-                float percentHight = (extraSize / height) * 100;
-                float percentWidth = width - ((width / 100) * percentHight);
-                BufferedImage img = new BufferedImage((int) percentWidth, 100, BufferedImage.TYPE_INT_RGB);
-                Image scaledImage = sourceImage.getScaledInstance((int) percentWidth, 100, Image.SCALE_SMOOTH);
-                img.createGraphics().drawImage(scaledImage, 0, 0, null);
-                BufferedImage img2 = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
-                img2 = img.getSubimage((int) ((percentWidth - 100) / 2), 0, 100, 100);
-
-                ImageIO.write(img2, "jpg", new File(outputFile));
-            } else {
-                float extraSize = width - 100;
-                float percentWidth = (extraSize / width) * 100;
-                float percentHight = height - ((height / 100) * percentWidth);
-                BufferedImage img = new BufferedImage(100, (int) percentHight, BufferedImage.TYPE_INT_RGB);
-                Image scaledImage = sourceImage.getScaledInstance(100, (int) percentHight, Image.SCALE_SMOOTH);
-                img.createGraphics().drawImage(scaledImage, 0, 0, null);
-                BufferedImage img2 = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
-                img2 = img.getSubimage(0, (int) ((percentHight - 100) / 2), 100, 100);
-
-                ImageIO.write(img2, "jpg", new File(outputFile));
-            }
-
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
     }
 }

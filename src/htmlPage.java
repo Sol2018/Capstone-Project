@@ -8,6 +8,8 @@ import java.util.ArrayList;
 
 public class htmlPage
 {
+    private static final int limit = 10; //objects per page
+    private static final int paginationlimit = 3; //objects per page
     private ArrayList<String> templatePage;
     private ArrayList<htmlElement> elements;
 
@@ -18,19 +20,64 @@ public class htmlPage
     {
         this.templatePage = templatePage;
         this.elements = elements;
-        process();
-
-        String s = templatePage.get(0);
-        for (htmlElement e : elements)
-            s += "\n" + e.toString();
-        s += templatePage.get(1);
-        writeHTMLtoFile(s, "images.html");
+        pagination();
     }
 
     /**
-     * does some activities
+     * Pagination
      * */
-    private void process() {
+    private void pagination()
+    {
+        int objectIndex = 0;
+
+        //determine number of pages given object limits
+        int pages = (elements.size()/limit);
+        if (pages%limit!=0)
+            pages+=1;
+
+
+        for (int i = 0; i<pages; ++i)
+        {
+            StringBuilder s = new StringBuilder(templatePage.get(0));//top part of template
+
+            for (int j = 0; j<limit && objectIndex<elements.size(); j++)
+            {
+                s.append("\n");
+                s.append(elements.get(objectIndex).toString());
+
+
+                ++objectIndex;
+            }
+            s.append("</div> \n<div class=\"pagination\">\n");
+
+            //implementing pagination
+            if (pages<=paginationlimit)
+            {
+                for (int k = 0; k<pages; k++)
+                {
+                    if (k==i)//mark current page as active
+                    {
+                        s.append("<a href=\"#\" class=\"active\">");
+                    }
+                    else
+                    {
+                        s.append("<a href=\""+"images"+k+".html"+"\">");
+                    }
+                    s.append(k).append("</a>\n");
+                }
+            }
+
+            s.append(templatePage.get(1));
+            writeHTMLtoFile(s.toString(), "images"+i+".html");
+        }
+
+        /*
+        <a href="#">❮</a>
+        <a href="#">1</a>
+        <a href="#">3</a>
+        <a href="#">❯</a>
+        </div>
+        * */
     }
 
 
@@ -39,7 +86,7 @@ public class htmlPage
      * @param name is the name of the html file
      * @param text is the content of the file
      */
-    public void writeHTMLtoFile(String text, String name)
+    private void writeHTMLtoFile(String text, String name)
     {
         BufferedWriter output = null;
         try {
