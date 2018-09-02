@@ -15,7 +15,7 @@
 <!-- Navigation Bar -->
 <div class="nav col-md-12">
     <a id="navBar.home" href="index.html">Home</a>
-    <a id="navBar.images" href="images.html">Images</a>
+    <a id="navBar.images" href="images0.html">Images</a>
     <a id="navBar.documents" href="documents.html">Documents</a>
     <a id="navBar.videos" href="videos.html">Videos</a>
     <a id="navBar.audio" href="audio.html">Audio</a>
@@ -28,6 +28,17 @@
     <button>Go</button>
 </div>
 <hr>
+
+<div>
+    <span>Ordering:</span>
+    <form>
+        <input type="radio" name="order" onclick="javascript:window.location.href='images0.html';" checked>Default
+        <input type="radio" name="order"> Author
+        <input type="radio" name="order"> Name
+        <input type="radio" name="order"> Location
+        <input type="radio" name="order"> LastModified
+    </form>
+</div>
 
 <!-- Title-->
 <div class="col-md-12" id="title">
@@ -43,7 +54,7 @@
         <div>
             <h5>Categories:</h5>
             <div>
-                <a id="cat.images" href="images.html" class="">Images</a>
+                <a id="cat.images" href="images0.html" class="">Images</a>
             </div>
             <div>
                 <a id="cat.documents" href="documents.html" class="">Documents</a>

@@ -24,7 +24,7 @@ public class htmlPage
     }
 
     /**
-     * Pagination
+     * Pagination and limiting number of objects per page
      * */
     private void pagination()
     {
