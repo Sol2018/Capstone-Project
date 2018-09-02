@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class htmlPage
 {
-    private static final int limit = 6; //objects per page
-    private static final int paginationlimit = 4;
+    private static final int limit = 5; //objects per page
+    private static final int paginationlimit = 3;
     private ArrayList<String> templatePage;
     private ArrayList<htmlElement> elements;
 
@@ -34,7 +34,6 @@ public class htmlPage
         int pages = (elements.size()/limit);
         if (pages%limit!=0)
             pages+=1;
-
 
         for (int i = 0; i<pages; ++i)
         {
@@ -62,7 +61,10 @@ public class htmlPage
                 paginationLoop(i, pages - paginationlimit, pages, s);
             } else {
                 edgePagination(0, "firstPage", s);
-                paginationLoop(i, i - 2, i - 2, s);
+                int num = i - 2;
+                while (num < 0)
+                    num++;
+                paginationLoop(i, num, i + 2, s);
                 edgePagination(pages - 1, "lastPage", s);
             }
 
