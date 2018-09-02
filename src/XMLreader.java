@@ -7,11 +7,11 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 
-class XMLReader
+class XMLreader
 {
     private Document document;
 
-    XMLReader(File file)
+    XMLreader(File file)
     {
         try
         {

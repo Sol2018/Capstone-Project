@@ -6,6 +6,8 @@ DIR = -d out/production/Capstone-Project
 
 .java.class:
 	$(JC) $(FLAG) src/*.java $(DIR)
+	$(JC) $(FLAG) src/element/*.java $(DIR)
+	$(JC) $(FLAG) src/page/*.java $(DIR)
 
 default: clean .java.class
 
@@ -14,3 +16,5 @@ run:
 
 clean:
 	$(RM) -f out/production/Capstone-Project/*.class
+	$(RM) -f out/production/Capstone-Project/page/*.class
+	$(RM) -f out/production/Capstone-Project/element/*.class

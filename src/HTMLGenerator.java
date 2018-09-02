@@ -1,27 +1,56 @@
+import java.io.File;
 import java.util.ArrayList;
 
 class HTMLGenerator
 {
+    private ArrayList<File> metaDataFiles = new ArrayList<>(0);
     public static void main(String[] args)
     {
-      ContentGenerator contentGenerator = new ContentGenerator(args[0]);
-      contentGenerator.generateImageContent();
-      contentGenerator.generateDocumentContent();
-      contentGenerator.generateVideoContent();
-      contentGenerator.generateAudioContent();
-      String images = contentGenerator.getImages();
-      String docs = contentGenerator.getDocuments();
-      String vids = contentGenerator.getVideos();
-      String audio = contentGenerator.getAudio();
-      TemplateReader template = new TemplateReader("Template.html");
-      ArrayList<String> coverA = template.setUpPageTemplate("images");
-      ArrayList<String> coverB = template.setUpPageTemplate("videos");
-      ArrayList<String> coverC = template.setUpPageTemplate("audio");
-      ArrayList<String> coverD = template.setUpPageTemplate("documents");
+        if (args.length<1)
+            args = new String[]{"TestDATA"};
 
-      contentGenerator.writeHTMLtoFile(coverA.get(0)+images+coverA.get(1),"images.html");
-      contentGenerator.writeHTMLtoFile(coverB.get(0)+vids+coverB.get(1),"videos.html");
-      contentGenerator.writeHTMLtoFile(coverC.get(0)+audio+coverC.get(1),"audio.html");
-      contentGenerator.writeHTMLtoFile(coverD.get(0)+docs+coverD.get(1),"documents.html");
+        TemplateReader template = new TemplateReader("Template.html");
+
+        ArrayList<String> imagesTemplatePage = template.setUpPageTemplate("images");
+        HTMLGenerator htmlGenerator = new HTMLGenerator();
+        htmlGenerator.findXMLs(args[0]);
+
+        htmlPage htmlPages = new htmlPage(imagesTemplatePage, htmlGenerator.getMetaDataFiles());
+        htmlPages.generateImageContent();
+    }
+
+
+    /**
+     * Recursively finds all XML files in the provided directory and adds them to the metaDataFiles ArrayList
+     * @param arg is the current directory
+     * */
+    private void findXMLs(String arg)
+    {
+        //current directory
+        File file = new File(arg);
+
+        //search for all xml files
+        File[] files = file.listFiles();
+
+        assert files != null;
+        for(File f: files)
+        {
+            if (f.getName().length()>3)
+            {
+                if ((f.getName().substring(f.getName().length()-4,f.getName().length())).compareTo(".xml")==0)
+                {
+                    metaDataFiles.add(f);
+                }
+            }
+            if (f.isDirectory())
+            {
+                findXMLs(f.getAbsolutePath());
+            }
+        }
+    }
+
+
+    public ArrayList<File> getMetaDataFiles() {
+        return metaDataFiles;
     }
 }

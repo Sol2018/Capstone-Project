@@ -1,0 +1,4 @@
+package element;
+
+interface thumbnail {
+}
