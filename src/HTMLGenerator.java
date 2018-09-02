@@ -4,6 +4,7 @@ import java.util.ArrayList;
 class HTMLGenerator
 {
     private ArrayList<File> metaDataFiles = new ArrayList<>(0);
+
     public static void main(String[] args)
     {
         if (args.length<1)
@@ -12,11 +13,14 @@ class HTMLGenerator
         TemplateReader template = new TemplateReader("Template.html");
 
         ArrayList<String> imagesTemplatePage = template.setUpPageTemplate("images");
+
         HTMLGenerator htmlGenerator = new HTMLGenerator();
         htmlGenerator.findXMLs(args[0]);
 
-        htmlPage htmlPages = new htmlPage(imagesTemplatePage, htmlGenerator.getMetaDataFiles());
-        htmlPages.generateImageContent();
+        contentHandle contentHandle = new contentHandle(htmlGenerator.getMetaDataFiles());
+        contentHandle.generateImageContent();
+
+        new htmlPage(imagesTemplatePage, contentHandle.getElements());
     }
 
 
@@ -50,7 +54,7 @@ class HTMLGenerator
     }
 
 
-    public ArrayList<File> getMetaDataFiles() {
+    private ArrayList<File> getMetaDataFiles() {
         return metaDataFiles;
     }
 }

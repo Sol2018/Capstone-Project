@@ -1,39 +1,48 @@
 package element;
 
+import java.io.IOException;
+
 /**
  * returns an html image element
  * */
 public class imageElement extends htmlElement
 {
     private String src;
-    private String description;
+    private String thumbnail;
     private StringBuilder content = new StringBuilder();
+
     public imageElement(String src, String description) {
-        super();
+        super(description);
         this.src = src;
-        this.description = description;
+        generateThumbNail();
         generateTag();
+    }
+
+    private void generateThumbNail() {
+        thumbnail thumb = new thumbnail();
+        try {
+            thumb.generateImageThumb(300, 200, src, "jpg");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        thumbnail = thumb.getSrc();
     }
 
 
     private void generateTag()
     {
         content.append("<div class=\"item\"><a target=\"_blank\" href=\"");
-        content.append(src);
+        content.append(src); //target image
         content.append("\">");
         content.append("<");
         content.append("img");
         content.append(" ");
         content.append(" src=\"");
-        content.append(src);
+        content.append(thumbnail);    //thumbnail
         content.append("\"> ");
-        content.append("</");
-        content.append("img");
-        content.append(">");
         content.append("</a>");
-        content.append("<div class=\"desc\"  >");
-        content.append(description);
-        content.append("</div></div>\n");
+
+        super.setContent(content.toString());
     }
 
 
@@ -42,7 +51,7 @@ public class imageElement extends htmlElement
      */
     public String getImages()
     {
-        return content.toString();
+        return content.toString() + super.getDescription();
     }
 }
 
