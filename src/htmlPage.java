@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class htmlPage
 {
-    private static final int limit = 5; //objects per page
-    private static final int paginationlimit = 3;
+    private static final int limit = 1; //objects per page
+    private static final int paginationlimit = 5;//for predictable behavior use odd pages
     private ArrayList<String> templatePage;
     private ArrayList<htmlElement> elements;
 
@@ -53,18 +53,16 @@ public class htmlPage
             if (pages<=paginationlimit)
             {
                 paginationLoop(i, 0, pages, s);
-            } else if (i < paginationlimit - 2) {
-                paginationLoop(i, 0, paginationlimit, s);
+            } else if (i <= paginationlimit / 2) {
+                paginationLoop(i, 0, paginationlimit - 1, s);
                 edgePagination(pages - 1, "lastPage", s);
-            } else if (i + paginationlimit - 1 > pages) {
+            } else if (i + paginationlimit / 2 >= pages - 1) {
                 edgePagination(0, "firstPage", s);
-                paginationLoop(i, pages - paginationlimit, pages, s);
+                paginationLoop(i, pages - paginationlimit, pages - 1, s);
             } else {
                 edgePagination(0, "firstPage", s);
-                int num = i - 2;
-                while (num < 0)
-                    num++;
-                paginationLoop(i, num, i + 2, s);
+                int num = i - paginationlimit / 2;
+                paginationLoop(i, num, i + paginationlimit / 2, s);
                 edgePagination(pages - 1, "lastPage", s);
             }
 
@@ -75,7 +73,7 @@ public class htmlPage
     }
 
     private void paginationLoop(int i, int a, int b, StringBuilder s) {
-        for (int k = a; k < b; k++) {
+        for (int k = a; k <= b; k++) {
             if (k == i)//mark current page as active
             {
                 s.append("<a href=\"#\" class=\"active\">");
