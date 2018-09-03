@@ -18,33 +18,34 @@ public class htmlPage
 
     /**
      */
-    htmlPage(ArrayList<String> templatePage, ArrayList<htmlElement> elements)
+    htmlPage(ArrayList<String> templatePage, ArrayList<htmlElement> elements, String type)
     {
         this.templatePage = templatePage;
         this.elements = elements;
-        pagination("default", "images");
+
+        pagination("default", type);
 
         Collections.sort(elements, new authorOrder());
-        pagination("author", "images");
+        pagination("author", type);
 
         Collections.sort(elements, new nameOrder());
-        pagination("name", "images");
+        pagination("name", type);
 
         Collections.sort(elements, new locationOrder());
-        pagination("location", "images");
+        pagination("location", type);
 
         Collections.sort(elements, new dateOrder());
-        pagination("date", "images");
+        pagination("date", type);
 
         Collections.sort(elements, new sizeOrder());
-        pagination("size", "images");
+        pagination("size", type);
 
     }
 
     /**
      * Pagination and limiting number of objects per page
      * */
-    private void pagination(String type, String page)
+    private void pagination(String order, String pageType)
     {
         int objectIndex = 0;
 
@@ -52,7 +53,8 @@ public class htmlPage
         int pages = (elements.size()/limit);
         if (pages%limit!=0)
             pages+=1;
-
+        if (pages == 0)
+            pages += 1;
         for (int i = 0; i<pages; ++i)
         {
             StringBuilder s = new StringBuilder(templatePage.get(0));//top part of template
@@ -68,23 +70,23 @@ public class htmlPage
 
             //implementing pagination
             if (pages<=paginationlimit) {
-                paginationLoop(i, 0, pages - 1, s, type, page);
+                paginationLoop(i, 0, pages - 1, s, order, pageType);
             } else if (i <= paginationlimit / 2) {
-                paginationLoop(i, 0, paginationlimit - 1, s, type, page);
-                edgePagination(pages - 1, "lastPage", s, type, page);
+                paginationLoop(i, 0, paginationlimit - 1, s, order, pageType);
+                edgePagination(pages - 1, "lastPage", s, order, pageType);
             } else if (i + paginationlimit / 2 >= pages - 1) {
-                edgePagination(0, "firstPage", s, type, page);
-                paginationLoop(i, pages - paginationlimit, pages - 1, s, type, page);
+                edgePagination(0, "firstPage", s, order, pageType);
+                paginationLoop(i, pages - paginationlimit, pages - 1, s, order, pageType);
             } else {
-                edgePagination(0, "firstPage", s, type, page);
+                edgePagination(0, "firstPage", s, order, pageType);
                 int num = i - paginationlimit / 2;
-                paginationLoop(i, num, i + paginationlimit / 2, s, type, page);
-                edgePagination(pages - 1, "lastPage", s, type, page);
+                paginationLoop(i, num, i + paginationlimit / 2, s, order, pageType);
+                edgePagination(pages - 1, "lastPage", s, order, pageType);
             }
 
 
             s.append(templatePage.get(1));
-            writeHTMLtoFile(s.toString(), page + i + "_" + type + ".html");
+            writeHTMLtoFile(s.toString(), pageType + i + "_" + order + ".html");
         }
     }
 

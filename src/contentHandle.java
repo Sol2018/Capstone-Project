@@ -1,5 +1,4 @@
-import element.htmlElement;
-import element.imageElement;
+import element.*;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -16,9 +15,11 @@ class contentHandle
     }
 
     /**
-     * Read xml files for images and add image elements to the elements list
+     * Read xml files for content and add content elements to the elements list
+     * @param type is the identifier of a single object xml
+     * @param type1 is the identifier of multiple objects xml
      */
-    void generateImageContent()
+    void generateContent(String type, String type1)
     {
         elements = new ArrayList<>(0);
 
@@ -26,33 +27,49 @@ class contentHandle
         {
             XMLReader xmlReader = new XMLReader(file);
 
-            if (xmlReader.getRoot().getTagName().compareTo("image") == 0)
-                addNewElement(xmlReader,xmlReader.getValue("src"),new File(xmlReader.getValue("src")));
+            if (xmlReader.getRoot().getTagName().compareTo(type) == 0)
+                addNewElement(xmlReader, xmlReader.getValue("src"), new File(xmlReader.getValue("src")), type);
 
-            else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0)
+            else if (xmlReader.getRoot().getTagName().compareTo(type1) == 0)
             {
                 //load all files in directory
                 File[] files = new File(xmlReader.getValue("src")).listFiles();
                 assert files != null;
                 for (File file1 : files)
                     if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0)
-                        addNewElement(xmlReader,file1.getPath(),file1);
+                        addNewElement(xmlReader, file1.getPath(), file1, type);
             }
         }
     }
 
-    /**
-     * //TODO Using threads to make process fast
-     * */
-    //[refactoring] adding new image element
-    private void addNewElement(XMLReader xmlReader, String src, File file)
+
+    private void addNewElement(XMLReader xmlReader, String src, File file, String type)
     {
-        /*(new Thread(() -> elements.add(new imageElement(src, xmlReader.getValue("description"),
-                xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
-                new Date(file.lastModified()), file.length())))).start();*/
-        elements.add(new imageElement(src, xmlReader.getValue("description"),
-                xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
-                new Date(file.lastModified()), file.length()));
+        switch (type) {
+            case "images":
+                elements.add(new imageElement(src, xmlReader.getValue("description"),
+                        xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
+                        new Date(file.lastModified()), file.length()));
+                break;
+
+            case "vid":
+                elements.add(new videoElement(src, xmlReader.getValue("description"),
+                        xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
+                        new Date(file.lastModified()), file.length()));
+                break;
+
+            case "audio":
+                elements.add(new audioElement(src, xmlReader.getValue("description"),
+                        xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
+                        new Date(file.lastModified()), file.length()));
+                break;
+
+            case "documents":
+                elements.add(new documentElement(src, xmlReader.getValue("description"),
+                        xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
+                        new Date(file.lastModified()), file.length()));
+                break;
+        }
 
     }
 

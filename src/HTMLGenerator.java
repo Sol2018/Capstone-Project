@@ -10,23 +10,37 @@ class HTMLGenerator
         if (args.length<1)  //ensures if not reading via
             args = new String[]{"TestDATA"};
 
-        HTMLGenerator htmlGenerator = new HTMLGenerator();
-        htmlGenerator.findXMLs(args[0]);
 
-        TemplateReader template = new TemplateReader("Template.html");
+        //--------------IMAGES------------------------------
+        /*HTMLGenerator htmlImagesGenerator = new HTMLGenerator();
+        htmlImagesGenerator.findXMLs(args[0]);
+        TemplateReader imagesTemplate = new TemplateReader("Template.html");
 
-        //tailoring template to page type
-        ArrayList<String> imagesTemplatePage = template.setUpPageTemplate("images");
-        //ArrayList<String> videosTemplatePage = template.setUpPageTemplate("videos");
-        //ArrayList<String> documentsTemplatePage = template.setUpPageTemplate("documents");
-        //ArrayList<String> audioTemplatePage = template.setUpPageTemplate("audio");
+        ArrayList<String> imagesTemplatePage = imagesTemplate.setUpPageTemplate("images");
+
+        contentHandle imagesContentHandle = new contentHandle(htmlImagesGenerator.getMetaDataFiles());
+        imagesContentHandle.generateContent("images", "gallery");
+
+        new htmlPage(imagesTemplatePage, imagesContentHandle.getElements(), "images");*/
+
+        //--------------VIDEOS-----------------------------------------
+        HTMLGenerator htmlVideosGenerator = new HTMLGenerator();
+        htmlVideosGenerator.findXMLs(args[0]);
+        TemplateReader videosTemplate = new TemplateReader("Template.html");
+
+        ArrayList<String> videosTemplatePage = videosTemplate.setUpPageTemplate("videos");
+
+        contentHandle videosHandle = new contentHandle(htmlVideosGenerator.getMetaDataFiles());
+        videosHandle.generateContent("vid", "vidLib");
+
+        new htmlPage(videosTemplatePage, videosHandle.getElements(), "videos");
+        //--------------------------------------------------------------
 
 
-        contentHandle contentHandle = new contentHandle(htmlGenerator.getMetaDataFiles());
-        contentHandle.generateImageContent();
 
-        //TODO use threads for performance
-        new htmlPage(imagesTemplatePage, contentHandle.getElements());
+
+
+
     }
 
 

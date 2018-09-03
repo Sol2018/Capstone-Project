@@ -26,7 +26,7 @@ public class htmlElement {
     private void describe()
     {
         content.append("<div class=\"desc\"  >");
-        content.append("<strong> "+name+"</strong>");
+        content.append("<strong> ").append(name).append("</strong>");
         content.append("<small>");
         content.append("<br /><strong> Author: </strong>").append(author);
         content.append("<br /><strong> Location: </strong>").append(location);
