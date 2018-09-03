@@ -24,7 +24,7 @@ class HTMLGenerator
         new htmlPage(imagesTemplatePage, imagesContentHandle.getElements(), "images");*/
 
         //--------------VIDEOS-----------------------------------------
-        HTMLGenerator htmlVideosGenerator = new HTMLGenerator();
+        /*HTMLGenerator htmlVideosGenerator = new HTMLGenerator();
         htmlVideosGenerator.findXMLs(args[0]);
         TemplateReader videosTemplate = new TemplateReader("Template.html");
 
@@ -33,9 +33,33 @@ class HTMLGenerator
         contentHandle videosHandle = new contentHandle(htmlVideosGenerator.getMetaDataFiles());
         videosHandle.generateContent("vid", "vidLib");
 
-        new htmlPage(videosTemplatePage, videosHandle.getElements(), "videos");
+        new htmlPage(videosTemplatePage, videosHandle.getElements(), "videos");*/
         //--------------------------------------------------------------
 
+        //--------------MUSIC-----------------------------------------
+        /*HTMLGenerator htmlAudioGenerator = new HTMLGenerator();
+        htmlAudioGenerator.findXMLs(args[0]);
+        TemplateReader audioTemplate = new TemplateReader("Template.html");
+
+        ArrayList<String> audioTemplatePage = audioTemplate.setUpPageTemplate("audio");
+
+        contentHandle audioHandle = new contentHandle(htmlAudioGenerator.getMetaDataFiles());
+        audioHandle.generateContent("audio", "audioLib");
+
+        new htmlPage(audioTemplatePage, audioHandle.getElements(), "audio");*/
+        //--------------------------------------------------------------
+
+        //--------------DOCUMENTS-----------------------------------------
+        HTMLGenerator htmlDocGenerator = new HTMLGenerator();
+        htmlDocGenerator.findXMLs(args[0]);
+        TemplateReader documentTemplate = new TemplateReader("Template.html");
+
+        ArrayList<String> docTemplatePage = documentTemplate.setUpPageTemplate("document");
+
+        contentHandle documentHandle = new contentHandle(htmlDocGenerator.getMetaDataFiles());
+        documentHandle.generateContent("document", "docLib");
+
+        new htmlPage(docTemplatePage, documentHandle.getElements(), "document");
 
 
 

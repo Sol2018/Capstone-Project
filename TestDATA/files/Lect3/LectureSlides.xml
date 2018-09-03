@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
 
-    <name>Some file1</name>
+    <name>Lecture 3</name>
 
     <src>TestDATA/files/Lect3/Lec3.pdf</src>
 
-    <title></title>
+    <title>Lecture 3</title>
 
-    <type></type>
+    <author>Geoff Nitschke</author>
 
-    <alt></alt>
+    <description>Some description will go in here, like blah blah blah blah - it will be something legit</description>
 
-    <size></size>
+    <date>2018 January 16</date>
 
-    <author></author>
+    <copyright>Stuff here</copyright>
 
-    <description></description>
-
-    <date></date>
-
-    <copyright></copyright>
-
-    <extension></extension>
+    <location>Vula UCT</location>
 
 </document>

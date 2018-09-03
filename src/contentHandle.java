@@ -64,7 +64,7 @@ class contentHandle
                         new Date(file.lastModified()), file.length()));
                 break;
 
-            case "documents":
+            case "document":
                 elements.add(new documentElement(src, xmlReader.getValue("description"),
                         xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
                         new Date(file.lastModified()), file.length()));

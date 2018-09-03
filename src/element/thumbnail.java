@@ -5,10 +5,24 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 
 class thumbnail
 {
     private String src;
+    private HashMap<String, String> documentThumbs = new HashMap<String, String>() {{
+        put("ppt", "thumbs/Documents/ppt.png");
+        put("word", "thumbs/Documents/word.png");
+        put("pdf", "thumbs/Documents/ppt.png");
+        put("doc", "thumbs/Documents/doc.png");
+        put("txt", "thumbs/Documents/txt.png");
+        put("xls", "thumbs/Documents/xls.png");
+
+    }};
+
+    public void setSrc(String src) {
+        this.src = src;
+    }
 
     /**
      * generates image thumbnail using rescaling method provided by bufferedImage
@@ -30,6 +44,10 @@ class thumbnail
             img.createGraphics().drawImage(ImageIO.read(new File(src)).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
             ImageIO.write(img, type, new File("thumbs/" + src));
         }
+    }
+
+    public HashMap<String, String> getDocumentThumbs() {
+        return documentThumbs;
     }
 
     public String getSrc()
