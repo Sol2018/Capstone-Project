@@ -1,8 +1,11 @@
 package element;
-
 import java.util.Date;
 
-public class htmlElement {
+/**
+ * This class represents a generic html element
+ * */
+public class htmlElement
+{
     private String description;
     private final String name;
     private final String location;
@@ -12,6 +15,9 @@ public class htmlElement {
     private StringBuilder content = new StringBuilder();
     private String out;
 
+    /**
+     * constructor initializes attributes common to all elements and describes the element
+     * */
     public htmlElement(String description, String author, String name, String location, Date lastmodified, double size)
     {
         this.description = description;
@@ -23,6 +29,10 @@ public class htmlElement {
         describe();
     }
 
+
+    /**
+     * implements the description tag of a generic html element
+     * */
     private void describe()
     {
         content.append("<div class=\"desc\"  >");
@@ -37,17 +47,15 @@ public class htmlElement {
         content.append("</div></div>\n");
     }
 
-    String getDescription()
-    {
-        return content.toString();
-    }
-
     public String toString()
     {
         return out;
     }
 
-    void setContent(String content)
+    /**
+     * Merges specialized attributes with the generic attributes
+     * */
+    public void setContent(String content)
     {
         out = content + this.content.toString();
     }

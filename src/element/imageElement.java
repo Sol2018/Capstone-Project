@@ -1,10 +1,9 @@
 package element;
-
 import java.io.IOException;
 import java.util.Date;
 
 /**
- * returns an html image element
+ * This class is responsible for the specialization of a generic html element
  * */
 public class imageElement extends htmlElement
 {
@@ -12,6 +11,9 @@ public class imageElement extends htmlElement
     private String thumbnail;
     private StringBuilder content = new StringBuilder();
 
+    /**
+     * Constructor initializes super class and generates thumbnail for this element
+     * */
     public imageElement(String src, String description, String author, String name, String location, Date lastmodified, double size)
     {
         super(description, author, name, location, lastmodified, size);
@@ -20,11 +22,14 @@ public class imageElement extends htmlElement
         generateTag();
     }
 
+    /**
+     * generates thumbnail for the image element
+     * */
     private void generateThumbNail()
     {
         thumbnail thumb = new thumbnail();
         try {
-            thumb.generateImageThumb(300, 200, src, "jpg");
+            thumb.generateImageThumb(300, 200, src);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -32,6 +37,9 @@ public class imageElement extends htmlElement
     }
 
 
+    /**
+     * implements image html tag
+     * */
     private void generateTag()
     {
         content.append("<div class=\"item\"><a target=\"_blank\" href=\"");

@@ -1,17 +1,19 @@
+package readers;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-class TemplateReader
+public class TemplateReader
 {
     private ArrayList<String> templateElements = new ArrayList<>(0);
 
     /**
      * Constructor initializes template by loading the template strings into an array list
      * @param file is the name of template file to be loaded */
-    TemplateReader(String file)
+    public TemplateReader(String file)
     {
         try
         {
@@ -32,7 +34,7 @@ class TemplateReader
      * @param pageType indicates what kind of page is generated from the template
      * @return arrayList is the template page split into two, to allow insertion of data.
      * */
-    ArrayList<String> setUpPageTemplate(String pageType)
+    public ArrayList<String> setUpPageTemplate(String pageType)
     {
         StringBuilder upperPage = new StringBuilder();
         //digital objects are slotted in between the upper and lower page

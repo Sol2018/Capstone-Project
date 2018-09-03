@@ -1,3 +1,5 @@
+import readers.TemplateReader;
+
 import java.io.File;
 import java.util.ArrayList;
 
@@ -5,8 +7,7 @@ class HTMLGenerator
 {
     private ArrayList<File> metaDataFiles = new ArrayList<>(0);
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         if (args.length<1)  //ensures if not reading via
             args = new String[]{"TestDATA"};
 
@@ -14,7 +15,7 @@ class HTMLGenerator
         //--------------IMAGES------------------------------
         /*HTMLGenerator htmlImagesGenerator = new HTMLGenerator();
         htmlImagesGenerator.findXMLs(args[0]);
-        TemplateReader imagesTemplate = new TemplateReader("Template.html");
+        readers.TemplateReader imagesTemplate = new readers.TemplateReader("Template.html");
 
         ArrayList<String> imagesTemplatePage = imagesTemplate.setUpPageTemplate("images");
 
@@ -26,7 +27,7 @@ class HTMLGenerator
         //--------------VIDEOS-----------------------------------------
         /*HTMLGenerator htmlVideosGenerator = new HTMLGenerator();
         htmlVideosGenerator.findXMLs(args[0]);
-        TemplateReader videosTemplate = new TemplateReader("Template.html");
+        readers.TemplateReader videosTemplate = new readers.TemplateReader("Template.html");
 
         ArrayList<String> videosTemplatePage = videosTemplate.setUpPageTemplate("videos");
 
@@ -37,7 +38,7 @@ class HTMLGenerator
         //--------------------------------------------------------------
 
         //--------------MUSIC-----------------------------------------
-        /*HTMLGenerator htmlAudioGenerator = new HTMLGenerator();
+        HTMLGenerator htmlAudioGenerator = new HTMLGenerator();
         htmlAudioGenerator.findXMLs(args[0]);
         TemplateReader audioTemplate = new TemplateReader("Template.html");
 
@@ -46,23 +47,20 @@ class HTMLGenerator
         contentHandle audioHandle = new contentHandle(htmlAudioGenerator.getMetaDataFiles());
         audioHandle.generateContent("audio", "audioLib");
 
-        new htmlPage(audioTemplatePage, audioHandle.getElements(), "audio");*/
+        new htmlPage(audioTemplatePage, audioHandle.getElements(), "audio");
         //--------------------------------------------------------------
 
         //--------------DOCUMENTS-----------------------------------------
-        HTMLGenerator htmlDocGenerator = new HTMLGenerator();
+        /*HTMLGenerator htmlDocGenerator = new HTMLGenerator();
         htmlDocGenerator.findXMLs(args[0]);
-        TemplateReader documentTemplate = new TemplateReader("Template.html");
+        readers.TemplateReader documentTemplate = new readers.TemplateReader("Template.html");
 
         ArrayList<String> docTemplatePage = documentTemplate.setUpPageTemplate("document");
 
         contentHandle documentHandle = new contentHandle(htmlDocGenerator.getMetaDataFiles());
         documentHandle.generateContent("document", "docLib");
 
-        new htmlPage(docTemplatePage, documentHandle.getElements(), "document");
-
-
-
+        new htmlPage(docTemplatePage, documentHandle.getElements(), "document");*/
 
 
     }
@@ -72,8 +70,7 @@ class HTMLGenerator
      * Recursively finds all XML files in the provided directory and adds them to the metaDataFiles ArrayList
      * @param arg is the current directory
      * */
-    private void findXMLs(String arg)
-    {
+    private void findXMLs(String arg) {
         //current directory
         File file = new File(arg);
 
@@ -81,17 +78,13 @@ class HTMLGenerator
         File[] files = file.listFiles();
 
         assert files != null;
-        for(File f: files)
-        {
-            if (f.getName().length()>3)
-            {
-                if ((f.getName().substring(f.getName().length()-4,f.getName().length())).compareTo(".xml")==0)
-                {
+        for(File f: files) {
+            if (f.getName().length()>3) {
+                if ((f.getName().substring(f.getName().length()-4,f.getName().length())).compareTo(".xml")==0) {
                     metaDataFiles.add(f);
                 }
             }
-            if (f.isDirectory())
-            {
+            if (f.isDirectory()) {
                 findXMLs(f.getAbsolutePath());
             }
         }

@@ -1,14 +1,15 @@
 import Order.*;
 import element.htmlElement;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 
-public class htmlPage
+/**
+ * Class is responsible for the creation and indexing of html pages
+ * */
+class htmlPage
 {
     private static final int limit = 9; //objects per page, also number
     private static final int paginationlimit = 5;//for predictable behavior use odd pages
@@ -16,8 +17,6 @@ public class htmlPage
     private ArrayList<htmlElement> elements;
 
 
-    /**
-     */
     htmlPage(ArrayList<String> templatePage, ArrayList<htmlElement> elements, String type)
     {
         this.templatePage = templatePage;
@@ -25,19 +24,19 @@ public class htmlPage
 
         pagination("default", type);
 
-        Collections.sort(elements, new authorOrder());
+        elements.sort(new authorOrder());
         pagination("author", type);
 
-        Collections.sort(elements, new nameOrder());
+        elements.sort(new nameOrder());
         pagination("name", type);
 
-        Collections.sort(elements, new locationOrder());
+        elements.sort(new locationOrder());
         pagination("location", type);
 
-        Collections.sort(elements, new dateOrder());
+        elements.sort(new dateOrder());
         pagination("date", type);
 
-        Collections.sort(elements, new sizeOrder());
+        elements.sort(new sizeOrder());
         pagination("size", type);
 
     }

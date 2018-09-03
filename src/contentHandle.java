@@ -1,9 +1,12 @@
 import element.*;
-
+import readers.XMLReader;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * class is responsible for creating generic html that are sent
+ * */
 class contentHandle
 {
     private ArrayList<File> metaDataFiles = new ArrayList<>(0);
@@ -43,9 +46,13 @@ class contentHandle
     }
 
 
+    /**
+     * [refactoring], this helps handle the addition of different elements
+     * */
     private void addNewElement(XMLReader xmlReader, String src, File file, String type)
     {
-        switch (type) {
+        switch (type)
+        {
             case "images":
                 elements.add(new imageElement(src, xmlReader.getValue("description"),
                         xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),

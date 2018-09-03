@@ -5,34 +5,40 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
 
 class thumbnail
 {
-    private String src;
-    private HashMap<String, String> documentThumbs = new HashMap<String, String>() {{
-        put("ppt", "thumbs/Documents/ppt.png");
-        put("word", "thumbs/Documents/word.png");
-        put("pdf", "thumbs/Documents/ppt.png");
-        put("doc", "thumbs/Documents/doc.png");
-        put("txt", "thumbs/Documents/txt.png");
-        put("xls", "thumbs/Documents/xls.png");
+    private String src;     //directory of the thumbnail
 
-    }};
+    /**
+     * maps document type with a thumbnail
+     * */
+    String generateDocThumb(String docType)
+    {
+        File file = new File("thumbs/Documents/"+docType+".png");
+        if (file.exists())
+            return file.getPath();
+        return "thumbs/Documents/doc.png";
+    }
 
-    public void setSrc(String src) {
-        this.src = src;
+    /**
+     * maps audio type with a thumbnail
+     * */
+    String generateAudioThumb(String docType)
+    {
+        File file = new File("thumbs/Audio/"+docType+".png");
+        if (file.exists())
+            return file.getPath();
+        return "thumbs/Documents/audio.png";
     }
 
     /**
      * generates image thumbnail using rescaling method provided by bufferedImage
      * it doesn't regenerate a thumbnail if it already exists
-     * @param src is the path of the original image
-     * @param type is the type of thumbnail
      * @param x is the width of the thumbnail in dot pixels
      * @param y is the height of the thumbnail in dot pixels
-     * */
-    void generateImageThumb(int x, int y, String src, String type) throws IOException
+     * @param src is the path of the original image  */
+    void generateImageThumb(int x, int y, String src) throws IOException
     {
         this.src = src;
         createDirectory();
@@ -42,18 +48,10 @@ class thumbnail
         {
             BufferedImage img = new BufferedImage(x, y, BufferedImage.TYPE_INT_RGB);
             img.createGraphics().drawImage(ImageIO.read(new File(src)).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
-            ImageIO.write(img, type, new File("thumbs/" + src));
+            ImageIO.write(img, "jpg", new File("thumbs/" + src));
         }
     }
 
-    public HashMap<String, String> getDocumentThumbs() {
-        return documentThumbs;
-    }
-
-    public String getSrc()
-    {
-        return "thumbs/" + src;
-    }
 
     /**
      * Checks if directory exists; if it doesn't then it creates one
@@ -74,5 +72,19 @@ class thumbnail
         File file = new File("thumbs/" + string);
         if (!file.isDirectory())
             file.mkdirs();
+    }
+
+
+    public void setSrc(String src)
+    {
+        this.src = src;
+    }
+
+    /**
+     * @return returns the directory of the thumbnail
+     * */
+    public String getSrc()
+    {
+        return "thumbs/" + src;
     }
 }

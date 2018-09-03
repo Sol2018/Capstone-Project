@@ -1,7 +1,9 @@
 package element;
-
 import java.util.Date;
 
+/**
+ * This class is responsible for the specialization of a generic html element
+ * */
 public class videoElement extends htmlElement
 {
     private String src;
@@ -9,13 +11,21 @@ public class videoElement extends htmlElement
     private int width = 320;
     private int height = 240;
 
-    public videoElement(String src, String description, String author, String name, String location, Date lastmodified, long size) {
+    /**
+     * Constructor initializes super class
+     * */
+    public videoElement(String src, String description, String author, String name, String location, Date lastmodified, long size)
+    {
         super(description, author, name, location, lastmodified, size);
         this.src = src;
         generateTag();
     }
 
-    private void generateTag() {
+    /**
+     * implements video html tag
+     * */
+    private void generateTag()
+    {
         content.append("<div class=\"item\">");
         content.append("<video width=\"");
         content.append(width);
