@@ -7,12 +7,14 @@ class HTMLGenerator
 {
     private ArrayList<File> metaDataFiles = new ArrayList<>(0);
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         if (args.length<1)  //ensures if not reading via
             args = new String[]{"TestDATA"};
 
         String[] pages = new String[]{"audio", "document", "video", "image"};
-        for (String name : pages) {
+        for (String name : pages)
+        {
             String[] finalArgs = args;
             (new Thread(() -> new HTMLGenerator().generate(finalArgs[0], name))).start();
         }
@@ -21,7 +23,8 @@ class HTMLGenerator
     /**
      * generate site
      */
-    private void generate(String args, String type) {
+    private void generate(String args, String type)
+    {
         HTMLGenerator htmlAudioGenerator = new HTMLGenerator();
         htmlAudioGenerator.findXMLs(args);
         TemplateReader audioTemplate = new TemplateReader("Template.html");
@@ -39,7 +42,8 @@ class HTMLGenerator
      * Recursively finds all XML files in the provided directory and adds them to the metaDataFiles ArrayList
      * @param arg is the current directory
      * */
-    private void findXMLs(String arg) {
+    private void findXMLs(String arg)
+    {
         //current directory
         File file = new File(arg);
 
@@ -47,13 +51,17 @@ class HTMLGenerator
         File[] files = file.listFiles();
 
         assert files != null;
-        for (File f : files) {
-            if (f.getName().length() > 3) {
-                if ((f.getName().substring(f.getName().length() - 4, f.getName().length())).compareTo(".xml") == 0) {
+        for (File f : files)
+        {
+            if (f.getName().length() > 3)
+            {
+                if ((f.getName().substring(f.getName().length() - 4, f.getName().length())).compareTo(".xml") == 0)
+                {
                     metaDataFiles.add(f);
                 }
             }
-            if (f.isDirectory()) {
+            if (f.isDirectory())
+            {
                 findXMLs(f.getAbsolutePath());
             }
         }
@@ -63,7 +71,8 @@ class HTMLGenerator
     /**
      * returns a file arraylist containing all metadata found in the supplied directory
      * */
-    private ArrayList<File> getMetaDataFiles() {
+    private ArrayList<File> getMetaDataFiles()
+    {
         return metaDataFiles;
     }
 }

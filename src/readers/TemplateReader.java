@@ -45,7 +45,7 @@ public class TemplateReader
             upperPage.append(templateElements.get(i)).append("\n");
 
             //activate navigational element of pageType
-            if(templateElements.get(i).contains("navBar."+pageType))
+            if(templateElements.get(i).contains("navBar-"+pageType))
             {
                 upperPage.append("class=\"active\">").append(pageType.substring(0, 1).toUpperCase()).append(pageType.substring(1)).append("</a>").append("\n");
                 ++i;
@@ -57,7 +57,7 @@ public class TemplateReader
                 ++i;
 
             //activate category elements of pageType
-            } else if (templateElements.get(i).contains("cat."+pageType))
+            } else if (templateElements.get(i).contains("cat-"+pageType))
             {
                 upperPage.append("class=\"active\">").append(pageType.substring(0, 1).toUpperCase()).append(pageType.substring(1)).append("</a>").append("\n");
                 i+=2;

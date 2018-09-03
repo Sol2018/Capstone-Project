@@ -59,7 +59,8 @@ class htmlPage
             StringBuilder s = new StringBuilder(templatePage.get(0));//top part of template
 
             //adding objects to page
-            for (int j = 0; j < limit && objectIndex < elements.size(); j++) {
+            for (int j = 0; j < limit && objectIndex < elements.size(); j++)
+            {
                 s.append("\n");
                 s.append(elements.get(objectIndex).toString());
 
