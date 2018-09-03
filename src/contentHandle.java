@@ -1,5 +1,6 @@
 import element.*;
 import readers.XMLReader;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,9 +21,8 @@ class contentHandle
     /**
      * Read xml files for content and add content elements to the elements list
      * @param type is the identifier of a single object xml
-     * @param type1 is the identifier of multiple objects xml
      */
-    void generateContent(String type, String type1)
+    void generateContent(String type)
     {
         elements = new ArrayList<>(0);
 
@@ -33,7 +33,7 @@ class contentHandle
             if (xmlReader.getRoot().getTagName().compareTo(type) == 0)
                 addNewElement(xmlReader, xmlReader.getValue("src"), new File(xmlReader.getValue("src")), type);
 
-            else if (xmlReader.getRoot().getTagName().compareTo(type1) == 0)
+            else if (xmlReader.getRoot().getTagName().compareTo(type + "Lib") == 0)
             {
                 //load all files in directory
                 File[] files = new File(xmlReader.getValue("src")).listFiles();
@@ -53,13 +53,13 @@ class contentHandle
     {
         switch (type)
         {
-            case "images":
+            case "image":
                 elements.add(new imageElement(src, xmlReader.getValue("description"),
                         xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
                         new Date(file.lastModified()), file.length()));
                 break;
 
-            case "vid":
+            case "video":
                 elements.add(new videoElement(src, xmlReader.getValue("description"),
                         xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
                         new Date(file.lastModified()), file.length()));

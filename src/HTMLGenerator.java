@@ -11,58 +11,27 @@ class HTMLGenerator
         if (args.length<1)  //ensures if not reading via
             args = new String[]{"TestDATA"};
 
+        String[] pages = new String[]{"audio", "document", "video", "image"};
+        for (String name : pages) {
+            String[] finalArgs = args;
+            (new Thread(() -> new HTMLGenerator().generate(finalArgs[0], name))).start();
+        }
+    }
 
-        //--------------IMAGES------------------------------
-        /*HTMLGenerator htmlImagesGenerator = new HTMLGenerator();
-        htmlImagesGenerator.findXMLs(args[0]);
-        readers.TemplateReader imagesTemplate = new readers.TemplateReader("Template.html");
-
-        ArrayList<String> imagesTemplatePage = imagesTemplate.setUpPageTemplate("images");
-
-        contentHandle imagesContentHandle = new contentHandle(htmlImagesGenerator.getMetaDataFiles());
-        imagesContentHandle.generateContent("images", "gallery");
-
-        new htmlPage(imagesTemplatePage, imagesContentHandle.getElements(), "images");*/
-
-        //--------------VIDEOS-----------------------------------------
-        /*HTMLGenerator htmlVideosGenerator = new HTMLGenerator();
-        htmlVideosGenerator.findXMLs(args[0]);
-        readers.TemplateReader videosTemplate = new readers.TemplateReader("Template.html");
-
-        ArrayList<String> videosTemplatePage = videosTemplate.setUpPageTemplate("videos");
-
-        contentHandle videosHandle = new contentHandle(htmlVideosGenerator.getMetaDataFiles());
-        videosHandle.generateContent("vid", "vidLib");
-
-        new htmlPage(videosTemplatePage, videosHandle.getElements(), "videos");*/
-        //--------------------------------------------------------------
-
-        //--------------MUSIC-----------------------------------------
+    /**
+     * generate site
+     */
+    private void generate(String args, String type) {
         HTMLGenerator htmlAudioGenerator = new HTMLGenerator();
-        htmlAudioGenerator.findXMLs(args[0]);
+        htmlAudioGenerator.findXMLs(args);
         TemplateReader audioTemplate = new TemplateReader("Template.html");
 
-        ArrayList<String> audioTemplatePage = audioTemplate.setUpPageTemplate("audio");
+        ArrayList<String> audioTemplatePage = audioTemplate.setUpPageTemplate(type);
 
         contentHandle audioHandle = new contentHandle(htmlAudioGenerator.getMetaDataFiles());
-        audioHandle.generateContent("audio", "audioLib");
+        audioHandle.generateContent(type);
 
-        new htmlPage(audioTemplatePage, audioHandle.getElements(), "audio");
-        //--------------------------------------------------------------
-
-        //--------------DOCUMENTS-----------------------------------------
-        /*HTMLGenerator htmlDocGenerator = new HTMLGenerator();
-        htmlDocGenerator.findXMLs(args[0]);
-        readers.TemplateReader documentTemplate = new readers.TemplateReader("Template.html");
-
-        ArrayList<String> docTemplatePage = documentTemplate.setUpPageTemplate("document");
-
-        contentHandle documentHandle = new contentHandle(htmlDocGenerator.getMetaDataFiles());
-        documentHandle.generateContent("document", "docLib");
-
-        new htmlPage(docTemplatePage, documentHandle.getElements(), "document");*/
-
-
+        new htmlPage(audioTemplatePage, audioHandle.getElements(), type);
     }
 
 
@@ -78,9 +47,9 @@ class HTMLGenerator
         File[] files = file.listFiles();
 
         assert files != null;
-        for(File f: files) {
-            if (f.getName().length()>3) {
-                if ((f.getName().substring(f.getName().length()-4,f.getName().length())).compareTo(".xml")==0) {
+        for (File f : files) {
+            if (f.getName().length() > 3) {
+                if ((f.getName().substring(f.getName().length() - 4, f.getName().length())).compareTo(".xml") == 0) {
                     metaDataFiles.add(f);
                 }
             }
