@@ -1,6 +1,7 @@
 package element;
 
 import java.io.IOException;
+import java.util.Date;
 
 /**
  * returns an html image element
@@ -11,8 +12,8 @@ public class imageElement extends htmlElement
     private String thumbnail;
     private StringBuilder content = new StringBuilder();
 
-    public imageElement(String src, String description) {
-        super(description);
+    public imageElement(String src, String description, String author, String name, String location, Date lastmodified, double size) {
+        super(description, author, name, location, lastmodified, size);
         this.src = src;
         generateThumbNail();
         generateTag();

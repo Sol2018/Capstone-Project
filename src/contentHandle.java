@@ -3,6 +3,7 @@ import element.imageElement;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class contentHandle {
     private ArrayList<File> metaDataFiles = new ArrayList<>(0);
@@ -22,7 +23,9 @@ public class contentHandle {
             XMLReader xmlReader = new XMLReader(file);
 
             if (xmlReader.getRoot().getTagName().compareTo("image") == 0) {
-                elements.add(new imageElement(xmlReader.getValue("src"), xmlReader.getValue("description")));
+                elements.add(new imageElement(xmlReader.getValue("src"), xmlReader.getValue("description"),
+                        xmlReader.getValue("author"), xmlReader.getValue("name"), xmlReader.getValue("location"),
+                        new Date(Integer.parseInt(xmlReader.getValue("year")), Integer.parseInt(xmlReader.getValue("month")), Integer.parseInt(xmlReader.getValue("day"))), Long.parseLong(xmlReader.getValue("size"))));
 
             } else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0) {
                 //TODO load a list of images
@@ -33,7 +36,9 @@ public class contentHandle {
                 for (File file1 : files) {
                     //TODO load image
                     if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0) {
-                        elements.add(new imageElement(file1.getPath(), xmlReader.getValue("description")));
+                        elements.add(new imageElement(file1.getPath(), xmlReader.getValue("description"),
+                                xmlReader.getValue("author"), xmlReader.getValue("name"), xmlReader.getValue("location"),
+                                new Date(Integer.parseInt(xmlReader.getValue("year")), Integer.parseInt(xmlReader.getValue("month")), Integer.parseInt(xmlReader.getValue("day"))), file1.length()));
                     }
                 }
             }

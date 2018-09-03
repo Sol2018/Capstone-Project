@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <image>
-    <name>group.jpg</name>
+    <name>1puppy.jpg</name>
 
     <src>TestDATA/photos/pets/dogs/puppies/1puppy.jpg</src>
 
@@ -14,7 +14,7 @@
 
     <height>356</height>
 
-    <size>86.50K</size>
+    <size>72690</size>
 
     <author>Adobe PhotoStock</author>
 
@@ -22,7 +22,11 @@
 
     <location>Some location</location>
 
-    <date>02 January 1699</date>
+    <day>22</day>
+
+    <month>01</month>
+
+    <year>1699</year>
 
     <copyright>Some license</copyright>
 

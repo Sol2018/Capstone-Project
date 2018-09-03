@@ -43,7 +43,7 @@ class TemplateReader
             //activate navigational element of pageType
             if(templateElements.get(i).contains("navBar."+pageType))
             {
-                upperPage.append("href=\"active\">").append(pageType.substring(0, 1).toUpperCase()).append(pageType.substring(1)).append("</a>").append("\n");
+                upperPage.append("class=\"active\">").append(pageType.substring(0, 1).toUpperCase()).append(pageType.substring(1)).append("</a>").append("\n");
                 ++i;
 
             //write page title on header
