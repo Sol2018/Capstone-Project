@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="fc7d2fcf-6f69-4332-9a29-762a1289f6fb" name="Default" comment="" />
-    <list default="true" id="56b9b8e9-ebf6-4ab7-9190-5c1b518ef628" name="make" comment="[safepoint]">
+    <list default="true" id="56b9b8e9-ebf6-4ab7-9190-5c1b518ef628" name="make" comment="complete refactoring">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/people/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/pets/dogs/puppies/1puppy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/pets/dogs/puppies/2Puppies.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/06A21B2C-B9E4-4AC1-83AE0BE0FA01D980.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/156695-131-FF89C9FA.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/220px-Ash_Tree_-_geograph.org.uk_-_590710.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/220px-Aspen-PopulusTremuloides-2001-09-27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/250px-Arbres.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/5ACLHxhy_400x400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/Larix_decidua_Aletschwald.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/Live-Oak-Tree-450w.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/Sawtooth-Oak_450_a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/TreeA.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/TreeB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/TreeC.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/amazing-things-about-trees-plain-header-740x444.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/green-forest-trees.jpg.860x0_q70_crop-scale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/hero-green-leaves-in-sunlight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/image-20160913-4948-6fyxz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/images.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/img_2811.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/index.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/mar2018_a05_talkingtrees.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/sunset_through_oak_tree.jpg.653x0_q80_crop-smart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/thuja-green-giant-blue-edit-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/tree-care.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/trees.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template.html" afterPath="$PROJECT_DIR$/Template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/files/CSC3002S.xml" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3002S.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/abstract.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/abstract.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/random.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/random.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/trees.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/trees.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/video/SomeVids.xml" afterPath="$PROJECT_DIR$/TestDATA/video/SomeVids.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/video/stream_of_water.xml" afterPath="$PROJECT_DIR$/TestDATA/video/stream_of_water.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HTMLGenerator.java" afterPath="$PROJECT_DIR$/src/HTMLGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contentHandle.java" afterPath="$PROJECT_DIR$/src/contentHandle.java" />
     </list>
@@ -34,23 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HTMLGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="method#main#0;class#HTMLGenerator#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contentHandle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contentHandle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contentHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="495">
+              <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addNewElement#0;class#contentHandle#0" expanded="true" />
@@ -59,16 +67,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HTMLGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="89" />
+              <folding>
+                <element signature="method#generate#0;class#HTMLGenerator#0" expanded="true" />
+                <element signature="method#findXMLs#0;class#HTMLGenerator#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="htmlPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/htmlPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#htmlPage#0;class#htmlPage#0" expanded="true" />
                 <element signature="method#pagination#0;class#htmlPage#0" expanded="true" />
                 <element signature="method#paginationLoop#0;class#htmlPage#0" expanded="true" />
+                <element signature="method#edgePagination#0;class#htmlPage#0" expanded="true" />
                 <element signature="method#writeHTMLtoFile#0;class#htmlPage#0" expanded="true" />
               </folding>
             </state>
@@ -78,22 +99,9 @@
       <file leaf-file-name="Template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="456">
               <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/readers/TemplateReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#TemplateReader#0;class#TemplateReader#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -182,10 +190,10 @@
         <option value="$PROJECT_DIR$/TestDATA/photos/abstract.xml" />
         <option value="$PROJECT_DIR$/TestDATA/photos/random.xml" />
         <option value="$PROJECT_DIR$/TestDATA/photos/trees.xml" />
-        <option value="$PROJECT_DIR$/src/contentHandle.java" />
         <option value="$PROJECT_DIR$/image0_author.html" />
         <option value="$PROJECT_DIR$/Template.html" />
         <option value="$PROJECT_DIR$/src/HTMLGenerator.java" />
+        <option value="$PROJECT_DIR$/src/contentHandle.java" />
       </list>
     </option>
   </component>
@@ -235,7 +243,29 @@
               <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="readers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="TestDATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="thumbs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -739,7 +769,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535974508303</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="complete refactoring">
+      <created>1535979792289</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1535979792289</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers />
@@ -755,7 +792,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -770,7 +806,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20104712" sideWeight="0.4774648" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22251868" sideWeight="0.49524942" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22251868" sideWeight="0.49524942" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972618" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -855,7 +891,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="[safepoint] basic tags (work in progress)" />
     <MESSAGE value="[safepoint] basic and really stiff html generator" />
     <MESSAGE value="Metadata templates for images" />
     <MESSAGE value="[revision] supports Images (no styling)" />
@@ -880,7 +915,8 @@
     <MESSAGE value="[new] video adding works with its own thumbnails" />
     <MESSAGE value="[new] documents with thumbnails" />
     <MESSAGE value="[safepoint]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[safepoint]" />
+    <MESSAGE value="complete refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1087,7 +1123,7 @@
         <state relative-caret-position="120">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="method#compare#0;class#locationOrder#0" expanded="true" />
+            <element signature="method#compare#0;class#locationOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1097,7 +1133,7 @@
         <state relative-caret-position="120">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="method#compare#0;class#nameOrder#0" expanded="true" />
+            <element signature="method#compare#0;class#nameOrder#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,8 +1143,8 @@
         <state relative-caret-position="105">
           <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#273#274#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1304,7 +1340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/readers/TemplateReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="726">
           <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1315,9 +1351,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="456">
           <caret line="62" column="46" lean-forward="false" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="method#generate#0;class#HTMLGenerator#0" expanded="true" />
+            <element signature="method#findXMLs#0;class#HTMLGenerator#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/htmlPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#pagination#0;class#htmlPage#0" expanded="true" />
+            <element signature="method#paginationLoop#0;class#htmlPage#0" expanded="true" />
+            <element signature="method#edgePagination#0;class#htmlPage#0" expanded="true" />
+            <element signature="method#writeHTMLtoFile#0;class#htmlPage#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contentHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addNewElement#0;class#contentHandle#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,41 +1398,6 @@
         <state relative-caret-position="180">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/htmlPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#htmlPage#0;class#htmlPage#0" expanded="true" />
-            <element signature="method#pagination#0;class#htmlPage#0" expanded="true" />
-            <element signature="method#paginationLoop#0;class#htmlPage#0" expanded="true" />
-            <element signature="method#writeHTMLtoFile#0;class#htmlPage#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contentHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addNewElement#0;class#contentHandle#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="method#main#0;class#HTMLGenerator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
