@@ -25,7 +25,7 @@ public class contentHandle {
             if (xmlReader.getRoot().getTagName().compareTo("image") == 0) {
                 elements.add(new imageElement(xmlReader.getValue("src"), xmlReader.getValue("description"),
                         xmlReader.getValue("author"), xmlReader.getValue("name"), xmlReader.getValue("location"),
-                        new Date(Integer.parseInt(xmlReader.getValue("year")), Integer.parseInt(xmlReader.getValue("month")), Integer.parseInt(xmlReader.getValue("day"))), Long.parseLong(xmlReader.getValue("size"))));
+                        new Date(new File(xmlReader.getValue("src")).lastModified()), Long.parseLong(xmlReader.getValue("size"))));
 
             } else if (xmlReader.getRoot().getTagName().compareTo("gallery") == 0) {
                 //TODO load a list of images
@@ -38,7 +38,7 @@ public class contentHandle {
                     if ((file1.getName().substring(file1.getName().length() - 4, file1.getName().length())).compareTo(".xml") != 0) {
                         elements.add(new imageElement(file1.getPath(), xmlReader.getValue("description"),
                                 xmlReader.getValue("author"), xmlReader.getValue("name"), xmlReader.getValue("location"),
-                                new Date(Integer.parseInt(xmlReader.getValue("year")), Integer.parseInt(xmlReader.getValue("month")), Integer.parseInt(xmlReader.getValue("day"))), file1.length()));
+                                new Date(file1.lastModified()), file1.length()));
                     }
                 }
             }

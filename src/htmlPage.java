@@ -24,18 +24,23 @@ public class htmlPage
         pagination("default", "images");
 
         Collections.sort(elements, new authorOrder());
+        pagination("author", "images");
 
         Collections.sort(elements, new nameOrder());
+        pagination("name", "images");
 
         Collections.sort(elements, new locationOrder());
+        pagination("location", "images");
 
         Collections.sort(elements, new dateOrder());
+        pagination("date", "images");
+        for (htmlElement e : elements) {
+            System.out.println(e.getLastmodified().toString());
+        }
 
         Collections.sort(elements, new sizeOrder());
+        pagination("size", "images");
 
-        for (htmlElement e : elements) {
-            System.out.println(e.getSize());
-        }
     }
 
     /**
