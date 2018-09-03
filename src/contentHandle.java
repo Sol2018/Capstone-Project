@@ -1,5 +1,6 @@
 import element.htmlElement;
 import element.imageElement;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
@@ -41,14 +42,17 @@ class contentHandle
     }
 
     /**
-     * Using threads to make process fast
+     * //TODO Using threads to make process fast
      * */
     //[refactoring] adding new image element
     private void addNewElement(XMLReader xmlReader, String src, File file)
     {
-        (new Thread(() -> elements.add(new imageElement(src, xmlReader.getValue("description"),
+        /*(new Thread(() -> elements.add(new imageElement(src, xmlReader.getValue("description"),
                 xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
-                new Date(file.lastModified()), file.length())))).start();
+                new Date(file.lastModified()), file.length())))).start();*/
+        elements.add(new imageElement(src, xmlReader.getValue("description"),
+                xmlReader.getValue("author"), file.getName(), xmlReader.getValue("location"),
+                new Date(file.lastModified()), file.length()));
 
     }
 

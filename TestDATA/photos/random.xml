@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+
+    <name>random images</name>
+
+    <src>TestDATA/photos/random/</src>
+
+    <author>An unknown author</author>
+
+    <description>Downloaded random images from some site</description>
+
+    <location>zzz internet</location>
+
+    <day>03</day>
+
+    <month>08</month>
+
+    <year>2018</year>
+
+    <copyright>Not well informed</copyright>
+
+</gallery>

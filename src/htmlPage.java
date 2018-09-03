@@ -24,20 +24,19 @@ public class htmlPage
         this.elements = elements;
         pagination("default", "images");
 
-        elements.sort(new authorOrder());
+        Collections.sort(elements, new authorOrder());
         pagination("author", "images");
 
-        elements.sort(new nameOrder());
+        Collections.sort(elements, new nameOrder());
         pagination("name", "images");
 
-        elements.sort(new locationOrder());
+        Collections.sort(elements, new locationOrder());
         pagination("location", "images");
 
-        elements.sort(new dateOrder());
+        Collections.sort(elements, new dateOrder());
         pagination("date", "images");
-        
 
-        elements.sort(new sizeOrder());
+        Collections.sort(elements, new sizeOrder());
         pagination("size", "images");
 
     }
@@ -59,7 +58,7 @@ public class htmlPage
             StringBuilder s = new StringBuilder(templatePage.get(0));//top part of template
 
             //adding objects to page
-            for (int j = 0; j<limit && objectIndex<elements.size(); j++) {
+            for (int j = 0; j < limit && objectIndex < elements.size(); j++) {
                 s.append("\n");
                 s.append(elements.get(objectIndex).toString());
 

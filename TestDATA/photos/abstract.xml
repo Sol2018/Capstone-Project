@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+
+    <name>abstract</name>
+
+    <src>TestDATA/photos/abstract/</src>
+
+    <author>Google downloads</author>
+
+    <description>Downloaded abstract images from google</description>
+
+    <location>Google Images</location>
+
+    <day>03</day>
+
+    <month>08</month>
+
+    <year>2018</year>
+
+    <copyright>Not well informed</copyright>
+
+</gallery>
