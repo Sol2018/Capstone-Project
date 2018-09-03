@@ -18,27 +18,26 @@ public class htmlPage
 
     /**
      */
-    htmlPage(ArrayList<String> templatePage, ArrayList<htmlElement> elements) {
+    htmlPage(ArrayList<String> templatePage, ArrayList<htmlElement> elements)
+    {
         this.templatePage = templatePage;
         this.elements = elements;
         pagination("default", "images");
 
-        Collections.sort(elements, new authorOrder());
+        elements.sort(new authorOrder());
         pagination("author", "images");
 
-        Collections.sort(elements, new nameOrder());
+        elements.sort(new nameOrder());
         pagination("name", "images");
 
-        Collections.sort(elements, new locationOrder());
+        elements.sort(new locationOrder());
         pagination("location", "images");
 
-        Collections.sort(elements, new dateOrder());
+        elements.sort(new dateOrder());
         pagination("date", "images");
-        for (htmlElement e : elements) {
-            System.out.println(e.getLastmodified().toString());
-        }
+        
 
-        Collections.sort(elements, new sizeOrder());
+        elements.sort(new sizeOrder());
         pagination("size", "images");
 
     }
@@ -46,7 +45,8 @@ public class htmlPage
     /**
      * Pagination and limiting number of objects per page
      * */
-    private void pagination(String type, String page) {
+    private void pagination(String type, String page)
+    {
         int objectIndex = 0;
 
         //determine number of pages given object limits
@@ -54,7 +54,8 @@ public class htmlPage
         if (pages%limit!=0)
             pages+=1;
 
-        for (int i = 0; i<pages; ++i) {
+        for (int i = 0; i<pages; ++i)
+        {
             StringBuilder s = new StringBuilder(templatePage.get(0));//top part of template
 
             //adding objects to page
@@ -88,7 +89,8 @@ public class htmlPage
         }
     }
 
-    private void paginationLoop(int i, int a, int b, StringBuilder s, String type, String page) {
+    private void paginationLoop(int i, int a, int b, StringBuilder s, String type, String page)
+    {
         for (int k = a; k <= b; k++) {
             if (k == i)//mark current page as active
             {
@@ -100,7 +102,8 @@ public class htmlPage
         }
     }
 
-    private void edgePagination(int i, String name, StringBuilder s, String type, String page) {
+    private void edgePagination(int i, String name, StringBuilder s, String type, String page)
+    {
         s.append("<a href=\"" + page + (i) + "_" + type + ".html" + "\">");
         s.append(name).append("</a>\n");
     }
@@ -111,7 +114,8 @@ public class htmlPage
      * @param name is the name of the html file
      * @param text is the content of the file
      */
-    private void writeHTMLtoFile(String text, String name) {
+    private void writeHTMLtoFile(String text, String name)
+    {
         BufferedWriter output = null;
         try {
             File file = new File(name);

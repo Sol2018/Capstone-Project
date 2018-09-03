@@ -7,19 +7,25 @@ class HTMLGenerator
 
     public static void main(String[] args)
     {
-        if (args.length<1)
+        if (args.length<1)  //ensures if not reading via
             args = new String[]{"TestDATA"};
-
-        TemplateReader template = new TemplateReader("Template.html");
-
-        ArrayList<String> imagesTemplatePage = template.setUpPageTemplate("images");
 
         HTMLGenerator htmlGenerator = new HTMLGenerator();
         htmlGenerator.findXMLs(args[0]);
 
+        TemplateReader template = new TemplateReader("Template.html");
+
+        //tailoring template to page type
+        ArrayList<String> imagesTemplatePage = template.setUpPageTemplate("images");
+        //ArrayList<String> videosTemplatePage = template.setUpPageTemplate("videos");
+        //ArrayList<String> documentsTemplatePage = template.setUpPageTemplate("documents");
+        //ArrayList<String> audioTemplatePage = template.setUpPageTemplate("audio");
+
+
         contentHandle contentHandle = new contentHandle(htmlGenerator.getMetaDataFiles());
         contentHandle.generateImageContent();
 
+        //TODO use threads for performance
         new htmlPage(imagesTemplatePage, contentHandle.getElements());
     }
 
@@ -54,6 +60,9 @@ class HTMLGenerator
     }
 
 
+    /**
+     * returns a file arraylist containing all metadata found in the supplied directory
+     * */
     private ArrayList<File> getMetaDataFiles() {
         return metaDataFiles;
     }

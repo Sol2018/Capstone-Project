@@ -11,6 +11,10 @@ class XMLReader
 {
     private Document document;
 
+    /**
+     * Constructor: initialize xml reader by creating a document element from a file
+     * @param file is 'converted' into a Document object
+     * */
     XMLReader(File file)
     {
         try
@@ -37,7 +41,7 @@ class XMLReader
 
     /**
      * Returns metadata by value
-     * @param  name is the node's name
+     * @param name is the node's name
      * */
     String getValue(String name)
     {

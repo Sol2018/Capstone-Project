@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 class TemplateReader
@@ -8,8 +9,8 @@ class TemplateReader
     private ArrayList<String> templateElements = new ArrayList<>(0);
 
     /**
-     * Constructor
-     * @param file is the name of template file to be loaded*/
+     * Constructor initializes template by loading the template strings into an array list
+     * @param file is the name of template file to be loaded */
     TemplateReader(String file)
     {
         try
@@ -34,6 +35,7 @@ class TemplateReader
     ArrayList<String> setUpPageTemplate(String pageType)
     {
         StringBuilder upperPage = new StringBuilder();
+        //digital objects are slotted in between the upper and lower page
         StringBuilder lowerPage = new StringBuilder();
 
         for(int i =0; i<templateElements.size(); ++i)
@@ -58,8 +60,9 @@ class TemplateReader
                 upperPage.append("class=\"active\">").append(pageType.substring(0, 1).toUpperCase()).append(pageType.substring(1)).append("</a>").append("\n");
                 i+=2;
 
+            //split template into two pages
             } else if (templateElements.get(i).contains("col-md-10"))
-            {   /**@implNote this is where data will be inserted*/
+            {
                 i++;
                 while (i<templateElements.size())
                 {
@@ -69,10 +72,6 @@ class TemplateReader
             }
         }
 
-        ArrayList<String> arrayList = new ArrayList<>(0);
-        arrayList.add(upperPage.toString());
-        arrayList.add(lowerPage.toString());
-
-        return arrayList;
+        return new ArrayList<>(Arrays.asList(upperPage.toString(), lowerPage.toString()));
     }
 }

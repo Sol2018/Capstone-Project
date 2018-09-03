@@ -12,14 +12,16 @@ public class imageElement extends htmlElement
     private String thumbnail;
     private StringBuilder content = new StringBuilder();
 
-    public imageElement(String src, String description, String author, String name, String location, Date lastmodified, double size) {
+    public imageElement(String src, String description, String author, String name, String location, Date lastmodified, double size)
+    {
         super(description, author, name, location, lastmodified, size);
         this.src = src;
         generateThumbNail();
         generateTag();
     }
 
-    private void generateThumbNail() {
+    private void generateThumbNail()
+    {
         thumbnail thumb = new thumbnail();
         try {
             thumb.generateImageThumb(300, 200, src, "jpg");
@@ -46,13 +48,5 @@ public class imageElement extends htmlElement
         super.setContent(content.toString());
     }
 
-
-    /**
-     * Get image content in string format
-     */
-    public String getImages()
-    {
-        return content.toString() + super.getDescription();
-    }
 }
 

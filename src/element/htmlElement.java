@@ -12,7 +12,8 @@ public class htmlElement {
     private StringBuilder content = new StringBuilder();
     private String out;
 
-    htmlElement(String description, String author, String name, String location, Date lastmodified, double size) {
+    public htmlElement(String description, String author, String name, String location, Date lastmodified, double size)
+    {
         this.description = description;
         this.author = author;
         this.name = name;
@@ -22,42 +23,57 @@ public class htmlElement {
         describe();
     }
 
-    private void describe() {
+    private void describe()
+    {
         content.append("<div class=\"desc\"  >");
-        content.append(description);
+        content.append("<strong> "+name+"</strong>");
+        content.append("<small>");
+        content.append("<br /><strong> Author: </strong>").append(author);
+        content.append("<br /><strong> Location: </strong>").append(location);
+        content.append("<br /><strong> Size: </strong>").append(size+" Bytes");
+        content.append("<br /><strong> Modification: </strong>").append(""+lastmodified.toString());
+        content.append("<br /><strong> Description: </strong>").append(description);
+        content.append("</small>");
         content.append("</div></div>\n");
     }
 
-    String getDescription() {
-
+    String getDescription()
+    {
         return content.toString();
     }
 
-    public String toString() {
+    public String toString()
+    {
         return out;
     }
 
-    public void setContent(String content) {
+    void setContent(String content)
+    {
         out = content + this.content.toString();
     }
 
-    public String getAuthor() {
+    public String getAuthor()
+    {
         return author;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public String getLocation() {
+    public String getLocation()
+    {
         return location;
     }
 
-    public Date getLastmodified() {
+    public Date getLastmodified()
+    {
         return lastmodified;
     }
 
-    public double getSize() {
+    public double getSize()
+    {
         return size;
     }
 }
