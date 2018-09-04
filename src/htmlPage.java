@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Class is responsible for the creation and indexing of html pages
@@ -14,10 +15,10 @@ class htmlPage
     private static final int limit = 9; //objects per page, also number
     private static final int paginationlimit = 5;//for predictable behavior use odd pages
     private ArrayList<String> templatePage;
-    private ArrayList<htmlElement> elements;
+    private List<htmlElement> elements;
 
 
-    htmlPage(ArrayList<String> templatePage, ArrayList<htmlElement> elements, String type)
+    htmlPage(ArrayList<String> templatePage, List<htmlElement> elements, String type)
     {
         this.templatePage = templatePage;
         this.elements = elements;

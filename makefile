@@ -1,13 +1,14 @@
 JC = javac
-FLAG = -g
+FLAG = -cp
 DIR = -d out/production/Capstone-Project
 
 .SUFFIXES: .java .class
 
 .java.class:
-	$(JC) $(FLAG) src/*.java $(DIR)
 	$(JC) $(FLAG) src/element/*.java $(DIR)
-	$(JC) $(FLAG) src/page/*.java $(DIR)
+	$(JC) $(FLAG) src/readers/*.java $(DIR)
+	$(JC) $(FLAG) src/Order/*.java $(DIR)
+	$(JC) $(FLAG) src/*.java $(DIR)
 
 default: clean .java.class
 
@@ -16,5 +17,6 @@ run:
 
 clean:
 	$(RM) -f out/production/Capstone-Project/*.class
-	$(RM) -f out/production/Capstone-Project/page/*.class
+	$(RM) -f out/production/Capstone-Project/Order/*.class
 	$(RM) -f out/production/Capstone-Project/element/*.class
+	$(RM) -f out/production/Capstone-Project/readers/*.class

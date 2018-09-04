@@ -35,14 +35,14 @@ public class htmlElement
      * */
     private void describe()
     {
-        content.append("<div class=\"desc\"  >");
-        content.append("<strong> ").append(name).append("</strong>");
+        content.append("<div id=\"metadata\" >");
+        content.append("<strong id=\"title\"> ").append(name).append("</strong>");
         content.append("<small>");
-        content.append("<br /><strong> Author: </strong>").append(author);
-        content.append("<br /><strong> Location: </strong>").append(location);
-        content.append("<br /><strong> Size: </strong>").append(size+" Bytes");
-        content.append("<br /><strong> Modification: </strong>").append(""+lastmodified.toString());
-        content.append("<br /><strong> Description: </strong>").append(description);
+        content.append("<br /><strong> Author: </strong>").append("<span id=\"author\">"+author+"</span>");
+        content.append("<br /><strong> Location: </strong>").append("<span id=\"location\">"+location+"</span>");
+        content.append("<br /><strong> Size: </strong>").append("<span id=\"size\">"+size+" Bytes"+"</span>");
+        content.append("<br /><strong> Modification: </strong>").append("<span id=\"date\">"+lastmodified.toString()+"</span>");
+        content.append("<br /><strong> Description: </strong>").append("<span id=\"desc\">"+description+"</span>");
         content.append("</small>");
         content.append("</div></div>\n");
     }
