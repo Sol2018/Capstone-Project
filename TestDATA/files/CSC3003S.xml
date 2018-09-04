@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentLib>
+
+    <name>CSC3003 Slides</name>
+
+    <src>TestDATA/files/CSC3003S/</src>
+
+    <title>Lecture slides</title>
+
+    <author>UCT lecturers</author>
+
+    <description>Advanced Software Development lectures</description>
+
+    <date>2018 January 16</date>
+
+    <copyright>Stuff here</copyright>
+
+    <location>Vula UCT</location>
+
+</documentLib>

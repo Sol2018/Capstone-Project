@@ -2,442 +2,643 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="fc7d2fcf-6f69-4332-9a29-762a1289f6fb" name="Default" comment="" />
-    <list default="true" id="56b9b8e9-ebf6-4ab7-9190-5c1b518ef628" name="make" comment="synchronize xmlreader">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch1/E0atFS5RRiI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch1/HM27qPNvVr4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch1/RAb_KyPApqI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch1/c6g-26myD34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch1/kfW5gHGPgZM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch2/2i-JP4tVAp8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch2/HfAfi2pJSOE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch2/OSxMcLE0n9o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch2/YGrh7KrnYLk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch2/gM9XBRSX41o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/0bGlBaspHbw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/0t-8AnomBTQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/3JZET_OPhBs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/48-A6HPA2Ng.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/4wBizB851jI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/C25Q1y251Us.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/Duw8GcpHrts.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/J4gcHgQNOKM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/Jlc6oiMtRRY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/RCRl2sxkg48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/SN-ZQHPTRic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/VZg4gcN3msE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/_yKX0dr12JI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/mEaBhkr85lk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/o3I68znoa8Q.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/tKEjas4APbs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3/xozzvSs72JU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/25EQ2lb0ph8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/53qx2d3t8Lw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/AmMOtjmllmw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/GSCtoEEqntQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/IO4wIzn4wEo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/JsHNDVBBSgU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/MoeK0FnAUKc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/TMPio7a5Aes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/UolboOMmFeE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/Uyt4CcLm7Uk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/aB_DK1Uz3r4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/gHcWaeldgtQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/kxW731QLajM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/qStIhFXICdw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/qyHrl0I3V6Y.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/s20nA2KB1N4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5/xFb9h6hwobg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/6CyS6dE1g_U.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/AN0aSB267ao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/B94jMB3eHPQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/BoYUDFcXuWI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/EPtlBANBT6E.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/EqZNSrk-foE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/HM241WDPzWA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/KFCPopx2icU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/N3tJ-Tbd9dM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/SOx0JJK_P-g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/TDpaYRT0mzk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/XFqzxqQja3g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/_o0P5q6_Gjc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/jQpht1LrDQQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/nCHsBSc308g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/qmFAXpJ76HE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/t8jT503qWcU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/u8TsGu1DGBc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6/yKwJCJuz7Z0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/-3nwvHqB6aY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/-NCciNdoeHU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/-YPxLkfj3Ao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/0sRp2ogjPP0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/1TAM-xEwQrs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/1Zx5yAnv-jI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/22lTNEAz5uI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/2Fb_0y-9CdU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/2zxb_g_2yT8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/3BwKbZ3aCc0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/3FwPmzy1DfE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/3aubsNmGuLE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/3opGxRoV7MY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/44OaWM_ObWk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/4FZx3tArev8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/4RH6476Fx-Y.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/4WFltRAJSXE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/57tZkR0OkCY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/5VNXlwo_woQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/5dd6IvmCx3k.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/6U-sSfBV-gM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/6bggfcQsqBo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/6dFLHHmeUac.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/6eBjhfty1Kg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/6nDc17j4x98.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/6onWrxexe5g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/7bTTqMsodas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/8kWpTUzJqYA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/8zAw7aQGwoo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/99Ou7loZCbQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/9KqB3BuIOLs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/9r-QLlIF7AI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/ARCH.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/ARCHMASK.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Aberration.tif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/AdQY1oxVmIM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/AdbmQbOW11E.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/AeomMIi7v2o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/BkV2pxgof-U.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Bottles.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/BsCzEynVuIg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/BtCBOixWqgA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/C9WGjWkMo_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/CtAn_ZZy-oU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/CwaFMjWhKgk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/D4zEQcvKS84.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0020.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0020_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0021.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0021_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0033.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0033_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0034.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0034_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0249.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0249_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0261.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0261_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0339.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0339_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0348.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0348_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0358.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0358_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0397.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0397_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0417.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0417_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0446.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0446_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0450.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0450_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0845.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0845_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0847.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0847_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0850.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0850_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0871.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0871_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0876.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0876_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0934.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_0934_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_1105.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_1105_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_1142.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_1142_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2057m.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2057m_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2132.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2132_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2174.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2174_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2870.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2870_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2940.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_2940_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4145.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4145_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4258.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4258_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4321.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4321_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4351.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4351_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4384.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4384_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4399.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4399_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4561.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4561_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4607.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_4607_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_5645.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_5645_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_5907.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_5907_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6494.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6494_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6558.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6558_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6590.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6590_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6603.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6603_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6824.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6824_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6857.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_6857_th.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DSC_8125.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/DW7eYd5i2vc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/E-hIIgvUrMI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/E8JdyPcSA8o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/EEdEiMcM88o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/EdheZKM8JXs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Elephant close.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Elephant far.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/EqmkC74cQlQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/F-FURxOfBrg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Fan.tif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Fisheye.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/G3hwijrmKtM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Gc3IXkDRk4E.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Gd8c0cNkbJk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/GlzIgOKk9Is.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Gncl_X1jnrA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Gray Wedge 15.tif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/HICNTRST.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/HOUSE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/HQKT3TpVAVQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/HRmSmr0D5Kw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/HdtIiGcIQtU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/I17LBNJq9q8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/IPUrcj2xPrI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/IsMFYI9ChPA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/J79HQnTziIk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/JH8YVV39R74.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/JKji2jMhcSQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/JZmyTw9xBmg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/JoCKJ4MYxoA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/KVzMFBUYDYM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/KqpDuf1i83w.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/LANDSCAP.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/LHyKMYvi_jQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/LOOWpgtWeGA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/LpqYFDwr7i0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/MEgiAJfNDpU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/MRb1aJIwCJs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/MTRCYCLE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/MaZzuM_EczA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Macbeth Adobe RGB.TIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Macbeth Chrome 2000 D50.TIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Macbeth Chrome 2000 D65.TIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Macbeth sRGB.TIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Meeycb5dpXs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/MmZjbhO0i7c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/ONETOONE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/OTCAO0pXeJY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Orf9MKSlWYM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Owq7WrrOpAE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/P-osDZ6J4gQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/PNv0pESh9Uk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/PRPLFLWR.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/PYRAMID.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/QlL_MIF7Xjc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/RFXxBTHze_M.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/ROAD.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/SKYLINE.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/SampleJPGImage_50kbmb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/T-7wGjCBMVc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/T7H6N9RoDSI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/TMpQ5R9mbOc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/TOWER.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Th4Am2-_8SI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/UBTQTyHOlEE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/UcI5OAPD820.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/V4mNfkDmiX4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Vl277BbyL_g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/VrfGS6S86uo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/W0JDjtMSeT0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/WDVmFWOqShA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/WOMANBLU.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/WS4JcpoZz6E.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/WlehZvvNrvY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/X-ldPKtwOdI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/XU0P9Vz8xVQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/XWW746i6WoM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Ybt_9ZzcnxM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/ZmWhz69iKHI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Zsqbptb_j-Y.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Zss1s9df5AQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/_bN4LHx-ogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/_vh8qMWcZh0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/_wB_eqR89b4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/a1uNp80zNfY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/a7LorVB6n9A.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/aJOibhKp1pA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/bSF006cPp6I.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/bZCau3QGPss.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/bird.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/cJMUNkgeDqQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/castle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/duclB1y0vRI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/eFJQyLcWuNU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/eloBps6UH1Q.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/eshEeI2pzi0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/fBBBtuVLLFI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/fkeyaKsvQQQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/fkpx9ozQJpw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/fwcnv0WRsTY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/fy3W8Bf0ehE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/fySxg4UKyTM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/gZTy9qS0gAg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/grassland1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/gswmhxOfPXE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/h1Sm6L2t7dQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/hAMJpesMeDE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/hOvUzJhx-6w.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/hPvQjvixyeM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/hUTAU2TAvlg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/iYQT6PNToYo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/im1Rr9oJF_g.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/iz8E7CdVitY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/jUPOXXRNdcA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/jrkdXkE3sMM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/kVCRP3uiLiE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/kh0XiHqPetU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/ldhJpE7fQb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/leaf.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/leafmask.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/mKizNwDrLh4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/mWqn6cfIyDI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/meeting.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/meetmask.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/mhTjloLNU80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/mpVzB3421lk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/n6RRvTxVUNo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/nwwvTJL2JxA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/o9qG3-TMW2c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/oldphoto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/oqYcva_0ngg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/p7mK3BTrbIE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/pFstlKzYPNY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/qQD_GOd0d1o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/r56oO1V5oms.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/rKCumkkIwjU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/rMaKy1DdcbI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/rN8N9bdiEeE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/rhino.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/sKblTzLF56U.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/sT_vNkvZQWM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/seamtn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/stereol.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/stereor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/td-KZOEjb-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/tl14DpeGPsQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/tropical.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/u1_nj-yMEXU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/u21VPJ35uUU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/usr7o_yrbIM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/v1yHlCx6BOw.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/vGNVhp3HyCY.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/vZA74_nDwv0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/vfrbig_ePUU.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/vhmzI0vs3N8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/vyFA3R96RA4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/w0XQM9X6uQc.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/xUqteFZZ1nI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/yT3mppn35W8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/yZjarfLNxa8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/yh_E5GHn8bQ.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/zepnJQycr4U.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/video/SomeVids/stream.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/pets/dogs/OldDog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDATA/audio/BinauralTest.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDATA/photos/abstract/images.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDATA/video/SomeVids/SampleVideo_1280x720_1mb.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/thumbnailator-0.4.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/509731276-612x612.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/537447438-612x612.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/Untitled Diagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/awesome-abstract-wallpapers-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/dsf.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/images.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/images.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/imagessdf.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/imagestoh.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/people/group.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/pets/dogs/puppies/1puppy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/pets/dogs/puppies/2Puppies.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/adel-gordon-256808-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/amy-humphries-227517-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/brigitte-tohm-388989-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/connor-wang-749757-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/matteo-catanese-583448-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/rob-walsh-542246-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/thomas-kolnowski-723299-unsplash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/06A21B2C-B9E4-4AC1-83AE0BE0FA01D980.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/107667228_beech-tree-.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/156695-131-FF89C9FA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/220px-Ash_Tree_-_geograph.org.uk_-_590710.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/220px-Aspen-PopulusTremuloides-2001-09-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/250px-Arbres.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/5ACLHxhy_400x400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/Larix_decidua_Aletschwald.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/Live-Oak-Tree-450w.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/Sawtooth-Oak_450_a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/TreeA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/TreeB.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/TreeC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/amazing-things-about-trees-plain-header-740x444.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/green-forest-trees.jpg.860x0_q70_crop-scale.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/hero-green-leaves-in-sunlight.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/image-20160913-4948-6fyxz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/images.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/img_2811.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/index.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/mar2018_a05_talkingtrees.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/sunset_through_oak_tree.jpg.653x0_q80_crop-smart.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/thuja-green-giant-blue-edit-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/tree-care.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/trees.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/pets/Cat.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Cat.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/pets/Rabbit.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/random/Rabbit.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/pets/fish/2Fishes.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/random/2Fishes.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/pets/fish/RedFish.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/random/RedFish.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/trees/06A21B2C-B9E4-4AC1-83AE0BE0FA01D980.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/trees/06A21B2C-B9E4-4AC1-83AE0BE-0FA01D980.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/trees/green-forest-trees.jpg.860x0_q70_crop-scale.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/trees/green-forest-q70-rop-scale.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestDATA/photos/trees/sunset_through_oak_tree.jpg.653x0_q80_crop-smart.jpg" afterPath="$PROJECT_DIR$/TestDATA/photos/trees/653x0-q80-crop-smart.jpg" />
+    <list default="true" id="56b9b8e9-ebf6-4ab7-9190-5c1b518ef628" name="make" comment="update html file hierarchy">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.aac" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.ac3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.aiff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.amr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.au" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.flac" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.mid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.mka" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.ra" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.voc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/sample.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-00-Intro.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-01-Background.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-02-ProjMan.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-03-Methods.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-04-Agile.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-05-Scrum.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-06-Prototypes.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-06-ScrumGames.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-07-UML4Architecture_2018.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-08-Architecture1_2018.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-08-Architecture2_2018.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-09-ApplicationArchitectures_2018.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-10-DesignPatterns1_2018.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-10-DesignPatterns2_2018_revised.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/ASD-11-OpenSourceSoftwareDevelopment_2018.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/Lecture1-ExtraMaterial(DataFlowDiagrams).ppt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/Lecture1-ExtraMaterial(Use Case Description).ppt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/Lecture1-ExtraMaterial(domain models).doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S/Managing OO Projects.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/SampleXLSFile_19kb.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/tests-example.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/-K6JMRMj4x4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/2FrX56QL7P8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/4xv3lqnanYc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/KEEpi-SOM_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/WOzVqzpScrk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/Xwk4gkiMNGc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/_SFJhRPzJHs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/azkWKhyr54U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/dp2m5glF2Y4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/eWBseWsTEpA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/g8kuMNaxbDE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/iIg4F2IWbTM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/kBJEJqWNtNY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/lQy6mHZ7fYk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/va3_iGyyb9M.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/wE_Dk2Kd3GQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/wMY9DWzqjCo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch4/xzjouTJASSA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/-NCciNdoeHU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/4RH6476Fx-Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/57tZkR0OkCY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/6bggfcQsqBo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/6onWrxexe5g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/99Ou7loZCbQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/BkV2pxgof-U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/EEdEiMcM88o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/F-FURxOfBrg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/Gd8c0cNkbJk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/I17LBNJq9q8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/I8dJYXOwtnE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/IsMFYI9ChPA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/KqpDuf1i83w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/LHyKMYvi_jQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/LpqYFDwr7i0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/OTCAO0pXeJY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/V4mNfkDmiX4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/VrfGS6S86uo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/eFJQyLcWuNU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/eloBps6UH1Q.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/eshEeI2pzi0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/hAMJpesMeDE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/iz8E7CdVitY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/n6RRvTxVUNo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/nwwvTJL2JxA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/o9qG3-TMW2c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/vGNVhp3HyCY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/vyFA3R96RA4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch7/xUqteFZZ1nI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/3MtiSMdnoCo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/6p6WDodvR2Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/9EwxGJdTJNo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/CRTYASwDw80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/Dwheufds6kQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/F9o7u-CnDJk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/HkTMcmlMOUQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/L4i0APCrnw4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/M9F8VR0jEPM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/NLbvPon-5r8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/Nj0mCM6nikI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/RA6vbIVis2Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/Sq8rpq2KB7U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/Wc8k-KryEPM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/XyoW1MhPqbs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/_LuLiJc1cdo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/dGfPZULuMfw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/eh_vUyioHhc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/hGO27G5tZJ8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/kKvQJ6rK6S4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/nF4lk-9IJH8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/sLraJyotfeY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/shy0cEi7h1o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/sjS4pYowbKw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/ssAcdlJRsI4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/t9OGCATN-vg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/tBtuxtLvAZs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/uDAA35_fzcs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/xBYD4tt8ANo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/batch8/zi5vRoAP3WY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall73.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall74.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall75.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall76.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall77.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall78.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall79.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/cars/wall81.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/adel-gordon-256808-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/amy-humphries-227517-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/brigitte-tohm-388989-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/connor-wang-749757-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/matteo-catanese-583448-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/rob-walsh-542246-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/random/thomas-kolnowski-723299-unsplash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/39921804-random-wallpapers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/9bfdc642ee616a5a4ddca2b551593192.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/C3wB6Vm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/Random-Image-Wallpapers-015.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/Random-Image-Wallpapers-034.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/ebc62ecde6b3bb77fdd4a781c7206d95.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/index.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/index1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/index3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/index562.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/wallpaper.wiki-Cool-Random-Wallpaper-1-PIC-WPD001172.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/wallpaper.wiki-Cool-awesome-random-wallpapers-full-hd-PIC-WPD0010582.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/wallpaper.wiki-Impressive-Random-Wallpaper-PIC-WPD005203.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/wallpaper2you_218174.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/photos/wallpapers/ydh.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/video/SomeVids/sample.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/video/stream_of_water.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/Capstone-Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Audio/aac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Audio/mid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Audio/wav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Documents/css.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Documents/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Documents/js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Documents/xml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/Documents/zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/abstract/abstract_art_naple.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch1/E0atFS5RRiI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch1/HM27qPNvVr4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch1/RAb_KyPApqI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch1/c6g-26myD34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch1/kfW5gHGPgZM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch2/2i-JP4tVAp8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch2/HfAfi2pJSOE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch2/OSxMcLE0n9o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch2/YGrh7KrnYLk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch2/gM9XBRSX41o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/0bGlBaspHbw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/0t-8AnomBTQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/3JZET_OPhBs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/48-A6HPA2Ng.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/4wBizB851jI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/C25Q1y251Us.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/Duw8GcpHrts.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/J4gcHgQNOKM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/Jlc6oiMtRRY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/RCRl2sxkg48.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/SN-ZQHPTRic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/VZg4gcN3msE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/_yKX0dr12JI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/mEaBhkr85lk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/o3I68znoa8Q.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/tKEjas4APbs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch3/xozzvSs72JU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/-K6JMRMj4x4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/2FrX56QL7P8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/4xv3lqnanYc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/KEEpi-SOM_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/WOzVqzpScrk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/Xwk4gkiMNGc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/_SFJhRPzJHs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/azkWKhyr54U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/dp2m5glF2Y4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/eWBseWsTEpA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/g8kuMNaxbDE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/iIg4F2IWbTM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/kBJEJqWNtNY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/lQy6mHZ7fYk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/va3_iGyyb9M.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/wE_Dk2Kd3GQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/wMY9DWzqjCo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch4/xzjouTJASSA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/25EQ2lb0ph8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/53qx2d3t8Lw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/AmMOtjmllmw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/GSCtoEEqntQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/IO4wIzn4wEo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/JsHNDVBBSgU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/MoeK0FnAUKc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/TMPio7a5Aes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/UolboOMmFeE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/Uyt4CcLm7Uk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/aB_DK1Uz3r4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/gHcWaeldgtQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/kxW731QLajM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/qStIhFXICdw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/qyHrl0I3V6Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/s20nA2KB1N4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch5/xFb9h6hwobg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/6CyS6dE1g_U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/AN0aSB267ao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/B94jMB3eHPQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/BoYUDFcXuWI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/EPtlBANBT6E.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/EqZNSrk-foE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/HM241WDPzWA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/KFCPopx2icU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/N3tJ-Tbd9dM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/SOx0JJK_P-g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/TDpaYRT0mzk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/XFqzxqQja3g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/_o0P5q6_Gjc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/jQpht1LrDQQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/nCHsBSc308g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/qmFAXpJ76HE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/t8jT503qWcU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/u8TsGu1DGBc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch6/yKwJCJuz7Z0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/-NCciNdoeHU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/4RH6476Fx-Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/57tZkR0OkCY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/6bggfcQsqBo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/6onWrxexe5g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/99Ou7loZCbQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/BkV2pxgof-U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/EEdEiMcM88o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/F-FURxOfBrg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/Gd8c0cNkbJk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/I17LBNJq9q8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/I8dJYXOwtnE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/IsMFYI9ChPA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/KqpDuf1i83w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/LHyKMYvi_jQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/LpqYFDwr7i0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/OTCAO0pXeJY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/V4mNfkDmiX4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/VrfGS6S86uo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/eFJQyLcWuNU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/eloBps6UH1Q.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/eshEeI2pzi0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/hAMJpesMeDE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/iz8E7CdVitY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/n6RRvTxVUNo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/nwwvTJL2JxA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/o9qG3-TMW2c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/vGNVhp3HyCY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/vyFA3R96RA4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch7/xUqteFZZ1nI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/3MtiSMdnoCo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/6p6WDodvR2Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/9EwxGJdTJNo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/CRTYASwDw80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/Dwheufds6kQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/F9o7u-CnDJk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/HkTMcmlMOUQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/L4i0APCrnw4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/M9F8VR0jEPM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/NLbvPon-5r8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/Nj0mCM6nikI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/RA6vbIVis2Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/Sq8rpq2KB7U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/Wc8k-KryEPM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/XyoW1MhPqbs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/_LuLiJc1cdo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/dGfPZULuMfw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/eh_vUyioHhc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/hGO27G5tZJ8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/kKvQJ6rK6S4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/nF4lk-9IJH8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/sLraJyotfeY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/shy0cEi7h1o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/sjS4pYowbKw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/ssAcdlJRsI4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/t9OGCATN-vg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/tBtuxtLvAZs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/uDAA35_fzcs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/xBYD4tt8ANo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/batch8/zi5vRoAP3WY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall73.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall74.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall75.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall76.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall77.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall78.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall79.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/cars/wall81.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/pets/dogs/OldDog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/-3nwvHqB6aY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/-NCciNdoeHU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/-YPxLkfj3Ao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/0sRp2ogjPP0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/1TAM-xEwQrs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/1Zx5yAnv-jI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/22lTNEAz5uI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/2Fb_0y-9CdU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/2Fishes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/2zxb_g_2yT8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/3BwKbZ3aCc0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/3FwPmzy1DfE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/3aubsNmGuLE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/3opGxRoV7MY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/44OaWM_ObWk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/4FZx3tArev8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/4RH6476Fx-Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/4WFltRAJSXE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/57tZkR0OkCY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/5VNXlwo_woQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/5dd6IvmCx3k.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/6U-sSfBV-gM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/6bggfcQsqBo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/6dFLHHmeUac.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/6eBjhfty1Kg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/6nDc17j4x98.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/6onWrxexe5g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/7bTTqMsodas.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/8kWpTUzJqYA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/8zAw7aQGwoo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/99Ou7loZCbQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/9KqB3BuIOLs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/9r-QLlIF7AI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/ARCH.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/ARCHMASK.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Aberration.tif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/AdQY1oxVmIM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/AdbmQbOW11E.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/AeomMIi7v2o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/BkV2pxgof-U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Bottles.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/BsCzEynVuIg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/BtCBOixWqgA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/C9WGjWkMo_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Cat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/CtAn_ZZy-oU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/CwaFMjWhKgk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/D4zEQcvKS84.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0020.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0020_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0021.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0021_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0033.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0033_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0034.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0034_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0249.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0249_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0261.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0261_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0339.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0339_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0348.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0348_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0358.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0358_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0397.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0397_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0417.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0417_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0446.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0446_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0450.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0450_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0845.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0845_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0847.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0847_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0850.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0850_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0871.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0871_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0876.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0876_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0934.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_0934_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_1105.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_1105_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_1142.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_1142_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2057m.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2057m_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2132.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2132_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2174.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2174_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2870.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2870_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2940.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_2940_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4145.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4145_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4258.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4258_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4321.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4321_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4351.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4351_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4384.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4384_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4399.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4399_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4561.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4561_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4607.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_4607_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_5645.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_5645_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_5907.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_5907_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6494.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6494_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6558.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6558_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6590.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6590_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6603.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6603_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6824.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6824_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6857.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_6857_th.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DSC_8125.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/DW7eYd5i2vc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/E-hIIgvUrMI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/E8JdyPcSA8o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/EEdEiMcM88o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/EdheZKM8JXs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Elephant close.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Elephant far.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/EqmkC74cQlQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/F-FURxOfBrg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Fan.tif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Fisheye.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/G3hwijrmKtM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Gc3IXkDRk4E.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Gd8c0cNkbJk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/GlzIgOKk9Is.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Gncl_X1jnrA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Gray Wedge 15.tif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/HICNTRST.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/HOUSE.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/HQKT3TpVAVQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/HRmSmr0D5Kw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/HdtIiGcIQtU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/I17LBNJq9q8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/IPUrcj2xPrI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/IsMFYI9ChPA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/J79HQnTziIk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/JH8YVV39R74.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/JKji2jMhcSQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/JZmyTw9xBmg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/JoCKJ4MYxoA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/KVzMFBUYDYM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/KqpDuf1i83w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/LANDSCAP.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/LHyKMYvi_jQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/LOOWpgtWeGA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/LpqYFDwr7i0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/MEgiAJfNDpU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/MRb1aJIwCJs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/MTRCYCLE.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/MaZzuM_EczA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Macbeth Adobe RGB.TIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Macbeth Chrome 2000 D50.TIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Macbeth Chrome 2000 D65.TIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Macbeth sRGB.TIF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Meeycb5dpXs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/MmZjbhO0i7c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/ONETOONE.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/OTCAO0pXeJY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Orf9MKSlWYM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Owq7WrrOpAE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/P-osDZ6J4gQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/PNv0pESh9Uk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/PRPLFLWR.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/PYRAMID.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/QlL_MIF7Xjc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/RFXxBTHze_M.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/ROAD.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Rabbit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/RedFish.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/SKYLINE.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/SampleJPGImage_50kbmb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/T-7wGjCBMVc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/T7H6N9RoDSI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/TMpQ5R9mbOc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/TOWER.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Th4Am2-_8SI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/UBTQTyHOlEE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/UcI5OAPD820.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/V4mNfkDmiX4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Vl277BbyL_g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/VrfGS6S86uo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/W0JDjtMSeT0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/WDVmFWOqShA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/WOMANBLU.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/WS4JcpoZz6E.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/WlehZvvNrvY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/X-ldPKtwOdI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/XU0P9Vz8xVQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/XWW746i6WoM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Ybt_9ZzcnxM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/ZmWhz69iKHI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Zsqbptb_j-Y.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/Zss1s9df5AQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/_bN4LHx-ogo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/_vh8qMWcZh0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/_wB_eqR89b4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/a1uNp80zNfY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/a7LorVB6n9A.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/aJOibhKp1pA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/bSF006cPp6I.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/bZCau3QGPss.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/bird.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/cJMUNkgeDqQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/castle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/duclB1y0vRI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/eFJQyLcWuNU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/eloBps6UH1Q.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/eshEeI2pzi0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/fBBBtuVLLFI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/fkeyaKsvQQQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/fkpx9ozQJpw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/fwcnv0WRsTY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/fy3W8Bf0ehE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/fySxg4UKyTM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/gZTy9qS0gAg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/grassland1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/gswmhxOfPXE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/h1Sm6L2t7dQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/hAMJpesMeDE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/hOvUzJhx-6w.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/hPvQjvixyeM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/hUTAU2TAvlg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/iYQT6PNToYo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/im1Rr9oJF_g.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/iz8E7CdVitY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/jUPOXXRNdcA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/jrkdXkE3sMM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/kVCRP3uiLiE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/kh0XiHqPetU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/ldhJpE7fQb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/leaf.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/leafmask.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/mKizNwDrLh4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/mWqn6cfIyDI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/meeting.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/meetmask.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/mhTjloLNU80.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/mpVzB3421lk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/n6RRvTxVUNo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/nwwvTJL2JxA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/o9qG3-TMW2c.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/oldphoto.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/oqYcva_0ngg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/p7mK3BTrbIE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/pFstlKzYPNY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/qQD_GOd0d1o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/r56oO1V5oms.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/rKCumkkIwjU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/rMaKy1DdcbI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/rN8N9bdiEeE.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/rhino.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/sKblTzLF56U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/sT_vNkvZQWM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/seamtn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/stereol.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/stereor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/td-KZOEjb-0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/tl14DpeGPsQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/tropical.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/u1_nj-yMEXU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/u21VPJ35uUU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/usr7o_yrbIM.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/v1yHlCx6BOw.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/vGNVhp3HyCY.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/vZA74_nDwv0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/vfrbig_ePUU.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/vhmzI0vs3N8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/vyFA3R96RA4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/w0XQM9X6uQc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/xUqteFZZ1nI.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/yT3mppn35W8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/yZjarfLNxa8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/yh_E5GHn8bQ.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/random/zepnJQycr4U.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/06A21B2C-B9E4-4AC1-83AE0BE-0FA01D980.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/653x0-q80-crop-smart.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/trees/green-forest-q70-rop-scale.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/39921804-random-wallpapers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/9bfdc642ee616a5a4ddca2b551593192.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/C3wB6Vm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/Random-Image-Wallpapers-015.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/Random-Image-Wallpapers-034.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/ebc62ecde6b3bb77fdd4a781c7206d95.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/index.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/index1.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/index3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/index562.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/wallpaper.wiki-Cool-Random-Wallpaper-1-PIC-WPD001172.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/wallpaper.wiki-Cool-awesome-random-wallpapers-full-hd-PIC-WPD0010582.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/wallpaper.wiki-Impressive-Random-Wallpaper-PIC-WPD005203.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/wallpaper2you_218174.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thumbs/TestDATA/photos/wallpapers/ydh.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/asbfdk.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/CSC3003S.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/Template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/Untitled Diagram.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDATA/files/randomDocs/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDATA/audio/BinauralTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio/BinauralTest.mp3" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thumbs/Audio/audio.png" afterPath="$PROJECT_DIR$/thumbs/Audio/audio.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template.html" afterPath="$PROJECT_DIR$/Template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/abstract.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/abstract.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/pets/dogs/puppies/1puppy.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/pets/dogs/puppies/1puppy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/random.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/random.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDATA/photos/trees.xml" afterPath="$PROJECT_DIR$/TestDATA/photos/trees.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/element/audioElement.java" afterPath="$PROJECT_DIR$/src/element/audioElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/element/documentElement.java" afterPath="$PROJECT_DIR$/src/element/documentElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/element/imageElement.java" afterPath="$PROJECT_DIR$/src/element/imageElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/makefile" afterPath="$PROJECT_DIR$/makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/element/thumbnail.java" afterPath="$PROJECT_DIR$/src/element/thumbnail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/element/videoElement.java" afterPath="$PROJECT_DIR$/src/element/videoElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/htmlPage.java" afterPath="$PROJECT_DIR$/src/htmlPage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
@@ -462,57 +663,22 @@
       <file leaf-file-name="thumbnail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/element/thumbnail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+            <state relative-caret-position="222">
+              <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#generateAudioThumb#0;class#thumbnail#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makefile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contentHandle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contentHandle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding>
-                <element signature="method#generateContent#0;class#contentHandle#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image0_default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IMAGE/image0_default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="207" column="100" lean-forward="false" selection-start-line="207" selection-start-column="100" selection-end-line="207" selection-end-column="100" />
-              <folding>
-                <marker date="1536081855816" expanded="true" signature="8780:9008" ph="..." />
-                <marker date="1536081855816" expanded="true" signature="9024:9052" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HTMLGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-              <folding>
-                <element signature="method#main#0;class#HTMLGenerator#0" expanded="true" />
-                <element signature="method#findXMLs#0;class#HTMLGenerator#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -523,18 +689,6 @@
             <state relative-caret-position="630">
               <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="audio0_author.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AUDIO/audio0_author.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <marker date="1536081855008" expanded="true" signature="4152:4171" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -562,7 +716,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videoElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="audioElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/element/audioElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="method#generateTag#0;class#audioElement#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videoElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/element/videoElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -610,8 +776,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/String.class" />
-        <option value="$PROJECT_DIR$/TestDATA/audio/someOtherAUdio.xml" />
         <option value="$PROJECT_DIR$/TestDATA/files/Lect1/LectureSlides.xml" />
         <option value="$PROJECT_DIR$/TestDATA/files/Lect2/LectureSlides.xml" />
         <option value="$PROJECT_DIR$/TestDATA/files/Lect3/LectureSlides.xml" />
@@ -631,7 +795,6 @@
         <option value="$PROJECT_DIR$/src/HTMLGenerator.java" />
         <option value="$PROJECT_DIR$/capstone-project.properties" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/src/readers/XMLReader.java" />
         <option value="$PROJECT_DIR$/TestDATA/photos/wallpapers.xml" />
@@ -651,16 +814,19 @@
         <option value="$PROJECT_DIR$/TestDATA/photos/batch7.xml" />
         <option value="$PROJECT_DIR$/TestDATA/photos/batch8.xml" />
         <option value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Image.class" />
-        <option value="$PROJECT_DIR$/src/element/thumbnail.java" />
         <option value="$PROJECT_DIR$/src/htmlPage.java" />
         <option value="$PROJECT_DIR$/src/readers/TemplateReader.java" />
-        <option value="$PROJECT_DIR$/AUDIO/audio0_author.html" />
         <option value="$PROJECT_DIR$/Template.html" />
         <option value="$PROJECT_DIR$/IMAGE/image0_default.html" />
         <option value="$PROJECT_DIR$/src/element/audioElement.java" />
         <option value="$PROJECT_DIR$/src/element/documentElement.java" />
         <option value="$PROJECT_DIR$/src/element/imageElement.java" />
         <option value="$PROJECT_DIR$/src/element/videoElement.java" />
+        <option value="$PROJECT_DIR$/TestDATA/files/CSC3003S.xml" />
+        <option value="$PROJECT_DIR$/TestDATA/files/randomDocs.xml" />
+        <option value="$PROJECT_DIR$/AUDIO/audio0_author.html" />
+        <option value="$PROJECT_DIR$/src/element/thumbnail.java" />
+        <option value="$PROJECT_DIR$/makefile" />
       </list>
     </option>
   </component>
@@ -671,6 +837,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="961" />
     <option name="width" value="959" />
     <option name="height" value="1079" />
   </component>
@@ -703,13 +870,7 @@
             <path>
               <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Capstone-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Capstone-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="element" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -720,7 +881,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -734,18 +895,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestDATA/files/randomDocs" />
+      <recent name="$PROJECT_DIR$/TestDATA/files" />
+      <recent name="$PROJECT_DIR$/TestDATA/files/CSC3003S" />
       <recent name="$PROJECT_DIR$/AUDIO" />
       <recent name="$PROJECT_DIR$/TestDATA/video/SomeVids" />
-      <recent name="$PROJECT_DIR$/TestDATA/photos" />
-      <recent name="$PROJECT_DIR$/TestDATA/photos/pets/dogs" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestDATA/files/randomDocs" />
       <recent name="$PROJECT_DIR$/TestDATA/photos/random" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/thumbs" />
       <recent name="$PROJECT_DIR$/TestDATA/photos" />
-      <recent name="$PROJECT_DIR$/src/page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -865,6 +1026,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task id="Default" summary="Default task">
@@ -1164,7 +1328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536072246680</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="update html file hierarchy">
+      <created>1536081952683</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1536081952684</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers />
@@ -1179,8 +1350,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="959" height="1079" extended-state="4" />
-    <editor active="true" />
+    <frame x="961" y="0" width="959" height="1079" extended-state="4" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1190,12 +1360,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.74345547" sideWeight="0.5252525" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.384696" sideWeight="0.48674244" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5220126" sideWeight="0.48674244" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33612564" sideWeight="0.49250937" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41151834" sideWeight="0.47474748" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40985325" sideWeight="0.47474748" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30996713" sideWeight="0.49524942" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25629792" sideWeight="0.49524942" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972618" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12166489" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1281,7 +1451,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="[revision] refactored code" />
     <MESSAGE value="[safepoint] **marking progress" />
     <MESSAGE value="[safepoint] ready for submission" />
     <MESSAGE value="*****C******" />
@@ -1306,7 +1475,8 @@
     <MESSAGE value="template update" />
     <MESSAGE value="ant" />
     <MESSAGE value="synchronize xmlreader" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronize xmlreader" />
+    <MESSAGE value="update html file hierarchy" />
+    <option name="LAST_COMMIT_MESSAGE" value="update html file hierarchy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1322,86 +1492,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image0_author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="199" column="8" lean-forward="false" selection-start-line="199" selection-start-column="8" selection-end-line="199" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audio0_date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/document0_date.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module_capstone-project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-353">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capstone-project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capstone-project.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1133">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="72" lean-forward="true" selection-start-line="1" selection-start-column="72" selection-end-line="1" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audio0_author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="145" column="22" lean-forward="true" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/readers/XMLReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1606,14 +1696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/element/thumbnail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/htmlPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
@@ -1640,10 +1722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="182" column="6" lean-forward="false" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
-          <folding>
-            <marker date="1536081855012" expanded="true" signature="4152:4171" ph="..." />
-            <marker date="1536081855012" expanded="true" signature="4152:4179" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1666,16 +1745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AUDIO/audio0_author.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <marker date="1536081855008" expanded="true" signature="4152:4171" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1688,17 +1757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="207" column="100" lean-forward="false" selection-start-line="207" selection-start-column="100" selection-end-line="207" selection-end-column="100" />
-          <folding>
-            <marker date="1536081855816" expanded="true" signature="8780:9008" ph="..." />
-            <marker date="1536081855816" expanded="true" signature="9024:9052" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/element/audioElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="56" column="34" lean-forward="false" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1745,6 +1803,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DOCUMENT/document0_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/files/randomDocs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/files/randomDocs/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/files/CSC3003S.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumbs/Documents/js.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumbs/Documents/html.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/files/randomDocs/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDATA/files/randomDocs/Template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/element/audioElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="method#generateTag#0;class#audioElement#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thumbs/Audio/audio.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUDIO/audio0_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/element/thumbnail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="54" column="20" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#generateAudioThumb#0;class#thumbnail#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>

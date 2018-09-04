@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentLib>
+
+    <name>collection of random docs</name>
+
+    <src>TestDATA/files/randomDocs/</src>
+
+    <title>Slide testing</title>
+
+    <author>0-Unknown</author>
+
+    <description>This document is used to test whether the site is able to handle different kinds of documents
+    </description>
+
+    <date>2018 January 16</date>
+
+    <copyright>Stuff here</copyright>
+
+    <location>Different locations</location>
+
+</documentLib>

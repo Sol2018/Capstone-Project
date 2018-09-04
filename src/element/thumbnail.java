@@ -29,7 +29,7 @@ class thumbnail
         File file = new File("thumbs/Audio/"+docType+".png");
         if (file.exists())
             return file.getPath();
-        return "thumbs/Documents/audio.png";
+        return "thumbs/Audio/audio.png";
     }
 
     /**
@@ -49,7 +49,10 @@ class thumbnail
             BufferedImage img = new BufferedImage(x, y, BufferedImage.TYPE_INT_RGB);
             try
             {
-                img.createGraphics().drawImage(ImageIO.read(new File(src)).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
+                Graphics g = img.createGraphics();
+                Image image  = ImageIO.read(new File(src));
+                if (image!=null)
+                    g.drawImage((image).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
             } catch (IOException e)
             {
                 e.printStackTrace();
