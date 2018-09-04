@@ -45,7 +45,7 @@ public class audioElement extends htmlElement
      * */
     private void generateTag()
     {
-        content.append("<div class=\"item\"><a target=\"_blank\" href=\"");
+        content.append("<div class=\"item\"><a target=\"_blank\" href=\"../");
         content.append(src); //target image
         content.append("\">");
         content.append("<");
@@ -54,7 +54,7 @@ public class audioElement extends htmlElement
         content.append(" height=");
         content.append(height);
         content.append(" ");
-        content.append(" src=\"");
+        content.append(" src=\"../");
         content.append(thumbnail);    //thumbnail
         content.append("\"> ");
         content.append("</a>");

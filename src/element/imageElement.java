@@ -28,11 +28,7 @@ public class imageElement extends htmlElement
     private void generateThumbNail()
     {
         thumbnail thumb = new thumbnail();
-        try {
-            thumb.generateImageThumb(300, 200, src);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        thumb.generateImageThumb(300, 200, src);
         thumbnail = thumb.getSrc();
     }
 
@@ -42,13 +38,13 @@ public class imageElement extends htmlElement
      * */
     private void generateTag()
     {
-        content.append("<div class=\"item\"><a target=\"_blank\" href=\"");
+        content.append("<div class=\"item\"><a target=\"_blank\" href=\"../");
         content.append(src); //target image
         content.append("\">");
         content.append("<");
         content.append("img");
         content.append(" ");
-        content.append(" src=\"");
+        content.append(" src=\"../");
         content.append(thumbnail);    //thumbnail
         content.append("\"> ");
         content.append("</a>");

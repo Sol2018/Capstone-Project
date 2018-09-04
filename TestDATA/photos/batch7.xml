@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imageLib>
+
+    <name>batch7</name>
+
+    <src>TestDATA/photos/batch7/</src>
+
+    <author>t http://unsample.net/</author>
+
+    <description>Image found from http://unsample.net/</description>
+
+    <location>o http://unsample.net/</location>
+
+    <day>03</day>
+
+    <month>08</month>
+
+    <year>2018</year>
+
+    <copyright>Free image</copyright>
+
+</imageLib>

@@ -5,11 +5,11 @@
 
     <src>TestDATA/photos/random/</src>
 
-    <author>An unknown author</author>
+    <author>Random Author</author>
 
-    <description>Downloaded random images from some site</description>
+    <description>Downloaded random images from some site I forgot, will delete them after the project!</description>
 
-    <location>zzz internet</location>
+    <location>zzz tester</location>
 
     <day>03</day>
 
@@ -17,6 +17,6 @@
 
     <year>2018</year>
 
-    <copyright>Not well informed</copyright>
+    <copyright>We don't have any!</copyright>
 
 </imageLib>

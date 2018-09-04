@@ -5,9 +5,11 @@
 
     <src>TestDATA/photos/trees/</src>
 
-    <author>Some Author</author>
+    <author>Trees Author</author>
 
-    <description>Photo from tree Album</description>
+    <description>Image from a library of trees and other green things. Most likely trees! Actually, just trees! Yup!
+        Just Trees
+    </description>
 
     <location>Internet</location>
 

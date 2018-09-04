@@ -32,7 +32,7 @@ public class videoElement extends htmlElement
         content.append("\" height=\"");
         content.append(height);
         content.append("\" controls>\n");
-        content.append(" <source src=\"");
+        content.append(" <source src=\"../");
         content.append(src);
         content.append("\">\n");
         content.append("Your browser does not support the video tag.\n");

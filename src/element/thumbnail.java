@@ -38,7 +38,7 @@ class thumbnail
      * @param x is the width of the thumbnail in dot pixels
      * @param y is the height of the thumbnail in dot pixels
      * @param src is the path of the original image  */
-    void generateImageThumb(int x, int y, String src) throws IOException
+    void generateImageThumb(int x, int y, String src)
     {
         this.src = src;
         createDirectory();
@@ -47,8 +47,19 @@ class thumbnail
         if (!new File("thumbs/" + src).exists())
         {
             BufferedImage img = new BufferedImage(x, y, BufferedImage.TYPE_INT_RGB);
-            img.createGraphics().drawImage(ImageIO.read(new File(src)).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
-            ImageIO.write(img, "jpg", new File("thumbs/" + src));
+            try
+            {
+                img.createGraphics().drawImage(ImageIO.read(new File(src)).getScaledInstance(x, y, Image.SCALE_DEFAULT), 0, 0, null);
+            } catch (IOException e)
+            {
+                e.printStackTrace();
+            }
+            try
+            {
+                ImageIO.write(img, "jpg", new File("thumbs/" + src));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 

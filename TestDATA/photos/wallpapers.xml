@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imageLib>
+
+    <name>wallpapers</name>
+
+    <src>TestDATA/photos/wallpapers/</src>
+
+    <author>Unknown</author>
+
+    <description>Images search result from google: I searched for wallpaper and (unlawfully???) downloaded the images
+        for project demonstration
+    </description>
+
+    <location>Observatory, somewhere on Earth</location>
+
+    <day>16</day>
+
+    <month>03</month>
+
+    <year>2017</year>
+
+    <copyright>We don't have any!</copyright>
+
+</imageLib>

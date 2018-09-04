@@ -87,7 +87,7 @@ class htmlPage
 
 
             s.append(templatePage.get(1));
-            writeHTMLtoFile(s.toString(), pageType + i + "_" + order + ".html");
+            writeHTMLtoFile(s.toString(), pageType.toUpperCase()+"/"+pageType + i + "_" + order + ".html");
         }
     }
 

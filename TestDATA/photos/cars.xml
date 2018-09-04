@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imageLib>
+
+    <name>car images</name>
+
+    <src>TestDATA/photos/cars/</src>
+
+    <author>http something</author>
+
+    <description>A car!</description>
+
+    <location>website</location>
+
+    <day>03</day>
+
+    <month>08</month>
+
+    <year>2018</year>
+
+    <copyright>We don't have any!</copyright>
+
+</imageLib>
