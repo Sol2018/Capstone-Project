@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="capstone-project" default="all">
+    <!-- Uncomment the following property if no tests compilation is needed -->
+    <!--
+    <property name="skip.tests" value="true"/>
+     -->
+
+    <!-- Compiler options -->
+
+    <property name="compiler.debug" value="on"/>
+    <property name="compiler.generate.no.warnings" value="off"/>
+    <property name="compiler.args" value=""/>
+    <property name="compiler.max.memory" value="700m"/>
+    <patternset id="ignored.files">
+        <exclude name="**/*.hprof/**"/>
+        <exclude name="**/*.pyc/**"/>
+        <exclude name="**/*.pyo/**"/>
+        <exclude name="**/*.rbc/**"/>
+        <exclude name="**/*.yarb/**"/>
+        <exclude name="**/*~/**"/>
+        <exclude name="**/.DS_Store/**"/>
+        <exclude name="**/.git/**"/>
+        <exclude name="**/.hg/**"/>
+        <exclude name="**/.svn/**"/>
+        <exclude name="**/CVS/**"/>
+        <exclude name="**/__pycache__/**"/>
+        <exclude name="**/_svn/**"/>
+        <exclude name="**/vssver.scc/**"/>
+        <exclude name="**/vssver2.scc/**"/>
+    </patternset>
+    <patternset id="library.patterns">
+        <include name="*.war"/>
+        <include name="*.swc"/>
+        <include name="*.zip"/>
+        <include name="*.egg"/>
+        <include name="*.ane"/>
+        <include name="*.jar"/>
+        <include name="*.ear"/>
+    </patternset>
+    <patternset id="compiler.resources">
+        <exclude name="**/?*.java"/>
+        <exclude name="**/?*.form"/>
+        <exclude name="**/?*.class"/>
+        <exclude name="**/?*.groovy"/>
+        <exclude name="**/?*.scala"/>
+        <exclude name="**/?*.flex"/>
+        <exclude name="**/?*.kt"/>
+        <exclude name="**/?*.clj"/>
+        <exclude name="**/?*.aj"/>
+    </patternset>
+
+    <!-- Modules -->
+
+
+    <!-- Module Capstone-Project -->
+
+    <dirname property="module.capstone-project.basedir" file="${ant.file}"/>
+
+
+    <property name="compiler.args.capstone-project" value="-encoding UTF-8 -source 1.8 -target 1.8 ${compiler.args}"/>
+
+    <property name="capstone-project.output.dir"
+              value="${module.capstone-project.basedir}/out/production/Capstone-Project"/>
+    <property name="capstone-project.testoutput.dir"
+              value="${module.capstone-project.basedir}/out/test/Capstone-Project"/>
+
+    <path id="capstone-project.module.bootclasspath">
+        <!-- Paths to be included in compilation bootclasspath -->
+    </path>
+
+    <path id="capstone-project.module.production.classpath"/>
+
+    <path id="capstone-project.runtime.production.module.classpath">
+        <pathelement location="${capstone-project.output.dir}"/>
+    </path>
+
+    <path id="capstone-project.module.classpath">
+        <pathelement location="${capstone-project.output.dir}"/>
+    </path>
+
+    <path id="capstone-project.runtime.module.classpath">
+        <pathelement location="${capstone-project.testoutput.dir}"/>
+        <pathelement location="${capstone-project.output.dir}"/>
+    </path>
+
+
+    <patternset id="excluded.from.module.capstone-project">
+        <patternset refid="ignored.files"/>
+    </patternset>
+
+    <patternset id="excluded.from.compilation.capstone-project">
+        <patternset refid="excluded.from.module.capstone-project"/>
+    </patternset>
+
+    <path id="capstone-project.module.sourcepath">
+        <dirset dir="${module.capstone-project.basedir}">
+            <include name="src"/>
+        </dirset>
+    </path>
+
+
+    <target name="compile.module.capstone-project"
+            depends="compile.module.capstone-project.production,compile.module.capstone-project.tests"
+            description="Compile module Capstone-Project"/>
+
+    <target name="compile.module.capstone-project.production"
+            description="Compile module Capstone-Project; production classes">
+        <mkdir dir="${capstone-project.output.dir}"/>
+        <javac destdir="${capstone-project.output.dir}" debug="${compiler.debug}"
+               nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true">
+            <compilerarg line="${compiler.args.capstone-project}"/>
+            <bootclasspath refid="capstone-project.module.bootclasspath"/>
+            <classpath refid="capstone-project.module.production.classpath"/>
+            <src refid="capstone-project.module.sourcepath"/>
+            <patternset refid="excluded.from.compilation.capstone-project"/>
+        </javac>
+
+        <copy todir="${capstone-project.output.dir}">
+            <fileset dir="${module.capstone-project.basedir}/src">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile.module.capstone-project.tests" depends="compile.module.capstone-project.production"
+            description="compile module Capstone-Project; test classes" unless="skip.tests"/>
+
+    <target name="clean.module.capstone-project" description="cleanup module">
+        <delete dir="${capstone-project.output.dir}"/>
+        <delete dir="${capstone-project.testoutput.dir}"/>
+    </target>
+
+    <target name="init" description="Build initialization">
+        <!-- Perform any build initialization in this target -->
+    </target>
+
+    <target name="clean" depends="clean.module.capstone-project" description="cleanup all"/>
+
+    <target name="build.modules" depends="init, clean, compile.module.capstone-project"
+            description="build all modules"/>
+
+    <target name="all" depends="build.modules" description="build all"/>
+
+</project>
