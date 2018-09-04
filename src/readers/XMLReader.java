@@ -3,6 +3,7 @@ package readers;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -45,7 +46,7 @@ public class XMLReader
      * Returns metadata by value
      * @param name is the node's name
      * */
-    public String getValue(String name)
+    public synchronized String getValue(String name)
     {
         NodeList nodeList = document.getElementsByTagName(name);
         return nodeList.item(0).getTextContent();

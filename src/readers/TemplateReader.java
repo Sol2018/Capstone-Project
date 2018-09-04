@@ -44,8 +44,6 @@ public class TemplateReader
         {
             upperPage.append(templateElements.get(i)).append("\n");
 
-            System.out.println(templateElements.get(i));
-
             //activate navigational element of pageType
             if(templateElements.get(i).contains("navBar-"+pageType))
             {
