@@ -51,25 +51,22 @@ public class TemplateReader
                 ++i;
 
             //write page title on header
-            } else if(templateElements.get(i).contains("Showcase:"))
+            } else if(templateElements.get(i).contains("id=\"showcase\">"))
             {
                 upperPage.append(pageType.toUpperCase()).append("</h3>").append("\n");
                 ++i;
 
-            //activate category elements of pageType
-            } else if (templateElements.get(i).contains("cat-"+pageType))
+            } else if (templateElements.get(i).contains("id=\"sortingLink\""))
             {
-                upperPage.append("class=\"active\">").append(pageType.substring(0, 1).toUpperCase()).append(pageType.substring(1)).append("</a>").append("\n");
-                i+=2;
-
-
-            //
-            }else if (templateElements.get(i).contains("onclick=\"javascript:window.location.href="))
-            {
-                upperPage.append("'"+pageType+"'");
+                upperPage.append("href=\""+pageType);
                 i++;
-            //split template into two pages
-            } else if (templateElements.get(i).contains("col-md-10"))
+            }
+            else if (templateElements.get(i).contains("style=\"background-image:"))
+            {
+                upperPage.append("url('../resources/"+pageType+"Cover.jpg');");
+                i++;
+                //split template into two pages
+            }else if (templateElements.get(i).contains("col-md-10"))
             {
                 i++;
                 while (i<templateElements.size())

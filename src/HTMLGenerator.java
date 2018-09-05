@@ -28,7 +28,7 @@ class HTMLGenerator
     {
         HTMLGenerator htmlAudioGenerator = new HTMLGenerator();
         htmlAudioGenerator.findXMLs(args);
-        TemplateReader audioTemplate = new TemplateReader("Template.html");
+        TemplateReader audioTemplate = new TemplateReader("contentTemplate.html");
 
         ArrayList<String> audioTemplatePage = audioTemplate.setUpPageTemplate(type);
 
