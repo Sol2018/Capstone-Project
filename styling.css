@@ -731,6 +731,7 @@ strong
 /*pagination*/
 .pagination {
     display: inline-block;
+    text-align: center;
 }
 
 .pagination a {
@@ -743,9 +744,11 @@ strong
 }
 
 .pagination a.active {
-    background-color: #4CAF50;
+    background-color: #008000;
     color: white;
     border: 1px solid #4CAF50;
 }
 
-.pagina
+.center {
+    text-align: center;
+}

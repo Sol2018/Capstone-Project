@@ -67,7 +67,7 @@ class htmlPage
 
                 ++objectIndex;
             }
-            s.append("</div> \n<div class=\"pagination\">\n");
+            s.append("</div><div class=\"center\">\n\n<div class=\"pagination\">\n");
 
             //implementing pagination
             if (pages<=paginationlimit) {

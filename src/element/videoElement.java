@@ -8,7 +8,7 @@ public class videoElement extends htmlElement
 {
     private String src;
     private StringBuilder content = new StringBuilder();
-    private int width = 170;
+private int width = 250;
     private int height = 240;
 
     /**
