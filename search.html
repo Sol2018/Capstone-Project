@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../styling.css" type="text/css">
+    <script src="../script.js"></script>
+</head>
+
+<body onload="searchResult()">
+
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fa d-inline fa-lg fa-object-ungroup text-light"></i>
+                <!--LOGO-->
+                <b class="text-light">CAPSTONE PROJECT</b>
+            </a>
+
+            <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+                <ul class="navbar-nav">
+                    <a class="nav-link text-light" id="navBar-home" href="../index.html">Home</a>
+                    <a class="nav-link text-light" id="navBar-images" href="../IMAGE/image0_default.html">Images</a>
+                    <a class="nav-link text-light" id="navBar-documents" href="../DOCUMENT/document0_default.html">Documents</a>
+                    <a class="nav-link text-light" id="navBar-videos" href="../VIDEO/video0_default.html">Videos</a>
+                    <a class="nav-link text-light" id="navBar-audio" href="../AUDIO/audio0_default.html">Audio</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER SECTION -->
+    <!--div class="py-5 text-center"-->
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="display-3 mb-4 text-light" id="showcase">Search Results
+                    </h1>
+                    <form class="form-inline m-0 justify-content-left">
+                        <input class="form-control mr-2 w-75" type="text" placeholder="Search.." id="search-input">
+                        <div class="btn-group">
+                            <select class="btn dropdown-toggle btn-outline-dark" data-toggle="dropdown">
+                                <option value="all">All</option>
+                                <option value="images">Images</option>
+                                <option value="documents">Documents</option>
+                                <option value="videos">videos</option>
+                                <option value="audio">Audio</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn-primary" id="search">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+        </div>
+    <!--/div-->
+    <br>
+    <br>
+
+    <!--item Section-->
+    <div class="gallery col-md-10" id="search-values">
+
+    </div>
+</body>
+
+</html>
