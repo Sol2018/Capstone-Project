@@ -1,0 +1,38 @@
+[
+    {
+        "title": ["group.jpg","awesome-abstract-wallpapers-26.jpg"],
+        "author": ["Adobe PhotoStock","Google downloads"],
+        "location": ["Some location","Google Images"],
+        "size": ["86500.0 Bytes", "603227.0 Bytes"],
+        "date": ["Wed Sep 05 16:04:24 SAST 2018","Wed Sep 05 16:04:23 SAST 2018"],
+        "description": ["An image showing a group of different people standing togethere","Image from a library of abstract images!"],
+        "href": []
+    },
+    {
+        "title": ["LICENSE.txt","Template.html"],
+        "author": ["0-Unknown","0-Unknown"],
+        "location": ["Different locations","Different locations"],
+        "size": ["1064.0 Bytes","2379.0 Bytes"],
+        "date": ["Wed Sep 05 16:04:23 SAST 2018","Wed Sep 05 16:04:23 SAST 2018"],
+        "description": ["This document is used to test whether the site is able to handle different kinds of documents", "This document is used to test whether the site is able to handle different kinds of documents"],
+        "href": ["../TestDATA/files/randomDocs/LICENSE.txt","../TestDATA/files/randomDocs/Template.html"]
+    },
+    {
+        "title": ["stream_of_water.mp4","zample.mp4","stream.mp4","sample.mp4"],
+        "author": ["Some Author","Some Author","Some Author","Some Author"],
+        "location": ["local system","local system","local system", "local system"],
+        "size": ["1055736.0 Bytes","383631.0 Bytes","1055736.0 Bytes","383631.0 Bytes"],
+        "date": ["Wed Sep 05 16:04:24 SAST","Wed Sep 05 16:04:24 SAST","Wed Sep 05 16:04:24 SAST","Wed Sep 05 16:04:24 SAST"],
+        "description": ["Video of something about streaming water","Video from the videos folder","Video from the videos folder","Video from the videos folder"],
+        "href": ["../TestDATA/video/stream_of_water.mp4","../TestDATA/video/zample.mp4","../TestDATA/video/stream.mp4","../TestDATA/video/sample.mp4"]
+    },
+    {
+        "title": [],
+        "author": [],
+        "location": [],
+        "size": [],
+        "date": [],
+        "description": [],
+        "href": []
+    }
+]

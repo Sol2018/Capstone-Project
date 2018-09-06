@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-          type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">     
     <link rel="stylesheet" href="../styling.css" type="text/css">
 </head>
 
@@ -40,30 +39,48 @@
                 <h1 class="display-3 mb-4 text-light" id="showcase">
                     IMAGES
                 </h1>
-                <form class="form-inline m-0 justify-content-center">
-                    <input class="form-control mr-2 w-75" type="text" placeholder="Search">
+                <form class="form-inline m-0 justify-content-left">
+                    <input class="form-control mr-2 w-75" type="text" placeholder="Search.." id="search-input">
+                    <div class="btn-group">
+                        <select class="btn dropdown-toggle btn-outline-dark" data-toggle="dropdown">
+                            <option value="all">All</option>
+                            <option value="images">Images</option>
+                            <option value="documents">Documents</option>
+                            <option value="videos">videos</option>
+                            <option value="audio">Audio</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="btn-primary" id="search">Search</button>
+                    </div>
                 </form>
             </div>
         </div>
 
         <br>
 
-        <div class="row">
+        <!--div class="row">
             <div class="col-md-12">
                 <div class="btn-group">
                     <select class="btn dropdown-toggle btn-outline-dark" data-toggle="dropdown">
-                        <option value="all items">ALL</option>
-                        <option value="images only">IMAGES</option>
-                        <option value="documents only">DOCUMENTS</option>
-                        <option value="videos only">VIDEOS</option>
-                        <option value="audi only">AUDIO</option>
+                        <option value="all">All</option>
+                        <option value="images">Images</option>
+                        <option value="documents">Documents</option>
+                        <option value="videos">videos</option>
+                        <option value="audio">Audio</option>
                     </select>
                 </div>
             </div>
         </div>
 
         <br>
-
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn-primary" id="search-btn">Search</button>
+            </div>
+        </div>
+        <br-->
+        <hr>
         <div class="row">
             <div class="col-md-12">
                 <div class="row">

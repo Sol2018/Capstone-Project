@@ -4,171 +4,199 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-          type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">     
     <link rel="stylesheet" href="styling.css" type="text/css">
 </head>
 
 <body>
 
-<!--NAVIGATION BAR-->
-<nav class="navbar navbar-expand-md navbar-light bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <i class="fa d-inline fa-lg fa-object-ungroup text-light"></i> <!--LOGO-->
-            <b class="text-light">CAPSTONE PROJECT</b>
-        </a>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fa d-inline fa-lg fa-object-ungroup text-light"></i>
+                <!--LOGO-->
+                <b class="text-light">CAPSTONE PROJECT</b>
+            </a>
 
-        <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
-            <ul class="navbar-nav">
-                <a class="nav-link text-light" href="#"> Home</a>
-                <a class="nav-link text-light" href="IMAGE/image0_default.html"> Images</a>
-                <a class="nav-link text-light" href="DOCUMENT/document0_default.html"> Documents</a>
-                <a class="nav-link text-light" href="VIDEO/video0_default.html"> Videos</a>
-                <a class="nav-link text-light" href="AUDIO/audio0_default.html"> Audio</a>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<!-- HEADER SECTION -->
-<div class="py-5 text-center" style="background-image: url('resources/HompageCOver2.jpg');background-size:cover;">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="display-3 mb-4 text-light text-center">A place to call home for
-                    <br>your digital objects
-                </h1>
-                <form class="form-inline m-0 justify-content-center">
-                    <input class="form-control mr-2 w-75" type="text" placeholder="Search">
-                </form>
+            <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+                <ul class="navbar-nav">
+                    <a class="nav-link text-light" href="#"> Home</a>
+                    <a class="nav-link text-light" href="IMAGE/image0_default.html"> Images</a>
+                    <a class="nav-link text-light" href="DOCUMENT/document0_default.html"> Documents</a>
+                    <a class="nav-link text-light" href="VIDEO/video0_default.html"> Videos</a>
+                    <a class="nav-link text-light" href="AUDIO/audio0_default.html"> Audio</a>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <br>
 
-        <div class="row">
+    <!-- HEADER SECTION -->
+    <div class="py-5 text-center" style="background-image: url('resources/HompageCOver2.jpg');background-size:cover;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="display-3 mb-4 text-light text-center">A place to call home for
+                        <br>your digital objects
+                    </h1>
+                    <form class="form-inline m-0 justify-content-left">
+                        <input class="form-control mr-2 w-75" type="text" placeholder="Search.." id="search-input">
+                        <div class="btn-group">
+                            <select class="btn dropdown-toggle btn-outline-dark" data-toggle="dropdown">
+                                <option value="all">All</option>
+                                <option value="images">Images</option>
+                                <option value="documents">Documents</option>
+                                <option value="videos">videos</option>
+                                <option value="audio">Audio</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="btn-primary" id="search">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <br>
+
+            <!--div class="row">
             <div class="col-md-12">
                 <div class="btn-group">
                     <select class="btn dropdown-toggle btn-outline-dark" data-toggle="dropdown">
-                        <option value="all items">ALL</option>
-                        <option value="images only">IMAGES</option>
-                        <option value="documents only">DOCUMENTS</option>
-                        <option value="videos only">VIDEOS</option>
-                        <option value="audi only">AUDIO</option>
+                        <option value="all">All</option>
+                        <option value="images">Images</option>
+                        <option value="documents">Documents</option>
+                        <option value="videos">videos</option>
+                        <option value="audio">Audio</option>
                     </select>
+                </div>
+            </div>
+        </div-->
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <!--INTRODUCTORY TEXT-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="display-3 text-center">
+                    Available collections!
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-7">
+                    <h2 class="text-dark">
+                        Images
+                    </h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                </div>
+
+                <div class="col-md-5 align-self-center">
+                    <a href="IMAGE/image0_default.html">
+                        <img class="img-fluid d-block w-100 img-thumbnail" src="resources/imageCover.jpg">
+                    </a>
+                </div>
+            </div>
+
+            <hr><br><br><br>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="DOCUMENT/document0_default.html">
+                        <img class="img-fluid d-block mb-4 w-100 img-thumbnail" src="resources/documentCover.jpg">
+                    </a>
+                </div>
+
+                <div class="col-md-7">
+                    <h2 class="pt-3 text-dark">
+                        Documents
+                    </h2>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                </div>
+            </div>
+
+            <br><br>
+            <hr><br><br>
+
+            <div class="row mb-5">
+                <div class="col-md-7">
+                    <h2 class="text-dark">
+                        Videos
+                    </h2>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                </div>
+                <div class="col-md-5 align-self-center">
+                    <a href="VIDEO/video0_default.html">
+                        <img class="img-fluid d-block w-100 img-thumbnail" src="resources/videoCover.jpg">
+                    </a>
+                </div>
+            </div>
+
+            <br><br>
+            <hr><br><br>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="AUDIO/audio0_default.html">
+                        <img class="img-fluid d-block mb-4 w-100 img-thumbnail" src="resources/audioCover.jpg">
+                    </a>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="pt-3 text-dark">
+                        Audio
+                    </h2>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id
+                        est laborum.
+                    </p>
+                    <p id="showcase">home</p>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<br><br><br>
-
-<!--INTRODUCTORY TEXT-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="display-3 text-center">
-                Available collections!
-            </h3>
-        </div>
-    </div>
-</div>
-
-
-<div class="py-5">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-md-7">
-                <h2 class="text-dark">
-                    Images
-                </h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-            </div>
-
-            <div class="col-md-5 align-self-center">
-                <a href="IMAGE/image0_default.html">
-                    <img class="img-fluid d-block w-100 img-thumbnail" src="resources/imageCover.jpg">
-                </a>
-            </div>
-        </div>
-
-        <hr><br><br><br>
-
-        <div class="row">
-            <div class="col-md-5">
-                <a href="DOCUMENT/document0_default.html">
-                    <img class="img-fluid d-block mb-4 w-100 img-thumbnail" src="resources/documentCover.jpg">
-                </a>
-            </div>
-
-            <div class="col-md-7">
-                <h2 class="pt-3 text-dark">
-                    Documents
-                </h2>
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-            </div>
-        </div>
-
-        <br><br><hr><br><br>
-
-        <div class="row mb-5">
-            <div class="col-md-7">
-                <h2 class="text-dark">
-                    Videos
-                </h2>
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-            </div>
-            <div class="col-md-5 align-self-center">
-                <a href="VIDEO/video0_default.html">
-                    <img class="img-fluid d-block w-100 img-thumbnail" src="resources/videoCover.jpg">
-                </a>
-            </div>
-        </div>
-
-        <br><br><hr><br><br>
-
-        <div class="row">
-            <div class="col-md-5">
-                <a href="AUDIO/audio0_default.html">
-                    <img class="img-fluid d-block mb-4 w-100 img-thumbnail" src="resources/audioCover.jpg">
-                </a>
-            </div>
-            <div class="col-md-7">
-                <h2 class="pt-3 text-dark">
-                    Audio
-                </h2>
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+    <script src="script.js"></script>
 </body>
+
 </html>

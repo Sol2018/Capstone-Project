@@ -1,0 +1,38 @@
+[
+    {
+        "title": ["group.jpg","awesome-abstract-wallpapers-26.jpg"],
+        "author": ["Adobe PhotoStock","Google downloads"],
+        "location": ["Some location","Google Images"],
+        "size": ["86500.0 Bytes", "603227.0 Bytes"],
+        "date": ["Wed Sep 05 16:04:24 SAST 2018","Wed Sep 05 16:04:23 SAST 2018"],
+        "description": ["An image showing a group of different people standing togethere","Image from a library of abstract images!"],
+        "href": []
+    },
+    {
+        "title": ["LICENSE.txt","Template.html"],
+        "author": ["0-Unknown","0-Unknown"],
+        "location": ["Different locations","Different locations"],
+        "size": ["1064.0 Bytes","2379.0 Bytes"],
+        "date": ["Wed Sep 05 16:04:23 SAST 2018","Wed Sep 05 16:04:23 SAST 2018"],
+        "description": ["This document is used to test whether the site is able to handle different kinds of documents", "This document is used to test whether the site is able to handle different kinds of documents"],
+        "href": ["../TestDATA/files/randomDocs/LICENSE.txt","../TestDATA/files/randomDocs/Template.html"]
+    },
+    {
+        "title": [],
+        "author": [],
+        "location": [],
+        "size": [],
+        "date": [],
+        "description": [],
+        "href": []
+    },
+    {
+        "title": [],
+        "author": [],
+        "location": [],
+        "size": [],
+        "date": [],
+        "description": [],
+        "href": []
+    },
+]
